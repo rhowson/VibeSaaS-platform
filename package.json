@@ -7,6 +7,10 @@
     "url": "https://themeforest.net/user/phoenixcoded"
   },
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "next dev -p 3000",
     "dev:fast": "NODE_ENV=development NEXT_TELEMETRY_DISABLED=1 next dev -p 3000",

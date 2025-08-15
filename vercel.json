@@ -6,11 +6,12 @@
   "framework": "nextjs",
   "functions": {
     "src/app/api/**/*.ts": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node@18"
     }
   },
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "NEXT_TELEMETRY_DISABLED": "1"
   },
   "build": {
     "env": {
@@ -18,5 +19,11 @@
     }
   },
   "regions": ["iad1"],
-  "public": true
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
