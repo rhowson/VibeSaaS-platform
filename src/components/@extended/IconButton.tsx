@@ -7,11 +7,11 @@ import { alpha, styled } from '@mui/material/styles';
 import MuiIconButton, { IconButtonProps } from '@mui/material/IconButton';
 
 // project-imports
-import getColors from 'utils/getColors';
-import getShadow from 'utils/getShadow';
+import getColors from '@/utils/getColors';
+import getShadow from '@/utils/getShadow';
 
 // types
-import { ButtonVariantProps, ExtendedStyleProps, IconButtonShapeProps } from 'types/extended';
+import { ButtonVariantProps, ExtendedStyleProps, IconButtonShapeProps } from '@/types/extended';
 
 interface IconButtonStyleProps extends ExtendedStyleProps {
   variant?: ButtonVariantProps;

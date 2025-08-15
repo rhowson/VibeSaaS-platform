@@ -1,12 +1,12 @@
 import { createContext, ReactElement } from 'react';
 
 // project-imports
-import config from 'config';
-import useLocalStorage from 'hooks/useLocalStorage';
-import { MenuOrientation, ThemeDirection, ThemeMode } from 'config';
+import config from '@/config';
+import useLocalStorage from '@/hooks/useLocalStorage';
+import { MenuOrientation, ThemeDirection, ThemeMode } from '@/config';
 
 // types
-import { CustomizationProps, FontFamily, I18n, PresetColor } from 'types/config';
+import { CustomizationProps, FontFamily, I18n, PresetColor } from '@/types/config';
 
 // initial state
 const initialState: CustomizationProps = {

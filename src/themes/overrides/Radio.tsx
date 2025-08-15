@@ -4,7 +4,7 @@ import { CheckboxProps } from '@mui/material/Checkbox';
 import Box from '@mui/material/Box';
 
 // project-imports
-import getColors from 'utils/getColors';
+import getColors from '@/utils/getColors';
 
 // types
 import { ExtendedStyleProps } from 'types/extended';

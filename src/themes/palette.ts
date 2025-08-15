@@ -4,7 +4,7 @@ import { PaletteMode } from '@mui/material';
 
 // project-imports
 import ThemeOption from './theme';
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
 import { PresetColor } from 'types/config';

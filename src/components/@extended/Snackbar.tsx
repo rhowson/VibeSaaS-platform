@@ -10,13 +10,13 @@ import MuiSnackbar from '@mui/material/Snackbar';
 
 // project-imports
 import IconButton from './IconButton';
-import { closeSnackbar, useGetSnackbar } from 'api/snackbar';
+import { closeSnackbar, useGetSnackbar } from '@/api/snackbar';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';
 
 // types
-import { KeyedObject } from 'types/root';
+import { KeyedObject } from '@/types/root';
 
 // animation function
 function TransitionSlideLeft(props: SlideProps) {

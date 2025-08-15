@@ -1,5 +1,5 @@
 // project-imports
-import Register from 'views/authentication/Register';
+import Register from '@/views/authentication/Register';
 
 // ================================|| REGISTER ||================================ //
 

@@ -19,10 +19,10 @@ import ThemeMenuLayout from './ThemeMenuLayout';
 import ThemeModeComponent from './ThemeMode';
 import ThemeWidth from './ThemeWidth';
 
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { GRID_COMMON_SPACING, HEADER_HEIGHT } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { GRID_COMMON_SPACING, HEADER_HEIGHT } from '@/config';
 
 // assets
 import { Add, Setting2 } from '@wandersonalwes/iconsax-react';

@@ -2,8 +2,8 @@
 import { Theme } from '@mui/material/styles';
 
 // project-imports
-import getColors from 'utils/getColors';
-import getShadow from 'utils/getShadow';
+import getColors from '@/utils/getColors';
+import getShadow from '@/utils/getShadow';
 
 // types
 import { ColorProps } from 'types/extended';

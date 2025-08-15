@@ -8,12 +8,12 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import { ThemeMode } from 'config';
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import { ThemeMode } from '@/config';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // types
-import { PresetColor } from 'types/config';
+import { PresetColor } from '@/types/config';
 
 // assets
 import { TickSquare } from '@wandersonalwes/iconsax-react';

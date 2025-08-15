@@ -10,10 +10,10 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import { handlerDrawerOpen, useGetMenuMaster } from 'api/menu';
-import { MenuOrientation, ThemeDirection } from 'config';
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import { handlerDrawerOpen, useGetMenuMaster } from '@/api/menu';
+import { MenuOrientation, ThemeDirection } from '@/config';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 const defaultLayout = '/assets/images/customization/ltr.svg';

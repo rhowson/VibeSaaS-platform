@@ -17,17 +17,38 @@ const nextConfig = {
       }
     ]
   },
+  // Remove hardcoded environment variables - they should come from .env.local
   env: {
-    NEXT_APP_VERSION: 'v4.0.0',
-    NEXTAUTH_SECRET: 'LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=',
-    NEXTAUTH_URL: 'http://localhost:3000/',
-    NEXT_APP_GOOGLE_MAPS_API_KEY: 'AIzaSyAXv4RQK39CskcIB8fvM1Q7XCofZcLxUXw',
-    NEXT_APP_MAPBOX_ACCESS_TOKEN: 'pk.eyJ1IjoicmFrZXNoLW5ha3JhbmkiLCJhIjoiY2xsNjNkZm0yMGhvcDNlb3phdjF4dHlzeiJ9.ps6azYbr7M3rGk_QTguMEQ',
-    NEXT_APP_API_URL: 'https://mock-data-api-nextjs.vercel.app',
-    NEXT_APP_JWT_SECRET: 'ikRgjkhi15HJiU78-OLKfjngiu',
-    NEXT_APP_JWT_TIMEOUT: '86400',
-    NEXTAUTH_SECRET_KEY: 'LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg='
-  }
+    NEXT_APP_VERSION: process.env.NEXT_APP_VERSION || 'v4.0.0',
+    NEXT_APP_GOOGLE_MAPS_API_KEY: process.env.NEXT_APP_GOOGLE_MAPS_API_KEY,
+    NEXT_APP_MAPBOX_ACCESS_TOKEN: process.env.NEXT_APP_MAPBOX_ACCESS_TOKEN,
+    NEXT_APP_API_URL: process.env.NEXT_APP_API_URL,
+    NEXT_APP_JWT_SECRET: process.env.NEXT_APP_JWT_SECRET,
+    NEXT_APP_JWT_TIMEOUT: process.env.NEXT_APP_JWT_TIMEOUT || '86400'
+  },
+  // Add experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['@mui/material', '@mui/lab', '@mui/icons-material']
+  },
+  // Add webpack configuration for better bundle optimization
+  webpack: (config, { isServer }) => {
+    // Optimize bundle size
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+      };
+    }
+    return config;
+  },
+  // Add output configuration for static export if needed
+  output: 'standalone',
+  // Add trailing slash for better routing
+  trailingSlash: false,
+  // Add powered by header removal
+  poweredByHeader: false
 };
 
 module.exports = nextConfig;

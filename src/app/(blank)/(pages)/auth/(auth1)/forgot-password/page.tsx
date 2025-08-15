@@ -1,5 +1,5 @@
 // project-imports
-import ForgotPasswordPage from 'views/auth/auth1/ForgotPassword';
+import ForgotPasswordPage from '@/views/auth/auth1/ForgotPassword';
 
 // ================================|| FORGOT PASSWORD ||================================ //
 

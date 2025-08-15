@@ -9,8 +9,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 const Caption = '/assets/images/customization/caption.svg';

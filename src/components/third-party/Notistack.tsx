@@ -7,8 +7,8 @@ import { styled } from '@mui/material/styles';
 import { SnackbarProvider } from 'notistack';
 
 // project-imports
-import { useGetSnackbar } from 'api/snackbar';
-import Loader from 'components/Loader';
+import { useGetSnackbar } from '@/api/snackbar';
+import Loader from '@/components/Loader';
 
 // assets
 import { CloseCircle, InfoCircle, TickCircle, Warning2 } from '@wandersonalwes/iconsax-react';

@@ -11,8 +11,8 @@ import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Highlighter from 'components/third-party/Highlighter';
-import useConfig from 'hooks/useConfig';
+import Highlighter from '@/components/third-party/Highlighter';
+import useConfig from '@/hooks/useConfig';
 
 // header style
 const headerSX = { p: 2.5, '& .MuiCardHeader-action': { m: '0px auto', alignSelf: 'center' } };
@@ -87,7 +87,7 @@ export default function MainCard({
             left: '50%',
             transform: 'translate(-50%, -50%)',
             width: { xs: `calc(100% - 50px)`, sm: 'auto' },
-            '& .MuiCardContent-root': {
+            '& .MuiCardHeader-root': {
               overflowY: 'auto',
               minHeight: 'auto',
               maxHeight: `calc(100vh - 200px)`

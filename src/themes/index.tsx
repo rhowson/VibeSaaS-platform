@@ -12,12 +12,12 @@ import componentsOverride from './overrides';
 import GlobalStyles from './GlobalStyles';
 import { NextAppDirEmotionCacheProvider } from './emotionCache';
 
-import { HEADER_HEIGHT, ThemeMode } from 'config';
-import useConfig from 'hooks/useConfig';
-import getWindowScheme from 'utils/getWindowScheme';
+import { HEADER_HEIGHT, ThemeMode } from '@/config';
+import useConfig from '@/hooks/useConfig';
+import getWindowScheme from '@/utils/getWindowScheme';
 
 // types
-import { CustomShadowProps } from 'types/theme';
+import { CustomShadowProps } from '@/types/theme';
 
 type ThemeCustomizationProps = {
   children: ReactNode;

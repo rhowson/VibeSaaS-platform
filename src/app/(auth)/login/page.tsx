@@ -1,5 +1,5 @@
 // project-imports
-import Login from 'views/authentication/Login';
+import Login from '@/views/authentication/Login';
 
 // ================================|| LOGIN ||================================ //
 

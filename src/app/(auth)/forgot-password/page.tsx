@@ -1,5 +1,5 @@
 // project-imports
-import ForgotPassword from 'views/authentication/ForgotPassword';
+import ForgotPassword from '@/views/authentication/ForgotPassword';
 
 // ================================|| FORGOT PASSWORD ||================================ //
 

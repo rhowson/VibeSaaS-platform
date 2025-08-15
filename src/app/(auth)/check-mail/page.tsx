@@ -1,5 +1,5 @@
 // project-imports
-import CheckMail from 'views/authentication/CheckMail';
+import CheckMail from '@/views/authentication/CheckMail';
 
 // ================================|| CHECK MAIL ||================================ //
 

@@ -3,7 +3,7 @@ import { Theme } from '@mui/material/styles';
 import { CheckboxProps } from '@mui/material/Checkbox';
 
 // project-imports
-import getColors from 'utils/getColors';
+import getColors from '@/utils/getColors';
 
 // assets
 import { Stop, TickSquare, MinusSquare } from '@wandersonalwes/iconsax-react';

@@ -11,8 +11,8 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 const defaultLayout = '/assets/images/customization/fluid.svg';

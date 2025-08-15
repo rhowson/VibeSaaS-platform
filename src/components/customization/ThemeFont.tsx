@@ -14,12 +14,12 @@ import Box from '@mui/material/Box';
 import { Inter, Poppins, Public_Sans, Roboto } from 'next/font/google';
 
 // project-imports
-import { HEADER_HEIGHT } from 'config';
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import { HEADER_HEIGHT } from '@/config';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // types
-import { FontFamily } from 'types/config';
+import { FontFamily } from '@/types/config';
 
 const inter = Inter({
   subsets: ['latin'],

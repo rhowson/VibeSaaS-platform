@@ -13,8 +13,8 @@ import Box from '@mui/material/Box';
 import copy from 'copy-to-clipboard';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import SyntaxHighlight from 'utils/SyntaxHighlight';
+import IconButton from '@/components/@extended/IconButton';
+import SyntaxHighlight from '@/utils/SyntaxHighlight';
 
 // assets
 import { Code, Copy } from '@wandersonalwes/iconsax-react';

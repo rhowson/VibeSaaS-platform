@@ -8,7 +8,7 @@ import { MUIStyledCommonProps } from '@mui/system';
 import Box from '@mui/material/Box';
 
 // project import
-import { ThemeDirection } from 'config';
+import { ThemeDirection } from '@/config';
 
 // third-party
 import { BrowserView, MobileView } from 'react-device-detect';

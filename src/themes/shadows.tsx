@@ -2,7 +2,7 @@
 import { alpha, Theme } from '@mui/material/styles';
 
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
 import { CustomShadowProps } from 'types/theme';

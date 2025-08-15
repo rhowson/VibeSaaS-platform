@@ -1,5 +1,5 @@
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
 import { PaletteThemeProps } from 'types/theme';

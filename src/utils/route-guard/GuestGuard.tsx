@@ -7,8 +7,8 @@ import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 
 // project-imports
-import Loader from 'components/Loader';
-import { useIspValue } from 'hooks/useIspValue';
+import Loader from '@/components/Loader';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // types
 import { GuardProps } from 'types/auth';

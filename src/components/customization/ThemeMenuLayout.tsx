@@ -8,10 +8,10 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import { handlerDrawerOpen } from 'api/menu';
-import { MenuOrientation } from 'config';
-import MainCard from 'components/MainCard';
-import useConfig from 'hooks/useConfig';
+import { handlerDrawerOpen } from '@/api/menu';
+import { MenuOrientation } from '@/config';
+import MainCard from '@/components/MainCard';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 const defaultLayout = '/assets/images/customization/vertical.svg';
