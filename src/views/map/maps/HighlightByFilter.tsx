@@ -8,11 +8,11 @@ import Typography from '@mui/material/Typography';
 import { Map, Layer, Source, LayerProps, MapMouseEvent } from 'react-map-gl/mapbox';
 
 // project-imports
-import MapControl from 'components/third-party/map/MapControl';
-import MapPopup from 'components/third-party/map/MapPopup';
+import MapControl from '@/components/third-party/map/MapControl';
+import MapPopup from '@/components/third-party/map/MapPopup';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| HIGHLIGHT BY FILTER ||============================== //
 

@@ -8,7 +8,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import Autocomplete from '@mui/material/Autocomplete';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 interface Film {
   title: string;

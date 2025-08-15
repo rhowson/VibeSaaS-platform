@@ -1,5 +1,5 @@
 // project-imports
-import CodeVerificationPage from 'views/auth/auth2/CodeVerification';
+import CodeVerificationPage from '@/views/auth/auth2/CodeVerification';
 
 // ================================|| CODE VERIFICATION ||================================ //
 

@@ -11,12 +11,12 @@ import AddColumn from './AddColumn';
 import Columns from './Columns';
 import ItemDetails from './ItemDetails';
 
-import { updateColumnItemOrder, updateColumnOrder, useGetBacklogs } from 'api/kanban';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import { updateColumnItemOrder, updateColumnOrder, useGetBacklogs } from '@/api/kanban';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // types
-import { KanbanColumn } from 'types/kanban';
+import { KanbanColumn } from '@/types/kanban';
 
 const getDragWrapper = () => ({ p: 2.5, px: 0, bgcolor: 'transparent', display: 'flex', overflow: 'auto', gap: GRID_COMMON_SPACING });
 

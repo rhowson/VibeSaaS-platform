@@ -1,5 +1,5 @@
 // project-imports
-import EditableTable from 'views/forms-tables/tables/react-table/EditableTable';
+import EditableTable from '@/views/forms-tables/tables/react-table/EditableTable';
 
 // ==============================|| REACT TABLE - EDITABLE ||============================== //
 

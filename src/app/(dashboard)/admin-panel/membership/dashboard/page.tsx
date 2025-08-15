@@ -1,5 +1,5 @@
 // project-imports
-import MembershipDashboard from 'views/admin-panel/membership/MembershipDashboard';
+import MembershipDashboard from '@/views/admin-panel/membership/MembershipDashboard';
 
 // ==============================|| MEMBERSHIP - DASHBOARD ||============================== //
 

@@ -15,8 +15,8 @@ import Box from '@mui/material/Box';
 import { useTimer } from 'react-timer-hook';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Facebook, Google, Notification } from '@wandersonalwes/iconsax-react';

@@ -18,15 +18,15 @@ import Box from '@mui/material/Box';
 import { useDropzone } from 'react-dropzone';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import ReactQuillDemo from 'components/third-party/ReactQuill';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { messageData } from 'data/helpdesk';
-import SyntaxHighlight from 'utils/SyntaxHighlight';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import ReactQuillDemo from '@/components/third-party/ReactQuill';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { messageData } from '@/data/helpdesk';
+import SyntaxHighlight from '@/utils/SyntaxHighlight';
 
 // types
-import { MessageCardProps } from 'types/helpdesk';
+import { MessageCardProps } from '@/types/helpdesk';
 
 // assets
 import { Add, ArrowDown2, AttachSquare, Calendar, Edit, TickCircle, Trash } from '@wandersonalwes/iconsax-react';

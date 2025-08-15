@@ -12,16 +12,16 @@ import Tabs from '@mui/material/Tabs';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import TabProfile from 'sections/apps/profiles/account/TabProfile';
-import TabPersonal from 'sections/apps/profiles/account/TabPersonal';
-import TabAccount from 'sections/apps/profiles/account/TabAccount';
-import TabPassword from 'sections/apps/profiles/account/TabPassword';
-import TabRole from 'sections/apps/profiles/account/TabRole';
-import TabSettings from 'sections/apps/profiles/account/TabSettings';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import TabProfile from '@/sections/apps/profiles/account/TabProfile';
+import TabPersonal from '@/sections/apps/profiles/account/TabPersonal';
+import TabAccount from '@/sections/apps/profiles/account/TabAccount';
+import TabPassword from '@/sections/apps/profiles/account/TabPassword';
+import TabRole from '@/sections/apps/profiles/account/TabRole';
+import TabSettings from '@/sections/apps/profiles/account/TabSettings';
 
 // assets
 import { DocumentText, Lock, Profile, Profile2User, Setting3, TableDocument } from '@wandersonalwes/iconsax-react';

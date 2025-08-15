@@ -17,12 +17,12 @@ import Box from '@mui/material/Box';
 // third-party
 import { PDFDownloadLink } from '@react-pdf/renderer';
 import { format } from 'date-fns';
-import Loader from 'components/Loader';
-import { useGetInvoiceMaster } from 'api/invoice';
+import Loader from '@/components/Loader';
+import { useGetInvoiceMaster } from '@/api/invoice';
 
 // project-imports
 import ExportPDFView from './export-pdf';
-import Logo from 'components/logo';
+import Logo from '@/components/logo';
 
 // assets
 import { DocumentDownload } from '@wandersonalwes/iconsax-react';

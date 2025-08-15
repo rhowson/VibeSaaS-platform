@@ -1,5 +1,5 @@
 // project-imports
-import OnlineSite from 'views/admin-panel/online-courses/site/OnlineSite';
+import OnlineSite from '@/views/admin-panel/online-courses/site/OnlineSite';
 
 // ==============================|| ONLINE COURSES - SITE ||============================== //
 

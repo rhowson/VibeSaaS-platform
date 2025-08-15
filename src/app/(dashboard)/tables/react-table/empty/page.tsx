@@ -1,5 +1,5 @@
 // project-imports
-import EmptyTables from 'views/forms-tables/tables/react-table/EmptyTable';
+import EmptyTables from '@/views/forms-tables/tables/react-table/EmptyTable';
 
 // ==============================|| REACT TABLE - EMPTY ||============================== //
 

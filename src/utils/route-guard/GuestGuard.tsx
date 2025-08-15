@@ -11,7 +11,7 @@ import Loader from '@/components/Loader';
 import { useIspValue } from '@/hooks/useIspValue';
 
 // types
-import { GuardProps } from 'types/auth';
+import { GuardProps } from '@/types/auth';
 
 // ==============================|| GUEST GUARD ||============================== //
 

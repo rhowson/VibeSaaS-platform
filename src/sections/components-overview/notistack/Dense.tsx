@@ -8,8 +8,8 @@ import Checkbox from '@mui/material/Checkbox';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import { handlerDense } from 'api/snackbar';
-import MainCard from 'components/MainCard';
+import { handlerDense } from '@/api/snackbar';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - DENSE ||============================== //
 

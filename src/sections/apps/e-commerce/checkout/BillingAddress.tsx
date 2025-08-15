@@ -24,16 +24,16 @@ import Box from '@mui/material/Box';
 import AddressCard from './AddressCard';
 import CartDiscount from './CartDiscount';
 import OrderSummary from './OrderSummery';
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
 
-import { useGetAddress } from 'api/address';
-import { GRID_COMMON_SPACING } from 'config';
+import { useGetAddress } from '@/api/address';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // types
-import { CartCheckoutStateProps } from 'types/cart';
-import { Address } from 'types/e-commerce';
+import { CartCheckoutStateProps } from '@/types/cart';
+import { Address } from '@/types/e-commerce';
 
 // assets
 import { ArrowLeft2, CallCalling, Trash } from '@wandersonalwes/iconsax-react';

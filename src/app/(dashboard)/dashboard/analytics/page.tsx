@@ -1,5 +1,5 @@
 // project-imports
-import DashboardAnalytics from 'views/dashboard/DashboardAnalytics';
+import DashboardAnalytics from '@/views/dashboard/DashboardAnalytics';
 
 // ==============================|| DASHBOARD - ANALYTICS ||============================== //
 

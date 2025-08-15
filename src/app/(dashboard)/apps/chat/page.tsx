@@ -1,5 +1,5 @@
 // project-imports
-import Chat from 'views/apps/Chat';
+import Chat from '@/views/apps/Chat';
 
 // ==============================|| APPLICATION - CHAT ||============================== //
 

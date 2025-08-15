@@ -9,7 +9,7 @@ import Stack from '@mui/material/Stack';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - PREVENT DUPLICATE ||============================== //
 

@@ -5,7 +5,7 @@ import { useTheme } from '@mui/material/styles';
 import { Page, View, Document, StyleSheet, Image as ImageIcon, Text, Link } from '@react-pdf/renderer';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 const LinkIcon = '/assets/images/icons/link.png';

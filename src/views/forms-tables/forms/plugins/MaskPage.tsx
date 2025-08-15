@@ -18,8 +18,8 @@ import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import { PatternFormat } from 'react-number-format';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // ==============================|| PLUGIN - MASK INPUT ||============================== //
 

@@ -24,15 +24,15 @@ import * as yup from 'yup';
 import { useFormik } from 'formik';
 
 // project-imports
-import { editItem } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import AnimateButton from 'components/@extended/AnimateButton';
-import UploadMultiFile from 'components/third-party/dropzone/MultiFile';
-import { DropzopType } from 'config';
+import { editItem } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import UploadMultiFile from '@/components/third-party/dropzone/MultiFile';
+import { DropzopType } from '@/config';
 
 // types
-import { KanbanItem, KanbanProfile, KanbanUserStory, KanbanColumn } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanItem, KanbanProfile, KanbanUserStory, KanbanColumn } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 const avatarImage = '/assets/images/users';
 

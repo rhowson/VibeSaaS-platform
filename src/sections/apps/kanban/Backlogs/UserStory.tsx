@@ -26,18 +26,18 @@ import AddItem from './AddItem';
 import EditStory from './EditStory';
 import AlertStoryDelete from './AlertStoryDelete';
 
-import { deleteStory, useGetBacklogs } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import { ThemeMode } from 'config';
+import { deleteStory, useGetBacklogs } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import { ThemeMode } from '@/config';
 
 // assets
 import { AddSquare, ArrowDown2, ArrowRight2, Hierarchy } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { KanbanColumn, KanbanProfile, KanbanUserStory } from 'types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
+import { KanbanColumn, KanbanProfile, KanbanUserStory } from '@/types/kanban';
 
 interface Props {
   story: KanbanUserStory;

@@ -14,8 +14,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Edit, Trash } from '@wandersonalwes/iconsax-react';

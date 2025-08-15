@@ -12,9 +12,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import IconButton from 'components/@extended/IconButton';
-import CircularWithLabel from 'components/@extended/progress/CircularWithLabel';
+import MainCard from '@/components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import CircularWithLabel from '@/components/@extended/progress/CircularWithLabel';
 
 // assets
 import { Edit, Eye, Star1, Trash } from '@wandersonalwes/iconsax-react';

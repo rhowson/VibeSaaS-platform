@@ -15,15 +15,15 @@ import { FormikErrors, FormikTouched, getIn } from 'formik';
 // project-imports
 import InvoiceField from './InvoiceField';
 import AlertProductDelete from './AlertProductDelete';
-import { useGetInvoiceMaster } from 'api/invoice';
-import { openSnackbar } from 'api/snackbar';
+import { useGetInvoiceMaster } from '@/api/invoice';
+import { openSnackbar } from '@/api/snackbar';
 
 // assets
 import { Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { CountryType, Items } from 'types/invoice';
-import { SnackbarProps } from 'types/snackbar';
+import { CountryType, Items } from '@/types/invoice';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface FormValue {
   id: number;

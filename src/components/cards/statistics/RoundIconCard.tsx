@@ -4,12 +4,12 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // types
-import { SizeProps } from 'types/extended';
-import { GenericCardProps } from 'types/root';
+import { SizeProps } from '@/types/extended';
+import { GenericCardProps } from '@/types/root';
 
 interface Props {
   primary: string;

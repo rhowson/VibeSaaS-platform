@@ -17,8 +17,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 interface DetailProps {
   title: string;

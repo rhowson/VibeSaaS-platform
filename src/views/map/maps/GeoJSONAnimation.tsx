@@ -9,10 +9,10 @@ import { useTheme } from '@mui/material/styles';
 import Map, { Layer, LayerProps, Source } from 'react-map-gl/mapbox';
 
 // project-import
-import MapControl from 'components/third-party/map/MapControl';
+import MapControl from '@/components/third-party/map/MapControl';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| GEO JSON ANIMATION ||============================== //
 

@@ -13,10 +13,10 @@ import Box from '@mui/material/Box';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
-import { KeyedObject } from 'types/root';
+import { KeyedObject } from '@/types/root';
 
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 

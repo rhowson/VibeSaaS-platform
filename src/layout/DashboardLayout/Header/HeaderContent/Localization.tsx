@@ -13,17 +13,17 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
 
-import useConfig from 'hooks/useConfig';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 import { LanguageSquare } from '@wandersonalwes/iconsax-react';
 
 // types
-import { I18n } from 'types/config';
+import { I18n } from '@/types/config';
 
 // ==============================|| HEADER CONTENT - LOCALIZATION ||============================== //
 

@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Edit, Eye, Trash } from '@wandersonalwes/iconsax-react';

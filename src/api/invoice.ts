@@ -4,10 +4,10 @@ import { useMemo } from 'react';
 import useSWR, { mutate } from 'swr';
 
 // project-imports
-import { fetcher } from 'utils/axios';
+import { fetcher } from '@/utils/axios';
 
 // types
-import { CountryType, InvoiceList, InvoiceProps } from 'types/invoice';
+import { CountryType, InvoiceList, InvoiceProps } from '@/types/invoice';
 
 const countries: CountryType[] = [
   { code: 'US', label: 'United States Dollar', currency: 'Dollar', prefix: '$' },

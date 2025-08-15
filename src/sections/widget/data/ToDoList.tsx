@@ -10,11 +10,11 @@ import Grid from '@mui/material/Grid';
 import Tooltip from '@mui/material/Tooltip';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { AddCircle } from '@wandersonalwes/iconsax-react';
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // ===========================|| DATA WIDGET - TODO LIST ||=========================== //
 

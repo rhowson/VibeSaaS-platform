@@ -10,9 +10,9 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import VisitorChart from './charts/VisitorChart';
-import MainCard from 'components/MainCard';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
 
 const chartDataOptions: Record<string, { name: string; data: number[] }[]> = {
   Weekly: [{ name: 'Visitors', data: [200, 250, 220, 260, 270, 300] }],

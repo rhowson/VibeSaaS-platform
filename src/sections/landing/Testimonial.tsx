@@ -14,11 +14,11 @@ import Marquee from 'react-fast-marquee';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import MainCard from 'components/MainCard';
-import { ThemeDirection } from 'config';
+import MainCard from '@/components/MainCard';
+import { ThemeDirection } from '@/config';
 
 // assets
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 const Avatar1 = '/assets/images/users/avatar-6.png';
 const Avatar2 = '/assets/images/users/avatar-1.png';
 const Avatar3 = '/assets/images/users/avatar-2.png';

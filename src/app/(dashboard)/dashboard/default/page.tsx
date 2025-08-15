@@ -1,5 +1,5 @@
 // project-imports
-import DashboardDefault from 'views/dashboard/DashboardDefault';
+import DashboardDefault from '@/views/dashboard/DashboardDefault';
 
 // ==============================|| DASHBOARD - DEFAULT ||============================== //
 

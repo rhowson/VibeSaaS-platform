@@ -12,15 +12,15 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import IconButton from 'components/@extended/IconButton';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import IconButton from '@/components/@extended/IconButton';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import ToggleButtons from 'sections/components-overview/buttons/ToggleButtons';
-import ButtonGroups from 'sections/components-overview/buttons/ButtonGroups';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import ToggleButtons from '@/sections/components-overview/buttons/ToggleButtons';
+import ButtonGroups from '@/sections/components-overview/buttons/ButtonGroups';
 
 // assets
 import { Add, AddCircle, Camera, Edit, EmojiHappy, Home3, Location, MicrophoneSlash, Send, Setting2 } from '@wandersonalwes/iconsax-react';

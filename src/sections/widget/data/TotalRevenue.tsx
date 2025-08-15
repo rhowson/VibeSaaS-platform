@@ -10,8 +10,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // assets
 import { ArrowDown2, ArrowUp2 } from '@wandersonalwes/iconsax-react';

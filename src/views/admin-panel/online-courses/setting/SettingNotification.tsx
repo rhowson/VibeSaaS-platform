@@ -4,9 +4,9 @@ import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH } from '@/config';
 
 const breadcrumbLinks = [
   { title: 'home', to: APP_DEFAULT_PATH },

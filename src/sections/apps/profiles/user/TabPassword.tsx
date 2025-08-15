@@ -16,17 +16,17 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { isNumber, isLowercaseChar, isUppercaseChar, isSpecialChar, minLength } from 'utils/password-validation';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { isNumber, isLowercaseChar, isUppercaseChar, isSpecialChar, minLength } from '@/utils/password-validation';
 
 // third-party
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Eye, EyeSlash, Minus, TickCircle } from '@wandersonalwes/iconsax-react';

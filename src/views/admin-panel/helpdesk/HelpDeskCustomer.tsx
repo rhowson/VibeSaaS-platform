@@ -32,18 +32,18 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { CSVExport, DebouncedInput, HeaderSort, TablePagination } from 'components/third-party/react-table';
-import EmptyReactTable from 'views/forms-tables/tables/react-table/EmptyTable';
-import AddCustomerModal from 'sections/admin-panel/helpdesk/addCustomerModal';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { CSVExport, DebouncedInput, HeaderSort, TablePagination } from '@/components/third-party/react-table';
+import EmptyReactTable from '@/views/forms-tables/tables/react-table/EmptyTable';
+import AddCustomerModal from '@/sections/admin-panel/helpdesk/addCustomerModal';
 
-import { useGetCustomer } from 'api/customer';
-import { APP_DEFAULT_PATH } from 'config';
+import { useGetCustomer } from '@/api/customer';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { Add, Edit2, Trash } from '@wandersonalwes/iconsax-react';

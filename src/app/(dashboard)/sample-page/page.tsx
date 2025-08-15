@@ -1,5 +1,5 @@
 // project-imports
-import SamplePagePage from 'views/other/SamplePage';
+import SamplePagePage from '@/views/other/SamplePage';
 
 // ==============================|| SAMPLE PAGE ||============================== //
 

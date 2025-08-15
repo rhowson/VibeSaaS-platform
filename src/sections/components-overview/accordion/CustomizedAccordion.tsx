@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Clock, EmojiHappy, Image as ImageIcon, Profile } from '@wandersonalwes/iconsax-react';

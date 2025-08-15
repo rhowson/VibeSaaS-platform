@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import { useIspValue } from 'hooks/useIspValue';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // assets
 import { ExportSquare } from '@wandersonalwes/iconsax-react';

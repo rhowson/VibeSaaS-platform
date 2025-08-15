@@ -4,15 +4,15 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import BasicTabs from 'sections/components-overview/tabs/BasicTabs';
-import ScrollableTabs from 'sections/components-overview/tabs/ScrollableTabs';
-import IconTabs from 'sections/components-overview/tabs/IconTabs';
-import CenteredTabs from 'sections/components-overview/tabs/CenteredTabs';
-import VerticalTabs from 'sections/components-overview/tabs/VerticalTabs';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import BasicTabs from '@/sections/components-overview/tabs/BasicTabs';
+import ScrollableTabs from '@/sections/components-overview/tabs/ScrollableTabs';
+import IconTabs from '@/sections/components-overview/tabs/IconTabs';
+import CenteredTabs from '@/sections/components-overview/tabs/CenteredTabs';
+import VerticalTabs from '@/sections/components-overview/tabs/VerticalTabs';
 
 // ==============================|| COMPONENTS - TABS ||============================== //
 

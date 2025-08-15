@@ -9,14 +9,14 @@ import Box from '@mui/material/Box';
 // project-imports
 import NavGroup from './NavGroup';
 import NavItem from './NavItem';
-import { useGetMenu, useGetMenuMaster } from 'api/menu';
-import { MenuOrientation, HORIZONTAL_MAX_ITEM } from 'config';
-import useConfig from 'hooks/useConfig';
-import menuItem from 'menu-items';
-import { MenuFromAPI } from 'menu-items/dashboard';
+import { useGetMenu, useGetMenuMaster } from '@/api/menu';
+import { MenuOrientation, HORIZONTAL_MAX_ITEM } from '@/config';
+import useConfig from '@/hooks/useConfig';
+import menuItem from '@/menu-items';
+import { MenuFromAPI } from '@/menu-items/dashboard';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 function isFound(arr: any, str: string) {
   return arr.items.some((element: any) => {

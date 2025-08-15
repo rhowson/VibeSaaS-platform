@@ -8,21 +8,21 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 // project-imports
-import ProductCard from 'components/cards/e-commerce/ProductCard';
-import FloatingCart from 'components/cards/e-commerce/FloatingCart';
-import SkeletonProductPlaceholder from 'components/cards/skeleton/ProductPlaceholder';
+import ProductCard from '@/components/cards/e-commerce/ProductCard';
+import FloatingCart from '@/components/cards/e-commerce/FloatingCart';
+import SkeletonProductPlaceholder from '@/components/cards/skeleton/ProductPlaceholder';
 
-import ProductEmpty from 'sections/apps/e-commerce/products/ProductEmpty';
-import ProductsHeader from 'sections/apps/e-commerce/products/ProductsHeader';
-import ProductFilterDrawer from 'sections/apps/e-commerce/products/ProductFilterDrawer';
+import ProductEmpty from '@/sections/apps/e-commerce/products/ProductEmpty';
+import ProductsHeader from '@/sections/apps/e-commerce/products/ProductsHeader';
+import ProductFilterDrawer from '@/sections/apps/e-commerce/products/ProductFilterDrawer';
 
-import { GRID_COMMON_SPACING } from 'config';
-import useConfig from 'hooks/useConfig';
-import { resetCart, useGetCart } from 'api/cart';
-import { productFilter, useGetProducts } from 'api/products';
+import { GRID_COMMON_SPACING } from '@/config';
+import useConfig from '@/hooks/useConfig';
+import { resetCart, useGetCart } from '@/api/cart';
+import { productFilter, useGetProducts } from '@/api/products';
 
 // types
-import { Products as ProductsTypo, ProductsFilter } from 'types/e-commerce';
+import { Products as ProductsTypo, ProductsFilter } from '@/types/e-commerce';
 const Main = styled('main', { shouldForwardProp: (prop: string) => prop !== 'open' && prop !== 'container' })<{
   open: boolean;
   container: any;

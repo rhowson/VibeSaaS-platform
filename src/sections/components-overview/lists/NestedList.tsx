@@ -11,7 +11,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArrowDown2, ArrowUp2, Element, Grid5, Setting3 } from '@wandersonalwes/iconsax-react';

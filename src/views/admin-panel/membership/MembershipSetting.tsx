@@ -21,16 +21,16 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
-import { openSnackbar } from 'api/snackbar';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import { membershipPlans } from 'data/membership';
+import { openSnackbar } from '@/api/snackbar';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import { membershipPlans } from '@/data/membership';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { ArrowRight2, Edit, Eye, EyeSlash, GalleryAdd, Save2 } from '@wandersonalwes/iconsax-react';

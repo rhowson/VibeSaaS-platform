@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { Facebook, Google, Notification } from '@wandersonalwes/iconsax-react';

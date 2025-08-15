@@ -2,10 +2,10 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import EditableCell from 'sections/tables/react-table/EditableCell';
-import EditableRow from 'sections/tables/react-table/EditableRow';
+import EditableCell from '@/sections/tables/react-table/EditableCell';
+import EditableRow from '@/sections/tables/react-table/EditableRow';
 
 // ==============================|| REACT TABLE - EDITABLE ||============================== //
 

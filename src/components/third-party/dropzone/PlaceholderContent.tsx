@@ -4,7 +4,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import { DropzopType } from 'config';
+import { DropzopType } from '@/config';
 
 // assets
 import { Camera } from '@wandersonalwes/iconsax-react';

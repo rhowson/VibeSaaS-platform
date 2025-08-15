@@ -13,7 +13,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 

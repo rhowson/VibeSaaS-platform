@@ -6,12 +6,12 @@ import Grid from '@mui/material/Grid';
 import Switch from '@mui/material/Switch';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import CustomizedSwitches from 'sections/components-overview/switch/CustomizedSwitches';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import CustomizedSwitches from '@/sections/components-overview/switch/CustomizedSwitches';
 
 // ==============================|| COMPONENTS - SWITCH ||============================== //
 

@@ -29,20 +29,20 @@ import { PDFDownloadLink } from '@react-pdf/renderer';
 import { useReactToPrint } from 'react-to-print';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import LogoSection from 'components/logo';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import LogoSection from '@/components/logo';
 
-import { useGetInvoice, useGetInvoiceMaster } from 'api/invoice';
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
-import { APP_DEFAULT_PATH } from 'config';
-import ExportPDFView from 'sections/apps/invoice/export-pdf';
+import { useGetInvoice, useGetInvoiceMaster } from '@/api/invoice';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
+import { APP_DEFAULT_PATH } from '@/config';
+import ExportPDFView from '@/sections/apps/invoice/export-pdf';
 
 // assets
 import { DocumentDownload, Edit, Printer, Share } from '@wandersonalwes/iconsax-react';
 
 // types
-import { InvoiceList } from 'types/invoice';
+import { InvoiceList } from '@/types/invoice';
 
 function PDFIconButton({ list }: { list: InvoiceList }) {
   return (

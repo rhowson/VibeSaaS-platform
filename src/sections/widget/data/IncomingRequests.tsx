@@ -10,9 +10,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Dot from '@/components/@extended/Dot';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // =========================|| DATA WIDGET - INCOMING REQUESTS ||========================= //
 

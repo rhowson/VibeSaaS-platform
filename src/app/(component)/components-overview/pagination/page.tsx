@@ -1,5 +1,5 @@
 // project-imports
-import ComponentPagination from 'views/components-overview/ComponentPagination';
+import ComponentPagination from '@/views/components-overview/ComponentPagination';
 
 // ==============================|| COMPONENTS - PAGINATION ||============================== //
 

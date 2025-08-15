@@ -15,9 +15,9 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import countries from 'data/countries';
-import trimFc from 'utils/trimFc';
+import MainCard from '@/components/MainCard';
+import countries from '@/data/countries';
+import trimFc from '@/utils/trimFc';
 
 // assets
 import GoogleMaps from './GoogleMap';

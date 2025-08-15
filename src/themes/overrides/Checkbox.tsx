@@ -9,7 +9,7 @@ import getColors from '@/utils/getColors';
 import { Stop, TickSquare, MinusSquare } from '@wandersonalwes/iconsax-react';
 
 // types
-import { ExtendedStyleProps } from 'types/extended';
+import { ExtendedStyleProps } from '@/types/extended';
 
 // ==============================|| RADIO - COLORS ||============================== //
 

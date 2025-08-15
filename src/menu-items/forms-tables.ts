@@ -2,7 +2,7 @@
 import { Book, PasswordCheck, Next, RowVertical, CpuCharge, TableDocument, Subtitle } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // icons
 const icons = {

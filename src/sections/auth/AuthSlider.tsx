@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 
 // third-party
 import Slider from 'react-slick';

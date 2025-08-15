@@ -1,5 +1,5 @@
 // project-imports
-import Products from 'views/apps/Products';
+import Products from '@/views/apps/Products';
 
 // ==============================|| ECOMMERCE - PRODUCTS ||============================== //
 

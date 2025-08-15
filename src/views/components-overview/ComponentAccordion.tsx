@@ -2,15 +2,15 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import BasicAccordion from 'sections/components-overview/accordion/BasicAccordion';
-import DisabledAccordion from 'sections/components-overview/accordion/DisabledAccordion';
-import ControlledAccordion from 'sections/components-overview/accordion/ControlledAccordion';
-import FixedAccordion from 'sections/components-overview/accordion/FixedAccordion';
-import CustomizedAccordion from 'sections/components-overview/accordion/CustomizedAccordion';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import BasicAccordion from '@/sections/components-overview/accordion/BasicAccordion';
+import DisabledAccordion from '@/sections/components-overview/accordion/DisabledAccordion';
+import ControlledAccordion from '@/sections/components-overview/accordion/ControlledAccordion';
+import FixedAccordion from '@/sections/components-overview/accordion/FixedAccordion';
+import CustomizedAccordion from '@/sections/components-overview/accordion/CustomizedAccordion';
 
 // ==============================|| COMPONENTS - ACCORDION ||============================== //
 

@@ -9,7 +9,7 @@ import Switch, { SwitchProps } from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| CUSTOMIZED - MATERIAL UI ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import ComponentStepper from 'views/components-overview/ComponentStepper';
+import ComponentStepper from '@/views/components-overview/ComponentStepper';
 
 // ==============================|| COMPONENTS - STEPPER ||============================== //
 

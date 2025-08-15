@@ -28,12 +28,12 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { CSVExport, DebouncedInput, EmptyTable, Filter } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import MainCard from '@/components/MainCard';
+import { CSVExport, DebouncedInput, EmptyTable, Filter } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 interface ReactTableProps {
   columns: ColumnDef<TableDataProps>[];

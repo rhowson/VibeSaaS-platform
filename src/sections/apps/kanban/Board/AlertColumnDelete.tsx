@@ -6,8 +6,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import { PopupTransition } from 'components/@extended/Transitions';
+import Avatar from '@/components/@extended/Avatar';
+import { PopupTransition } from '@/components/@extended/Transitions';
 
 // assets
 import { Trash } from '@wandersonalwes/iconsax-react';

@@ -2,14 +2,14 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import ServerModal from 'sections/components-overview/modal/ServerModal';
-import BasicModal from 'sections/components-overview/modal/BasicModal';
-import NestedModal from 'sections/components-overview/modal/NestedModal';
-import TransitionsModal from 'sections/components-overview/modal/TransitionsModal';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import ServerModal from '@/sections/components-overview/modal/ServerModal';
+import BasicModal from '@/sections/components-overview/modal/BasicModal';
+import NestedModal from '@/sections/components-overview/modal/NestedModal';
+import TransitionsModal from '@/sections/components-overview/modal/TransitionsModal';
 
 // ==============================|| COMPONENTS - MODAL ||============================== //
 

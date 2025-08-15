@@ -15,9 +15,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
-import { listData } from 'data/helpdesk';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import { listData } from '@/data/helpdesk';
 
 // assets
 import { Calendar, Clock, Like1, MessageText, TickCircle, Trash } from '@wandersonalwes/iconsax-react';

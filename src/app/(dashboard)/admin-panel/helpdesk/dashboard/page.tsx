@@ -1,5 +1,5 @@
 // project-imports
-import HelpDeskDashboard from 'views/admin-panel/helpdesk/HelpDeskDashboard';
+import HelpDeskDashboard from '@/views/admin-panel/helpdesk/HelpDeskDashboard';
 
 // ==============================|| HELPDESK - DASHBOARD ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import CreateTicket from 'views/admin-panel/helpdesk/ticket/CreateTicket';
+import CreateTicket from '@/views/admin-panel/helpdesk/ticket/CreateTicket';
 
 // ==============================|| HELPDESK TICKET - CREATE ||============================== //
 

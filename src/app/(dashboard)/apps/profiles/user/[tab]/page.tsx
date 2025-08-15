@@ -1,4 +1,4 @@
-import UserProfile from 'views/apps/UserProfile';
+import UserProfile from '@/views/apps/UserProfile';
 
 // ==============================|| PROFILE - USER ||============================== //
 

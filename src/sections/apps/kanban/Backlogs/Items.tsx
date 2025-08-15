@@ -16,18 +16,18 @@ import { format } from 'date-fns';
 
 // project-imports
 import AlertItemDelete from '../Board/AlertItemDelete';
-import { deleteItem, handlerKanbanDialog, useGetBacklogs } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import { ThemeMode } from 'config';
+import { deleteItem, handlerKanbanDialog, useGetBacklogs } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import { ThemeMode } from '@/config';
 
 // assets
 import { Task } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { KanbanColumn, KanbanItem, KanbanProfile } from 'types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
+import { KanbanColumn, KanbanItem, KanbanProfile } from '@/types/kanban';
 
 interface Props {
   itemId: string;

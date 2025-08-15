@@ -12,11 +12,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // assets
 import { Airdrop, ArrowDown, ArrowSwapHorizontal, ArrowUp, Car, MusicFilter, SmartCar, VoiceCricle } from '@wandersonalwes/iconsax-react';

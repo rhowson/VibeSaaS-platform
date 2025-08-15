@@ -15,17 +15,17 @@ import AlertItemDelete from './AlertItemDelete';
 import EditItem from './EditItem';
 import ItemComment from './ItemComment';
 
-import { deleteItem, handlerKanbanDialog, useGetBacklogs, useGetKanbanMaster } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import SimpleBar from 'components/third-party/SimpleBar';
+import { deleteItem, handlerKanbanDialog, useGetBacklogs, useGetKanbanMaster } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // assets
 import { Add, Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { KanbanComment, KanbanItem, KanbanProfile } from 'types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
+import { KanbanComment, KanbanItem, KanbanProfile } from '@/types/kanban';
 
 // ==============================|| KANBAN BOARD - ITEM DETAILS ||============================== //
 

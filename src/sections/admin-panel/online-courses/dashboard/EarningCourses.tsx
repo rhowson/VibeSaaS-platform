@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 import EarningChart from './charts/EarningChart';
 
 const earningData: { [key: string]: { name: string; data: number[] }[] } = {

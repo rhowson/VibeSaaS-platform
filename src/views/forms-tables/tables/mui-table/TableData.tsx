@@ -17,13 +17,13 @@ import { visuallyHidden } from '@mui/utils';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { header } from 'sections/apps/tables/mui-table/header';
-import MainCard from 'components/MainCard';
-import { CSVExport, RowSelection } from 'components/third-party/react-table';
+import { header } from '@/sections/apps/tables/mui-table/header';
+import MainCard from '@/components/MainCard';
+import { CSVExport, RowSelection } from '@/components/third-party/react-table';
 
 // types
-import { KeyedObject } from 'types/root';
-import { EnhancedTableHeadProps, ArrangementOrder, GetComparator, HeadCell } from 'types/table';
+import { KeyedObject } from '@/types/root';
+import { EnhancedTableHeadProps, ArrangementOrder, GetComparator, HeadCell } from '@/types/table';
 
 // table data
 type CreateDataType = { name: string; calories: number; fat: number; carbs: number; protein: number };

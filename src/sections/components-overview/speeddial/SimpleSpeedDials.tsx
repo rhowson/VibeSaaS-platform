@@ -14,7 +14,7 @@ import Switch from '@mui/material/Switch';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Heart, Printer, Save2, Share } from '@wandersonalwes/iconsax-react';

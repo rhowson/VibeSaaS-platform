@@ -2,10 +2,10 @@
 import { Theme, TypographyVariantsOptions } from '@mui/material/styles';
 
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
-import { FontFamily } from 'types/config';
+import { FontFamily } from '@/types/config';
 
 // ==============================|| DEFAULT THEME - TYPOGRAPHY  ||============================== //
 

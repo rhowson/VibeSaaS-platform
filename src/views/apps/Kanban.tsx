@@ -12,12 +12,12 @@ import Tabs from '@mui/material/Tabs';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import Board from 'sections/apps/kanban/Board';
-import Backlogs from 'sections/apps/kanban/Backlogs';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import Board from '@/sections/apps/kanban/Board';
+import Backlogs from '@/sections/apps/kanban/Backlogs';
 
-import { APP_DEFAULT_PATH } from 'config';
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
+import { APP_DEFAULT_PATH } from '@/config';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
 
 function a11yProps(index: string) {
   return {

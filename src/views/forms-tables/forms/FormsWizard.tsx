@@ -2,10 +2,10 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import BasicWizard from 'sections/forms/wizard/basic-wizard';
-import ValidationWizard from 'sections/forms/wizard/validation-wizard';
+import BasicWizard from '@/sections/forms/wizard/basic-wizard';
+import ValidationWizard from '@/sections/forms/wizard/validation-wizard';
 
 // ==============================|| FORMS WIZARD ||============================== //
 

@@ -2,7 +2,7 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import StickyHeader from 'sections/tables/react-table/StickyHeader';
+import StickyHeader from '@/sections/tables/react-table/StickyHeader';
 
 // ==============================|| REACT TABLE - STICKY ||============================== //
 

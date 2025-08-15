@@ -15,7 +15,7 @@ import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 const Avatar1 = '/assets/images/users/avatar-1.png';

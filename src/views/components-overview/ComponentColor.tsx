@@ -9,11 +9,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING, ThemeMode } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING, ThemeMode } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 interface Props {
   bgcolor: string;

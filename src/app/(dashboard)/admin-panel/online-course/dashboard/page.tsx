@@ -1,5 +1,5 @@
 // project-imports
-import OnlineCoursesDashboard from 'views/admin-panel/online-courses/dashboard/OnlineDashboard';
+import OnlineCoursesDashboard from '@/views/admin-panel/online-courses/dashboard/OnlineDashboard';
 
 // ==============================|| ONLINE COURSES - DASHBOARD ||============================== //
 

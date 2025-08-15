@@ -1,5 +1,5 @@
 // project-imports
-import ComponentCheckbox from 'views/components-overview/ComponentCheckbox';
+import ComponentCheckbox from '@/views/components-overview/ComponentCheckbox';
 
 // ==============================|| COMPONENTS - CHECKBOX ||============================== //
 

@@ -7,13 +7,13 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import FormCustomerAdd from './FormCustomerAdd';
-import { useGetCustomer } from 'api/customer';
-import CircularWithPath from 'components/@extended/progress/CircularWithPath';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import { useGetCustomer } from '@/api/customer';
+import CircularWithPath from '@/components/@extended/progress/CircularWithPath';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 interface Props {
   open: boolean;

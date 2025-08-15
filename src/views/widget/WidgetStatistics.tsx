@@ -5,18 +5,18 @@ import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ReportCard from 'components/cards/statistics/ReportCard';
-import HoverSocialCard from 'components/cards/statistics/HoverSocialCard';
-import RoundIconCard from 'components/cards/statistics/RoundIconCard';
-import AnalyticEcommerce from 'components/cards/statistics/AnalyticEcommerce';
-import EcommerceMetrix from 'components/cards/statistics/EcommerceMetrix';
-import { GRID_COMMON_SPACING, ThemeMode } from 'config';
+import ReportCard from '@/components/cards/statistics/ReportCard';
+import HoverSocialCard from '@/components/cards/statistics/HoverSocialCard';
+import RoundIconCard from '@/components/cards/statistics/RoundIconCard';
+import AnalyticEcommerce from '@/components/cards/statistics/AnalyticEcommerce';
+import EcommerceMetrix from '@/components/cards/statistics/EcommerceMetrix';
+import { GRID_COMMON_SPACING, ThemeMode } from '@/config';
 
-import WalletProfile from 'sections/widget/statistics/WalletProfile';
-import AssignUsers from 'sections/widget/statistics/AssignUsers';
-import PermissionBlock from 'sections/widget/statistics/PermissionBlock';
-import DropboxStorage from 'sections/widget/statistics/DropboxStorage';
-import SwitchBalanace from 'sections/widget/statistics/SwitchBalanace';
+import WalletProfile from '@/sections/widget/statistics/WalletProfile';
+import AssignUsers from '@/sections/widget/statistics/AssignUsers';
+import PermissionBlock from '@/sections/widget/statistics/PermissionBlock';
+import DropboxStorage from '@/sections/widget/statistics/DropboxStorage';
+import SwitchBalanace from '@/sections/widget/statistics/SwitchBalanace';
 
 // assets
 import {

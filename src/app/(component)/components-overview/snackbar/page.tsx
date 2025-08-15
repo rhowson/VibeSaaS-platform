@@ -1,5 +1,5 @@
 // project-imports
-import ComponentSnackbar from 'views/components-overview/ComponentSnackbar';
+import ComponentSnackbar from '@/views/components-overview/ComponentSnackbar';
 
 // ==============================|| COMPONENTS - SNACKBAR ||============================== //
 

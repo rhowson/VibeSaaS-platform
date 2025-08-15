@@ -5,7 +5,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Box from '@mui/material/Box';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { Maximize1 } from '@wandersonalwes/iconsax-react';

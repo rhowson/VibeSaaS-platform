@@ -2,7 +2,7 @@
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard, { MainCardProps } from 'components/MainCard';
+import MainCard, { MainCardProps } from '@/components/MainCard';
 
 // ==============================|| AUTHENTICATION - CARD ||============================== //
 

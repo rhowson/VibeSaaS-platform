@@ -13,11 +13,11 @@ import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { CSVExport } from 'components/third-party/react-table';
+import MainCard from '@/components/MainCard';
+import { CSVExport } from '@/components/third-party/react-table';
 
 // types
-import { KeyedObject } from 'types/root';
+import { KeyedObject } from '@/types/root';
 
 // table columns
 interface ColumnProps {

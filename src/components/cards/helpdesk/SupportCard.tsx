@@ -15,8 +15,8 @@ import Typography from '@mui/material/Typography';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import { ThemeMode } from 'config';
-import MainCard from 'components/MainCard';
+import { ThemeMode } from '@/config';
+import MainCard from '@/components/MainCard';
 
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 

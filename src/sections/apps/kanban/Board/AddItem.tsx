@@ -13,17 +13,17 @@ import { Chance } from 'chance';
 import { sub } from 'date-fns';
 
 // project-imports
-import { addItem } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import { addItem } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add, Calculator, Profile2User } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { KanbanItem } from 'types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
+import { KanbanItem } from '@/types/kanban';
 
 interface Props {
   columnId: string;

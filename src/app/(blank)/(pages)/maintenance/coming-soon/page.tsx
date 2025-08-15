@@ -1,5 +1,5 @@
 // project-imports
-import ComingSoonPage from 'views/maintenance/ComingSoon';
+import ComingSoonPage from '@/views/maintenance/ComingSoon';
 
 // ==============================|| COMING SOON ||============================== //
 

@@ -10,15 +10,15 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 
 // project-imports
-import CircularWithLabel from 'components/@extended/progress/CircularWithLabel';
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import LinearWithIcon from 'components/@extended/progress/LinearWithIcon';
-import CircularWithPath from 'components/@extended/progress/CircularWithPath';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import CircularWithLabel from '@/components/@extended/progress/CircularWithLabel';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import LinearWithIcon from '@/components/@extended/progress/LinearWithIcon';
+import CircularWithPath from '@/components/@extended/progress/CircularWithPath';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // assets
 import { CloseCircle, TickCircle } from '@wandersonalwes/iconsax-react';

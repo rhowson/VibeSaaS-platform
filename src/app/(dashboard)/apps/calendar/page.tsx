@@ -1,5 +1,5 @@
 // project-imports
-import Calendar from 'views/apps/Calendar';
+import Calendar from '@/views/apps/Calendar';
 
 // ==============================|| CALENDAR - MAIN ||============================== //
 

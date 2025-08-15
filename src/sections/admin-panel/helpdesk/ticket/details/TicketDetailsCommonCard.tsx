@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import SyntaxHighlight from 'utils/SyntaxHighlight';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import SyntaxHighlight from '@/utils/SyntaxHighlight';
 
 // types
-import { TicketDetailProps } from 'types/helpdesk';
+import { TicketDetailProps } from '@/types/helpdesk';
 
 // assets
 import { Edit, Like1, Trash } from '@wandersonalwes/iconsax-react';

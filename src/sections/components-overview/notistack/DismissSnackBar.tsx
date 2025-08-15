@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 import { useSnackbar } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - DISMISS ||============================== //
 

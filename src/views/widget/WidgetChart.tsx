@@ -14,34 +14,34 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import SalesChart from 'sections/dashboard/SalesChart';
-import AcquisitionChannels from 'sections/dashboard/analytics/AcquisitionChannels';
+import SalesChart from '@/sections/dashboard/SalesChart';
+import AcquisitionChannels from '@/sections/dashboard/analytics/AcquisitionChannels';
 
-import EcommerceDataCard from 'components/cards/statistics/EcommerceDataCard';
-import EcommerceDataChart from 'sections/widget/chart/EcommerceDataChart';
+import EcommerceDataCard from '@/components/cards/statistics/EcommerceDataCard';
+import EcommerceDataChart from '@/sections/widget/chart/EcommerceDataChart';
 
-import RepeatCustomerRate from 'sections/widget/chart/RepeatCustomerRate';
-import ProjectOverview from 'sections/widget/chart/ProjectOverview';
-import EcommerceIncome from 'sections/widget/chart/EcommerceIncome';
-import EcommerceRadial from 'sections/widget/chart/EcommerceRadial';
+import RepeatCustomerRate from '@/sections/widget/chart/RepeatCustomerRate';
+import ProjectOverview from '@/sections/widget/chart/ProjectOverview';
+import EcommerceIncome from '@/sections/widget/chart/EcommerceIncome';
+import EcommerceRadial from '@/sections/widget/chart/EcommerceRadial';
 
-import NewOrders from 'sections/widget/chart/NewOrders';
-import NewUsers from 'sections/widget/chart/NewUsers';
-import Visitors from 'sections/widget/chart/Visitors';
+import NewOrders from '@/sections/widget/chart/NewOrders';
+import NewUsers from '@/sections/widget/chart/NewUsers';
+import Visitors from '@/sections/widget/chart/Visitors';
 
-import ProjectAnalytics from 'sections/widget/chart/ProjectAnalytics';
+import ProjectAnalytics from '@/sections/widget/chart/ProjectAnalytics';
 
-import ProductOverview from 'sections/widget/chart/ProductOverview';
-import TotalIncome from 'sections/widget/chart/TotalIncome';
+import ProductOverview from '@/sections/widget/chart/ProductOverview';
+import TotalIncome from '@/sections/widget/chart/TotalIncome';
 
-import LanguagesSupport from 'sections/widget/chart/LanguagesSupport';
-import MonthlyReport from 'sections/widget/chart/MonthlyReport';
+import LanguagesSupport from '@/sections/widget/chart/LanguagesSupport';
+import MonthlyReport from '@/sections/widget/chart/MonthlyReport';
 
-import IncomeChart from 'sections/dashboard/analytics/IncomeChart';
+import IncomeChart from '@/sections/dashboard/analytics/IncomeChart';
 
 // assets
 import { ArrowDown, ArrowDown2, ArrowUp, Book, Calendar, CloudChange, DocumentDownload, Wallet3 } from '@wandersonalwes/iconsax-react';

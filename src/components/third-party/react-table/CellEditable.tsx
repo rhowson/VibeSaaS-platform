@@ -18,8 +18,8 @@ import { Row, RowData, Table } from '@tanstack/react-table';
 import * as yup from 'yup';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
+import IconButton from '@/components/@extended/IconButton';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
 
 // assets
 import { Send } from '@wandersonalwes/iconsax-react';

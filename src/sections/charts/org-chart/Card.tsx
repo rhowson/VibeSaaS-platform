@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic';
 import DataCard from './DataCard';
 
 // types
-import { CardMiddleware } from 'types/org-chart';
+import { CardMiddleware } from '@/types/org-chart';
 
 // third-party
 import { TreeNodeProps } from 'react-organizational-chart';

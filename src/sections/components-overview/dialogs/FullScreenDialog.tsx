@@ -18,7 +18,7 @@ import Typography from '@mui/material/Typography';
 import { TransitionProps } from '@mui/material/transitions';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

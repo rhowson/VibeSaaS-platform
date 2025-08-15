@@ -1,5 +1,5 @@
 // project-imports
-import TicketList from 'views/admin-panel/helpdesk/ticket/TicketList';
+import TicketList from '@/views/admin-panel/helpdesk/ticket/TicketList';
 
 // ==============================|| HELPDESK TICKET - LIST ||============================== //
 

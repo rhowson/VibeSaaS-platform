@@ -6,8 +6,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import MainCard from 'components/MainCard';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 const avatar = '/assets/images/users/customer-support-1.png';

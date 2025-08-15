@@ -11,7 +11,7 @@ import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { DocumentLike, Sms, Translate } from '@wandersonalwes/iconsax-react';

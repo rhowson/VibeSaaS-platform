@@ -26,14 +26,14 @@ import { PDFDownloadLink } from '@react-pdf/renderer';
 import AlertCustomerDelete from './AlertCustomerDelete';
 import ListCard from './export-pdf/ListCard';
 
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import { PopupTransition } from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import { PopupTransition } from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { DocumentDownload, Edit, Trash } from '@wandersonalwes/iconsax-react';

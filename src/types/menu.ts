@@ -3,7 +3,7 @@ import { ChipProps } from '@mui/material/Chip';
 
 // project-imports
 import { GenericCardProps } from './root';
-import { NavActionType } from 'config';
+import { NavActionType } from '@/config';
 
 // ==============================|| TYPES - MENU  ||============================== //
 

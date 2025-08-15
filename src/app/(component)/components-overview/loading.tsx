@@ -6,8 +6,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import MainCard from '@/components/MainCard';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // ===============================|| COMPONENT - SKELETON ||=============================== //
 

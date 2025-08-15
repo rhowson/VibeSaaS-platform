@@ -17,13 +17,13 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import AnimateButton from 'components/@extended/AnimateButton';
-import useScriptRef from 'hooks/useScriptRef';
-import useUser from 'hooks/useUser';
+import { openSnackbar } from '@/api/snackbar';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import useScriptRef from '@/hooks/useScriptRef';
+import useUser from '@/hooks/useUser';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // ============================|| FIREBASE - FORGOT PASSWORD ||============================ //
 

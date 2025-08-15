@@ -1,5 +1,5 @@
 // project-imports
-import Login2Page from 'views/auth/auth2/Login';
+import Login2Page from '@/views/auth/auth2/Login';
 
 // ================================|| LOGIN ||================================ //
 

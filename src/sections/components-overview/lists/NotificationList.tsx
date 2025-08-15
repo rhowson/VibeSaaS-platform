@@ -9,8 +9,8 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AntAvatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import AntAvatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 const avatarImage = '/assets/images/users';

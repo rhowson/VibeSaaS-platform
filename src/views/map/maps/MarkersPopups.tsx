@@ -9,12 +9,12 @@ import Box from '@mui/material/Box';
 import Map from 'react-map-gl/mapbox';
 
 // project-imports
-import MapControl from 'components/third-party/map/MapControl';
-import MapMarker from 'components/third-party/map/MapMarker';
-import MapPopup from 'components/third-party/map/MapPopup';
+import MapControl from '@/components/third-party/map/MapControl';
+import MapMarker from '@/components/third-party/map/MapMarker';
+import MapPopup from '@/components/third-party/map/MapPopup';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 type CountryProps = {
   name: string;

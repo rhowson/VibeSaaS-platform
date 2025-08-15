@@ -1,5 +1,5 @@
 // project-imports
-import Checkout from 'views/apps/Checkout';
+import Checkout from '@/views/apps/Checkout';
 
 // ==============================|| ECOMMERCE - CHECKOUT ||============================== //
 

@@ -23,19 +23,19 @@ import { FormattedMessage } from 'react-intl';
 // project-imports
 import NavItem from './NavItem';
 import NavCollapse from './NavCollapse';
-import SimpleBar from 'components/third-party/SimpleBar';
-import Transitions from 'components/@extended/Transitions';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import Transitions from '@/components/@extended/Transitions';
 
-import { useGetMenuMaster } from 'api/menu';
-import { matchPath } from 'utils/matchPath';
-import { MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
+import { useGetMenuMaster } from '@/api/menu';
+import { matchPath } from '@/utils/matchPath';
+import { MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 import { More2 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // ==============================|| NAVIGATION - GROUP ||============================== //
 

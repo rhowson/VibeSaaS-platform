@@ -15,10 +15,10 @@ import Typography from '@mui/material/Typography';
 import { PatternFormat } from 'react-number-format';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { CallCalling, Gps, Link1, Sms } from '@wandersonalwes/iconsax-react';

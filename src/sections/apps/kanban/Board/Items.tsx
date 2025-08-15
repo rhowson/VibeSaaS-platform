@@ -18,17 +18,17 @@ import { Draggable, DraggingStyle, NotDraggingStyle } from '@hello-pangea/dnd';
 import AlertItemDelete from './AlertItemDelete';
 import EditStory from '../Backlogs/EditStory';
 
-import { openSnackbar } from 'api/snackbar';
-import { deleteItem, handlerKanbanDialog, useGetBacklogs } from 'api/kanban';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
+import { openSnackbar } from '@/api/snackbar';
+import { deleteItem, handlerKanbanDialog, useGetBacklogs } from '@/api/kanban';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
 
 // assets
 import { Hierarchy } from '@wandersonalwes/iconsax-react';
 
 // types
-import { KanbanItem, KanbanUserStory } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanItem, KanbanUserStory } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 const backImage = '/assets/images/profile';
 

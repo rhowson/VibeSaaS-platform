@@ -9,8 +9,8 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import Drawer from './Drawer';
-import { handlerComponentDrawer, useGetMenuMaster } from 'api/menu';
-import { DRAWER_WIDTH } from 'config';
+import { handlerComponentDrawer, useGetMenuMaster } from '@/api/menu';
+import { DRAWER_WIDTH } from '@/config';
 
 // component content
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{ open: boolean }>(({ theme }) => ({

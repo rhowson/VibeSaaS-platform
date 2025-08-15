@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| PLUGIN - RECAPTCHA ||============================== //
 

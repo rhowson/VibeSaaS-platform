@@ -1,5 +1,5 @@
 // project-imports
-import Error500Page from 'views/maintenance/Error500';
+import Error500Page from '@/views/maintenance/Error500';
 
 // ==============================|| ERROR 500 ||============================== //
 

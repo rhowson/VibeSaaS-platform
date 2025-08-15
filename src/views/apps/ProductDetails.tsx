@@ -14,24 +14,24 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // types
-import { Products, TabsProps } from 'types/e-commerce';
+import { Products, TabsProps } from '@/types/e-commerce';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import CircularLoader from 'components/CircularLoader';
-import FloatingCart from 'components/cards/e-commerce/FloatingCart';
-import ProductFeatures from 'sections/apps/e-commerce/product-details/ProductFeatures';
-import ProductImages from 'sections/apps/e-commerce/product-details/ProductImages';
-import ProductInfo from 'sections/apps/e-commerce/product-details/ProductInfo';
-import ProductReview from 'sections/apps/e-commerce/product-details/ProductReview';
-import ProductSpecifications from 'sections/apps/e-commerce/product-details/ProductSpecifications';
-import RelatedProducts from 'sections/apps/e-commerce/product-details/RelatedProducts';
+import CircularLoader from '@/components/CircularLoader';
+import FloatingCart from '@/components/cards/e-commerce/FloatingCart';
+import ProductFeatures from '@/sections/apps/e-commerce/product-details/ProductFeatures';
+import ProductImages from '@/sections/apps/e-commerce/product-details/ProductImages';
+import ProductInfo from '@/sections/apps/e-commerce/product-details/ProductInfo';
+import ProductReview from '@/sections/apps/e-commerce/product-details/ProductReview';
+import ProductSpecifications from '@/sections/apps/e-commerce/product-details/ProductSpecifications';
+import RelatedProducts from '@/sections/apps/e-commerce/product-details/RelatedProducts';
 
-import { resetCart, useGetCart } from 'api/cart';
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
-import { useGetProducts } from 'api/products';
+import { resetCart, useGetCart } from '@/api/cart';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
+import { useGetProducts } from '@/api/products';
 
 function TabPanel({ children, value, index, ...other }: TabsProps) {
   return (

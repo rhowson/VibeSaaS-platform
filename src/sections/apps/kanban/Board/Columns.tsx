@@ -15,17 +15,17 @@ import AlertColumnDelete from './AlertColumnDelete';
 import EditColumn from './EditColumn';
 import Items from './Items';
 
-import { deleteColumn, useGetBacklogs } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import { ThemeMode } from 'config';
+import { deleteColumn, useGetBacklogs } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import { ThemeMode } from '@/config';
 
 // assets
 import { Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { KanbanColumn, KanbanItem } from 'types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
+import { KanbanColumn, KanbanItem } from '@/types/kanban';
 
 interface Props {
   column: KanbanColumn;

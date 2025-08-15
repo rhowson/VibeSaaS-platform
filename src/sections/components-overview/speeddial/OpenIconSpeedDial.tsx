@@ -10,7 +10,7 @@ import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Copy, Edit, Heart, Printer, Save2, Share } from '@wandersonalwes/iconsax-react';

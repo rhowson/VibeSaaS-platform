@@ -1,6 +1,6 @@
-// import { Products } from 'types/e-commerce';
-// import axios from 'utils/axios';
-import InvoiceEdit from 'views/apps/InvoiceEdit';
+// import { Products } from '@/types/e-commerce';
+// import axios from '@/utils/axios';
+import InvoiceEdit from '@/views/apps/InvoiceEdit';
 
 // ==============================|| INVOICE - EDIT ||============================== //
 

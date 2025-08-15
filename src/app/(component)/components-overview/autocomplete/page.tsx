@@ -1,5 +1,5 @@
 // project-imports
-import ComponentAutocomplete from 'views/components-overview/ComponentAutocomplete';
+import ComponentAutocomplete from '@/views/components-overview/ComponentAutocomplete';
 
 // ==============================|| COMPONENTS - AUTOCOMPLETE ||============================== //
 

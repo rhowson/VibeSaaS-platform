@@ -1,5 +1,5 @@
 // project-imports
-import ComponentTimeline from 'views/components-overview/ComponentTimeline';
+import ComponentTimeline from '@/views/components-overview/ComponentTimeline';
 
 // ==============================|| COMPONENTS - TIMELINE ||============================== //
 

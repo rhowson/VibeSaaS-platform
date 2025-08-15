@@ -16,7 +16,7 @@ import { Formik, Form } from 'formik';
 import { Row, RowData, Table } from '@tanstack/react-table';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
 
 type RowEditProps<T extends RowData> = {
   getValue: () => any;

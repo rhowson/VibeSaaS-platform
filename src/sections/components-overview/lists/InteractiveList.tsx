@@ -18,9 +18,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import AntAvatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import AntAvatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { FolderOpen, Trash } from '@wandersonalwes/iconsax-react';

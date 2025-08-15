@@ -16,15 +16,15 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import IconButton from 'components/@extended/IconButton';
-import SkeletonProductPlaceholder from 'components/cards/skeleton/ProductPlaceholder';
-import { useGetCart, addToCart } from 'api/cart';
-import { openSnackbar } from 'api/snackbar';
+import MainCard from '@/components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import SkeletonProductPlaceholder from '@/components/cards/skeleton/ProductPlaceholder';
+import { useGetCart, addToCart } from '@/api/cart';
+import { openSnackbar } from '@/api/snackbar';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { ProductCardProps } from 'types/cart';
+import { SnackbarProps } from '@/types/snackbar';
+import { ProductCardProps } from '@/types/cart';
 
 // assets
 import { Heart } from '@wandersonalwes/iconsax-react';

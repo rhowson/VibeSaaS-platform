@@ -15,8 +15,8 @@ import { motion } from 'framer-motion';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import MainCard from 'components/MainCard';
-import { useIspValue } from 'hooks/useIspValue';
+import MainCard from '@/components/MainCard';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // assets
 import { ExportSquare } from '@wandersonalwes/iconsax-react';

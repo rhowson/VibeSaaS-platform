@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import { LngLat } from 'react-map-gl/mapbox';
 
 // project-imports
-import ControlPanelStyled from 'components/third-party/map/ControlPanelStyled';
+import ControlPanelStyled from '@/components/third-party/map/ControlPanelStyled';
 
 const EVENT_LIST = ['onDragStart', 'onDrag', 'onDragEnd'] as const;
 

@@ -18,14 +18,14 @@ import { DragDropContext, DropResult, Droppable } from '@hello-pangea/dnd';
 import AddStory from './AddStory';
 import UserStory from './UserStory';
 import ItemDetails from '../Board/ItemDetails';
-import { updateStoryItemOrder, updateStoryOrder, useGetBacklogs } from 'api/kanban';
-import MainCard from 'components/MainCard';
+import { updateStoryItemOrder, updateStoryOrder, useGetBacklogs } from '@/api/kanban';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';
 
 // types
-import { KanbanUserStory } from 'types/kanban';
+import { KanbanUserStory } from '@/types/kanban';
 
 const getDropWrapper = (isDraggingOver: boolean, theme: Theme) => ({
   bgcolor: isDraggingOver ? alpha(theme.palette.secondary.lighter, 0.65) : 'transparent'

@@ -5,24 +5,24 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import NewOrders from 'sections/widget/chart/NewOrders';
-import NewUsers from 'sections/widget/chart/NewUsers';
-import Visitors from 'sections/widget/chart/Visitors';
+import NewOrders from '@/sections/widget/chart/NewOrders';
+import NewUsers from '@/sections/widget/chart/NewUsers';
+import Visitors from '@/sections/widget/chart/Visitors';
 
-import DropboxStorage from 'sections/widget/statistics/DropboxStorage';
-import SwitchBalanace from 'sections/widget/statistics/SwitchBalanace';
+import DropboxStorage from '@/sections/widget/statistics/DropboxStorage';
+import SwitchBalanace from '@/sections/widget/statistics/SwitchBalanace';
 
-import ProjectAnalytics from 'sections/widget/chart/ProjectAnalytics';
+import ProjectAnalytics from '@/sections/widget/chart/ProjectAnalytics';
 
-import EcommerceIncome from 'sections/widget/chart/EcommerceIncome';
-import LanguagesSupport from 'sections/widget/chart/LanguagesSupport';
+import EcommerceIncome from '@/sections/widget/chart/EcommerceIncome';
+import LanguagesSupport from '@/sections/widget/chart/LanguagesSupport';
 
-import ProductOverview from 'sections/widget/chart/ProductOverview';
+import ProductOverview from '@/sections/widget/chart/ProductOverview';
 
-import PaymentHistory from 'sections/widget/data/PaymentHistory';
-import EcommerceRadial from 'sections/widget/chart/EcommerceRadial';
+import PaymentHistory from '@/sections/widget/data/PaymentHistory';
+import EcommerceRadial from '@/sections/widget/chart/EcommerceRadial';
 
 // ==============================|| DASHBOARD - ANALYTICS ||============================== //
 

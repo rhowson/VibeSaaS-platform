@@ -16,11 +16,11 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add, Link1, Task } from '@wandersonalwes/iconsax-react';

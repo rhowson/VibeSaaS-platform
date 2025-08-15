@@ -2,17 +2,17 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
-import BasicTimeline from 'sections/components-overview/timeline/BasicTimeline';
-import LeftPositionedTimeline from 'sections/components-overview/timeline/LeftPositionedTimeline';
-import AlternateTimeline from 'sections/components-overview/timeline/AlternateTimeline';
-import ColorsTimeline from 'sections/components-overview/timeline/ColorsTimeline';
-import OppositeContentTimeline from 'sections/components-overview/timeline/OppositeContentTimeline';
-import CustomizedTimeline from 'sections/components-overview/timeline/CustomizedTimeline';
+import BasicTimeline from '@/sections/components-overview/timeline/BasicTimeline';
+import LeftPositionedTimeline from '@/sections/components-overview/timeline/LeftPositionedTimeline';
+import AlternateTimeline from '@/sections/components-overview/timeline/AlternateTimeline';
+import ColorsTimeline from '@/sections/components-overview/timeline/ColorsTimeline';
+import OppositeContentTimeline from '@/sections/components-overview/timeline/OppositeContentTimeline';
+import CustomizedTimeline from '@/sections/components-overview/timeline/CustomizedTimeline';
 
 // ==============================|| COMPONENTS - TIMELINE ||============================== //
 

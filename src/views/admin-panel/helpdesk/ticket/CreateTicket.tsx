@@ -18,11 +18,11 @@ import { Formik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import ReactQuillDemo from 'components/third-party/ReactQuill';
-import UploadMultiFile from 'components/third-party/dropzone/MultiFile';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import ReactQuillDemo from '@/components/third-party/ReactQuill';
+import UploadMultiFile from '@/components/third-party/dropzone/MultiFile';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // customer names
 const names = [

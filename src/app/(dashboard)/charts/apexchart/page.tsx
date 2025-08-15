@@ -1,5 +1,5 @@
 // project-imports
-import Apexcharts from 'views/charts/Apexchart';
+import Apexcharts from '@/views/charts/Apexchart';
 
 // ==============================|| APEX CHARTS ||============================== //
 

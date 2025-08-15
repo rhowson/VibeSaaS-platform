@@ -1,5 +1,5 @@
 // project-imports
-import MembershipList from 'views/admin-panel/membership/MembershipList';
+import MembershipList from '@/views/admin-panel/membership/MembershipList';
 
 // ==============================|| MEMBERSHIP - LIST ||============================== //
 

@@ -7,7 +7,7 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
 // project-imports
-import ControlPanelStyled from 'components/third-party/map/ControlPanelStyled';
+import ControlPanelStyled from '@/components/third-party/map/ControlPanelStyled';
 
 export type ModeProps = 'side-by-side' | 'split-screen';
 

@@ -14,10 +14,10 @@ import TableRow from '@mui/material/TableRow';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { header } from 'sections/apps/tables/mui-table/header';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { CSVExport } from 'components/third-party/react-table';
+import { header } from '@/sections/apps/tables/mui-table/header';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { CSVExport } from '@/components/third-party/react-table';
 
 // assets
 import { ArrowDown2, ArrowRight2 } from '@wandersonalwes/iconsax-react';

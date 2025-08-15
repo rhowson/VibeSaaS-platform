@@ -23,16 +23,16 @@ import currency from 'currency.js';
 import CartDiscount from './CartDiscount';
 import OrderSummary from './OrderSummery';
 import ColorOptions from '../products/ColorOptions';
-import IconButton from 'components/@extended/IconButton';
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { Add, ArrowLeft2, Minus, Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { CartCheckoutStateProps, CartProductStateProps } from 'types/cart';
+import { CartCheckoutStateProps, CartProductStateProps } from '@/types/cart';
 
 const prodImage = '/assets/images/e-commerce';
 

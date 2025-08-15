@@ -7,9 +7,9 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { addStoryComment } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
+import { addStoryComment } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
 
 // third-party
 import { Chance } from 'chance';
@@ -18,8 +18,8 @@ import { Chance } from 'chance';
 import { Android, Camera, DocumentUpload } from '@wandersonalwes/iconsax-react';
 
 // types
-import { KanbanComment } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanComment } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface Props {
   storyId: string;

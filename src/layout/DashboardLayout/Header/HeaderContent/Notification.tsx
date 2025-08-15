@@ -18,11 +18,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // assets
 import { Gift, MessageText1, Notification, Setting2 } from '@wandersonalwes/iconsax-react';

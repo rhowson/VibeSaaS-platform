@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import MainCard from 'components/MainCard';
+import Dot from '@/components/@extended/Dot';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { TickCircle } from '@wandersonalwes/iconsax-react';

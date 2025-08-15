@@ -1,5 +1,5 @@
 // project-imports
-import SettingNotification from 'views/admin-panel/online-courses/setting/SettingNotification';
+import SettingNotification from '@/views/admin-panel/online-courses/setting/SettingNotification';
 
 // ==============================|| SETTING - NOTIFICATION ||============================== //
 

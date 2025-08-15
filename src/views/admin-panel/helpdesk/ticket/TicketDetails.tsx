@@ -2,11 +2,11 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
 
-import TicketDetailsCard from 'sections/admin-panel/helpdesk/ticket/details/TicketDetailsCard';
-import TicketDetailsSideCard from 'sections/admin-panel/helpdesk/ticket/details/TicketDetailsSideCard';
+import TicketDetailsCard from '@/sections/admin-panel/helpdesk/ticket/details/TicketDetailsCard';
+import TicketDetailsSideCard from '@/sections/admin-panel/helpdesk/ticket/details/TicketDetailsSideCard';
 
 // ==============================|| HELPDESK - TICKET DETAILS ||============================== //
 

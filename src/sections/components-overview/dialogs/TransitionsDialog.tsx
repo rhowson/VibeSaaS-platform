@@ -12,7 +12,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { PopupTransition } from 'components/@extended/Transitions';
+import { PopupTransition } from '@/components/@extended/Transitions';
 
 // ==============================|| DIALOG - TRANSITIONS ||============================== //
 

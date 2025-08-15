@@ -10,10 +10,10 @@ import Modal from '@mui/material/Modal';
 import Stack from '@mui/material/Stack';
 
 // third-party
-import ReactQuillDemo from 'components/third-party/ReactQuill';
+import ReactQuillDemo from '@/components/third-party/ReactQuill';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 const ImgUser = '/assets/images/online-panel/img-add-user.png';

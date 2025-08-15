@@ -3,12 +3,12 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import TicketNotificationsCard from 'components/cards/helpdesk/TicketNotificationsCard';
-import TicketListCard from 'sections/admin-panel/helpdesk/ticket/list/TicketListCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import TicketNotificationsCard from '@/components/cards/helpdesk/TicketNotificationsCard';
+import TicketListCard from '@/sections/admin-panel/helpdesk/ticket/list/TicketListCard';
 
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import { ticketNotificationsData } from 'data/helpdesk';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import { ticketNotificationsData } from '@/data/helpdesk';
 
 // ==============================|| HELPDESK - TICKET LIST ||============================== //
 

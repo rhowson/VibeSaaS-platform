@@ -28,14 +28,14 @@ import Tooltip from '@mui/material/Tooltip';
 import Box from '@mui/material/Box';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import { handlerComponentDrawer, useGetMenuMaster } from 'api/menu';
-import Logo from 'components/logo';
-import { ThemeDirection } from 'config';
-import { techData } from 'data/tech-data';
-import { useIspValue } from 'hooks/useIspValue';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import { handlerComponentDrawer, useGetMenuMaster } from '@/api/menu';
+import Logo from '@/components/logo';
+import { ThemeDirection } from '@/config';
+import { techData } from '@/data/tech-data';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // assets
 import { ArrowDown2, ArrowUp2, ExportSquare, HambergerMenu, Minus } from '@wandersonalwes/iconsax-react';

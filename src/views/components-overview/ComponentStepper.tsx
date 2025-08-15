@@ -3,14 +3,14 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import HorizontalLinearStepper from 'sections/components-overview/stepper/HorizontalLinearStepper';
-import HorizontalNonLinearStepper from 'sections/components-overview/stepper/HorizontalNonLinearStepper';
-import VerticalLinearStepper from 'sections/components-overview/stepper/VerticalLinearStepper';
-import CarouselEffectStepper from 'sections/components-overview/stepper/CarouselEffectStepper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import HorizontalLinearStepper from '@/sections/components-overview/stepper/HorizontalLinearStepper';
+import HorizontalNonLinearStepper from '@/sections/components-overview/stepper/HorizontalNonLinearStepper';
+import VerticalLinearStepper from '@/sections/components-overview/stepper/VerticalLinearStepper';
+import CarouselEffectStepper from '@/sections/components-overview/stepper/CarouselEffectStepper';
 
 // ==============================|| COMPONENTS - STEPPER ||============================== //
 

@@ -4,10 +4,10 @@ import { useMemo } from 'react';
 import useSWR, { mutate } from 'swr';
 
 // project-imports
-import { fetcher } from 'utils/axios';
+import { fetcher } from '@/utils/axios';
 
 // assets
-import { KanbanColumn, KanbanComment, KanbanItem, KanbanStateProps, KanbanUserStory } from 'types/kanban';
+import { KanbanColumn, KanbanComment, KanbanItem, KanbanStateProps, KanbanUserStory } from '@/types/kanban';
 
 const initialState: KanbanStateProps = {
   selectedItem: false

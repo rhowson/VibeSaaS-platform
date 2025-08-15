@@ -1,5 +1,5 @@
 // project-imports
-import ComponentLayout from 'layout/ComponentLayout';
+import ComponentLayout from '@/layout/ComponentLayout';
 
 // ==============================|| COMPONENT - LAYOUT ||============================== //
 

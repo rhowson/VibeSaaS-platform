@@ -9,13 +9,13 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import UserAvatar from './UserAvatar';
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { HambergerMenu } from '@wandersonalwes/iconsax-react';
 
 // types
-import { UserProfile } from 'types/user-profile';
+import { UserProfile } from '@/types/user-profile';
 
 interface Props {
   loading: boolean;

@@ -13,7 +13,7 @@ import { TreeItem, TreeItemProps, treeItemClasses } from '@mui/x-tree-view';
 import { motion } from 'framer-motion';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 function MinusSquare(props: SvgIconProps) {
   return (

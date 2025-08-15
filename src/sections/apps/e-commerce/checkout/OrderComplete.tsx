@@ -15,8 +15,8 @@ import Box from '@mui/material/Box';
 import { Chance } from 'chance';
 
 // project-imports
-import { PopupTransition } from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
+import { PopupTransition } from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
 
 // assets
 const completed = '/assets/images/e-commerce/completed.png';

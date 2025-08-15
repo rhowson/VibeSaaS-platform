@@ -13,10 +13,10 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
 
 // assets
 const avatar1 = '/assets/images/online-panel/avatar-1.jpg';

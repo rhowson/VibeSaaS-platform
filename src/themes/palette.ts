@@ -7,8 +7,8 @@ import ThemeOption from './theme';
 import { ThemeMode } from '@/config';
 
 // types
-import { PresetColor } from 'types/config';
-import { PaletteThemeProps } from 'types/theme';
+import { PresetColor } from '@/types/config';
+import { PaletteThemeProps } from '@/types/theme';
 
 // ==============================|| DEFAULT THEME - PALETTE  ||============================== //
 

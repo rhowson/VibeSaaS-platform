@@ -6,10 +6,10 @@ import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import { ThemeDirection } from 'config';
-import useConfig from 'hooks/useConfig';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import { ThemeDirection } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 import { Back, Copy, Next, Trash } from '@wandersonalwes/iconsax-react';

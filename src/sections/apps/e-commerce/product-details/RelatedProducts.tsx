@@ -18,19 +18,19 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
-import { useGetRelatedProducts } from 'api/products';
-import { openSnackbar } from 'api/snackbar';
+import { useGetRelatedProducts } from '@/api/products';
+import { openSnackbar } from '@/api/snackbar';
 
 // assets
 import { Heart } from '@wandersonalwes/iconsax-react';
 
 // types
-import { Products } from 'types/e-commerce';
-import { SnackbarProps } from 'types/snackbar';
+import { Products } from '@/types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
 
 function ListProduct({ product }: { product: Products }) {
   const [wishlisted, setWishlisted] = useState<boolean>(false);

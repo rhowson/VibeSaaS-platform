@@ -6,7 +6,7 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 
 // project-imports
-import ControlPanelStyled from 'components/third-party/map/ControlPanelStyled';
+import ControlPanelStyled from '@/components/third-party/map/ControlPanelStyled';
 
 export type CityProps = {
   city: string;

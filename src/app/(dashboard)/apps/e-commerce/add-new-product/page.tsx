@@ -1,5 +1,5 @@
 // project-imports
-import AddNewProduct from 'views/apps/AddNewProduct';
+import AddNewProduct from '@/views/apps/AddNewProduct';
 
 // ==============================|| ECOMMERCE - ADD PRODUCT ||============================== //
 

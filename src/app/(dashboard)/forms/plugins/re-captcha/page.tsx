@@ -1,5 +1,5 @@
 // project-imports
-import RecaptchaPage from 'views/forms-tables/forms/plugins/RecaptchaPage';
+import RecaptchaPage from '@/views/forms-tables/forms/plugins/RecaptchaPage';
 
 // ==============================|| PLUGIN - RECAPTCHA ||============================== //
 

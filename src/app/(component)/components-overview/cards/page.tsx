@@ -1,5 +1,5 @@
 // project-imports
-import ComponentCard from 'views/components-overview/ComponentCard';
+import ComponentCard from '@/views/components-overview/ComponentCard';
 
 // ==============================|| COMPONENTS - CARD ||============================== //
 

@@ -21,21 +21,21 @@ import Box from '@mui/material/Box';
 import EmojiPicker, { SkinTones, EmojiClickData } from 'emoji-picker-react';
 
 // project-imports
-import CircularWithPath from 'components/@extended/progress/CircularWithPath';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import { PopupTransition } from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import CircularWithPath from '@/components/@extended/progress/CircularWithPath';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import { PopupTransition } from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
-import ChatDrawer from 'sections/apps/chat/ChatDrawer';
-import ChatHeader from 'sections/apps/chat/ChatHeader';
-import ChatHistory from 'sections/apps/chat/ChatHistory';
-import UserDetails from 'sections/apps/chat/UserDetails';
+import ChatDrawer from '@/sections/apps/chat/ChatDrawer';
+import ChatHeader from '@/sections/apps/chat/ChatHeader';
+import ChatHistory from '@/sections/apps/chat/ChatHistory';
+import UserDetails from '@/sections/apps/chat/UserDetails';
 
-import { insertChat, useGetUsers } from 'api/chat';
-import { openSnackbar } from 'api/snackbar';
-import incrementer from 'utils/incrementer';
+import { insertChat, useGetUsers } from '@/api/chat';
+import { openSnackbar } from '@/api/snackbar';
+import incrementer from '@/utils/incrementer';
 
 // assets
 import {
@@ -54,8 +54,8 @@ import {
 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { UserProfile } from 'types/user-profile';
+import { SnackbarProps } from '@/types/snackbar';
+import { UserProfile } from '@/types/user-profile';
 
 const drawerWidth = 320;
 

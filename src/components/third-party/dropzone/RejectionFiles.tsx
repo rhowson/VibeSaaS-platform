@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import { FileRejection } from 'react-dropzone';
 
 // project-imports
-import getDropzoneData from 'utils/getDropzoneData';
+import getDropzoneData from '@/utils/getDropzoneData';
 
 type Props = { fileRejections: readonly FileRejection[] };
 

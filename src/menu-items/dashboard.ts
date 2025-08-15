@@ -1,11 +1,11 @@
 // project-imports
-import { useGetMenu } from 'api/menu';
+import { useGetMenu } from '@/api/menu';
 
 // assets
 import { Refresh, Home3, HomeTrendUp, Box1 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 const icons = {
   navigation: Home3,

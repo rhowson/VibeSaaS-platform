@@ -4,7 +4,7 @@ import { ChangeEvent, SyntheticEvent } from 'react';
 import { TableCellProps } from '@mui/material/TableCell';
 
 // project-imports
-import { Gender } from 'config';
+import { Gender } from '@/config';
 
 // types
 import { KeyedObject } from './root';

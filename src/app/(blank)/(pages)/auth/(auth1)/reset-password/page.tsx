@@ -1,5 +1,5 @@
 // project-imports
-import ResetPasswordPage from 'views/auth/auth1/ResetPassword';
+import ResetPasswordPage from '@/views/auth/auth1/ResetPassword';
 
 // ================================|| RESET PASSWORD ||================================ //
 

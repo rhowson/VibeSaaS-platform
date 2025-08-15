@@ -10,15 +10,15 @@ import StepLabel from '@mui/material/StepLabel';
 import Stepper from '@mui/material/Stepper';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH } from '@/config';
 
-import AddBio from 'sections/admin-panel/online-courses/site/AddBio';
-import SiteTheme from 'sections/admin-panel/online-courses/site/SiteTheme';
-import SiteDomain from 'sections/admin-panel/online-courses/site/SiteDomain';
-import SiteBio from 'sections/admin-panel/online-courses/site/SiteBio';
-import SitePage from 'sections/admin-panel/online-courses/site/SitePage';
+import AddBio from '@/sections/admin-panel/online-courses/site/AddBio';
+import SiteTheme from '@/sections/admin-panel/online-courses/site/SiteTheme';
+import SiteDomain from '@/sections/admin-panel/online-courses/site/SiteDomain';
+import SiteBio from '@/sections/admin-panel/online-courses/site/SiteBio';
+import SitePage from '@/sections/admin-panel/online-courses/site/SitePage';
 
 // assets
 import { Add, ArrowLeft2, ArrowRight2, Save2 } from '@wandersonalwes/iconsax-react';

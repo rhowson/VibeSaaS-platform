@@ -12,9 +12,9 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { Link2, Trash } from '@wandersonalwes/iconsax-react';

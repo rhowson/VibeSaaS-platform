@@ -1,5 +1,5 @@
 // project-imports
-import ComponentList from 'views/components-overview/ComponentList';
+import ComponentList from '@/views/components-overview/ComponentList';
 
 // ==============================|| COMPONENTS - LIST ||============================== //
 

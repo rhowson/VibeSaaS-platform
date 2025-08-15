@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // types
-import { GenericCardProps } from 'types/root';
+import { GenericCardProps } from '@/types/root';
 
 // ===========================|| STATISTICS - HOVER SOCIAL CARD ||=========================== //
 

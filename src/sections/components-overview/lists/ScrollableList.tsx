@@ -7,7 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // third-party
 import { FixedSizeList, ListChildComponentProps } from 'react-window';

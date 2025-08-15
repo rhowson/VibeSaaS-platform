@@ -16,8 +16,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // styles & constant
 const ITEM_HEIGHT = 48;

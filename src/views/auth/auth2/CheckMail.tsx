@@ -10,9 +10,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import useUser from 'hooks/useUser';
-import AnimateButton from 'components/@extended/AnimateButton';
-import AuthWrapper2 from 'sections/auth/AuthWrapper2';
+import useUser from '@/hooks/useUser';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import AuthWrapper2 from '@/sections/auth/AuthWrapper2';
 
 // ================================|| CHECK MAIL ||================================ //
 

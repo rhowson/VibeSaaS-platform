@@ -7,7 +7,7 @@ import { Map, ViewStateChangeEvent } from 'react-map-gl/mapbox';
 import ControlPanel, { ModeProps } from './control-panel';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 const leftMapStyle: CSSProperties = {
   position: 'absolute',

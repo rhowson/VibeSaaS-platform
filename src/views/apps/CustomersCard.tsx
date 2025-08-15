@@ -15,20 +15,20 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import EmptyUserCard from 'components/cards/skeleton/EmptyUserCard';
-import { DebouncedInput } from 'components/third-party/react-table';
-import CustomerCard from 'sections/apps/customer/CustomerCard';
-import CustomerModal from 'sections/apps/customer/CustomerModal';
+import EmptyUserCard from '@/components/cards/skeleton/EmptyUserCard';
+import { DebouncedInput } from '@/components/third-party/react-table';
+import CustomerCard from '@/sections/apps/customer/CustomerCard';
+import CustomerModal from '@/sections/apps/customer/CustomerModal';
 
-import { useGetCustomer } from 'api/customer';
-import { GRID_COMMON_SPACING } from 'config';
-import usePagination from 'hooks/usePagination';
+import { useGetCustomer } from '@/api/customer';
+import { GRID_COMMON_SPACING } from '@/config';
+import usePagination from '@/hooks/usePagination';
 
 // assets
 import { Add, SearchNormal1 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // ==============================|| CUSTOMER - CARD ||============================== //
 

@@ -16,10 +16,10 @@ import { motion } from 'framer-motion';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { techData } from 'data/tech-data';
-import { useIspValue } from 'hooks/useIspValue';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { techData } from '@/data/tech-data';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // assets
 import { ExportSquare } from '@wandersonalwes/iconsax-react';

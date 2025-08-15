@@ -15,8 +15,8 @@ import AddressForm, { ShippingData } from './AddressForm';
 import PaymentForm, { PaymentData } from './PaymentForm';
 import Review from './Review';
 
-import AnimateButton from 'components/@extended/AnimateButton';
-import MainCard from 'components/MainCard';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import MainCard from '@/components/MainCard';
 
 // step options
 const steps = ['Shipping address', 'Payment details', 'Review your order'];

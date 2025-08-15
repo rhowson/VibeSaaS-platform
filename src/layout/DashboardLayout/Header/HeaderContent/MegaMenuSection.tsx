@@ -20,12 +20,12 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
-import AnimateButton from 'components/@extended/AnimateButton';
-import MainCard from 'components/MainCard';
-import { DRAWER_WIDTH } from 'config';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import MainCard from '@/components/MainCard';
+import { DRAWER_WIDTH } from '@/config';
 
 // assets
 import { Windows, ArrowRight3 } from '@wandersonalwes/iconsax-react';

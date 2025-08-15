@@ -6,13 +6,13 @@ import Stack from '@mui/material/Stack';
 // project-imports
 import ProductFilter from './ProductFilter';
 import ProductFilterView from './ProductFilterView';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { HEADER_HEIGHT } from 'config';
-import useConfig from 'hooks/useConfig';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { HEADER_HEIGHT } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // types
-import { ProductsFilter } from 'types/e-commerce';
+import { ProductsFilter } from '@/types/e-commerce';
 
 interface FilterDrawerProps {
   filter: ProductsFilter;

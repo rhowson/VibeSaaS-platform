@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import { format } from 'date-fns';
 
 // project-imports
-import ControlPanelStyled from 'components/third-party/map/ControlPanelStyled';
+import ControlPanelStyled from '@/components/third-party/map/ControlPanelStyled';
 
 type Props = {
   startTime: number;

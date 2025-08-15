@@ -19,11 +19,11 @@ import Typography from '@mui/material/Typography';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import { ThemeMode } from 'config';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import { ThemeMode } from '@/config';
 
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 

@@ -10,8 +10,8 @@ import Box from '@mui/material/Box';
 // project-imports
 import Navigation from './DrawerContent/Navigation';
 
-import { HEADER_HEIGHT } from 'config';
-import useConfig from 'hooks/useConfig';
+import { HEADER_HEIGHT } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 interface ElevationScrollProps {
   children: ReactElement;

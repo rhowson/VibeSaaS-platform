@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import RevenueAnalyticsChart from './RevenueAnalyticsChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| DASHBOARD - REVENUE ANALYTICS ||============================== //
 

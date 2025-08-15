@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import AuthWrapper from 'sections/auth/AuthWrapper';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import AuthWrapper from '@/sections/auth/AuthWrapper';
 
 // ================================|| CHECK MAIL ||================================ //
 

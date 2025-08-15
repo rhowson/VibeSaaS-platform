@@ -22,12 +22,12 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import MainCard from 'components/MainCard';
-import countries from 'data/countries';
+import { openSnackbar } from '@/api/snackbar';
+import MainCard from '@/components/MainCard';
+import countries from '@/data/countries';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

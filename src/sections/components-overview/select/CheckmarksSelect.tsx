@@ -12,7 +12,7 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;

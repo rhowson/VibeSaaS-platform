@@ -12,8 +12,8 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import MembershipStateChart from './MembershipStateChart';
-import Dot from 'components/@extended/Dot';
-import MainCard from 'components/MainCard';
+import Dot from '@/components/@extended/Dot';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| DASHBOARD - MEMBERSHIP STATE ||============================== //
 

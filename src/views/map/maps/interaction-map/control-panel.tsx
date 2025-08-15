@@ -8,10 +8,10 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import ControlPanelStyled from 'components/third-party/map/ControlPanelStyled';
+import ControlPanelStyled from '@/components/third-party/map/ControlPanelStyled';
 
 // types
-import { MapControlKeys, MapControlProps } from 'types/map';
+import { MapControlKeys, MapControlProps } from '@/types/map';
 
 const RowStyled = styled(Box)(({ theme }) => ({
   display: 'flex',

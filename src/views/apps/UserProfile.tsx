@@ -9,16 +9,16 @@ import { usePathname } from 'next/navigation';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ProfileCard from 'sections/apps/profiles/user/ProfileCard';
-import ProfileTabs from 'sections/apps/profiles/user/ProfileTabs';
-import TabPersonal from 'sections/apps/profiles/user/TabPersonal';
-import TabPayment from 'sections/apps/profiles/user/TabPayment';
-import TabPassword from 'sections/apps/profiles/user/TabPassword';
-import TabSettings from 'sections/apps/profiles/user/TabSettings';
+import ProfileCard from '@/sections/apps/profiles/user/ProfileCard';
+import ProfileTabs from '@/sections/apps/profiles/user/ProfileTabs';
+import TabPersonal from '@/sections/apps/profiles/user/TabPersonal';
+import TabPayment from '@/sections/apps/profiles/user/TabPayment';
+import TabPassword from '@/sections/apps/profiles/user/TabPassword';
+import TabSettings from '@/sections/apps/profiles/user/TabSettings';
 
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
 
 type Props = {
   tab: string;

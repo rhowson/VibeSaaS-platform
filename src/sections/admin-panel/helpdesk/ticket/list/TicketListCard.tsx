@@ -10,10 +10,10 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import TicketDetailsDrawer from './TicketDetailsDrawer';
-import TicketCommonCard from 'components/cards/helpdesk/TicketCommonCard';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
-import { ticketData } from 'data/helpdesk';
+import TicketCommonCard from '@/components/cards/helpdesk/TicketCommonCard';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
+import { ticketData } from '@/data/helpdesk';
 
 // assets
 import { Element3, HambergerMenu, TextalignJustifycenter } from '@wandersonalwes/iconsax-react';

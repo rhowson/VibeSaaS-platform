@@ -1,5 +1,5 @@
 // project-imports
-import VirtualizedTable from 'views/forms-tables/tables/react-table/VirtualizedTable';
+import VirtualizedTable from '@/views/forms-tables/tables/react-table/VirtualizedTable';
 
 // ==============================|| REACT TABLE - VIRTUALIZED ||============================== //
 

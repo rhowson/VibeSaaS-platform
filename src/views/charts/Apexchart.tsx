@@ -2,18 +2,18 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // charts
-import ApexAreaChart from 'sections/charts/apexchart/ApexAreaChart';
-import ApexBarChart from 'sections/charts/apexchart/ApexBarChart';
-import ApexColumnChart from 'sections/charts/apexchart/ApexColumnChart';
-import ApexLineChart from 'sections/charts/apexchart/ApexLineChart';
-import ApexMixedChart from 'sections/charts/apexchart/ApexMixedChart';
-import ApexPieChart from 'sections/charts/apexchart/ApexPieChart';
-import ApexPolarChart from 'sections/charts/apexchart/ApexPolarChart';
-import ApexRedialChart from 'sections/charts/apexchart/ApexRadialChart';
+import ApexAreaChart from '@/sections/charts/apexchart/ApexAreaChart';
+import ApexBarChart from '@/sections/charts/apexchart/ApexBarChart';
+import ApexColumnChart from '@/sections/charts/apexchart/ApexColumnChart';
+import ApexLineChart from '@/sections/charts/apexchart/ApexLineChart';
+import ApexMixedChart from '@/sections/charts/apexchart/ApexMixedChart';
+import ApexPieChart from '@/sections/charts/apexchart/ApexPieChart';
+import ApexPolarChart from '@/sections/charts/apexchart/ApexPolarChart';
+import ApexRedialChart from '@/sections/charts/apexchart/ApexRadialChart';
 
 // ==============================|| APEX CHARTS ||============================== //
 

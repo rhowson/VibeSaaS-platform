@@ -4,10 +4,10 @@ import { ChangeEvent } from 'react';
 import OutlinedInput from '@mui/material/OutlinedInput';
 
 // project-imports
-import { editColumn } from 'api/kanban';
+import { editColumn } from '@/api/kanban';
 
 // types
-import { KanbanColumn } from 'types/kanban';
+import { KanbanColumn } from '@/types/kanban';
 
 interface Props {
   column: KanbanColumn;

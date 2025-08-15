@@ -34,11 +34,11 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 import {
   CSVExport,
@@ -47,15 +47,15 @@ import {
   RowSelection,
   SelectColumnSorting,
   TablePagination
-} from 'components/third-party/react-table';
+} from '@/components/third-party/react-table';
 
-import { useGetCustomer } from 'api/customer';
-import { APP_DEFAULT_PATH } from 'config';
-import EmptyReactTable from 'views/forms-tables/tables/react-table/EmptyTable';
-import AlertMembershipDelete from 'sections/admin-panel/membership/list/AlertMembershipDelete';
+import { useGetCustomer } from '@/api/customer';
+import { APP_DEFAULT_PATH } from '@/config';
+import EmptyReactTable from '@/views/forms-tables/tables/react-table/EmptyTable';
+import AlertMembershipDelete from '@/sections/admin-panel/membership/list/AlertMembershipDelete';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { Add, Edit, Eye, Trash } from '@wandersonalwes/iconsax-react';

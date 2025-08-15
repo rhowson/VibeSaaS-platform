@@ -6,7 +6,7 @@ import Content from './Content';
 import Header from './Header';
 
 // types
-import { InvoiceList } from 'types/invoice';
+import { InvoiceList } from '@/types/invoice';
 
 const styles = StyleSheet.create({
   page: {

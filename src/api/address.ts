@@ -4,10 +4,10 @@ import { useMemo } from 'react';
 import useSWR, { mutate } from 'swr';
 
 // project-imports
-import { fetcher } from 'utils/axios';
+import { fetcher } from '@/utils/axios';
 
 // types
-import { Address } from 'types/e-commerce';
+import { Address } from '@/types/e-commerce';
 
 // ==============================|| API - ADDRESS ||============================== //
 

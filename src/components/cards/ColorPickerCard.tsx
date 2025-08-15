@@ -7,8 +7,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import ColorPreview from 'components/ColorPreview';
-import MainCard from 'components/MainCard';
+import ColorPreview from '@/components/ColorPreview';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| COLOR PICKER CARD ||============================== //
 

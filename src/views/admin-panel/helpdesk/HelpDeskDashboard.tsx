@@ -4,16 +4,16 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import SupportCard from 'components/cards/helpdesk/SupportCard';
-import SocialSourceCard from 'components/cards/helpdesk/SocialSourceCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import SupportCard from '@/components/cards/helpdesk/SupportCard';
+import SocialSourceCard from '@/components/cards/helpdesk/SocialSourceCard';
 
-import CustomerSatisfaction from 'sections/admin-panel/helpdesk/dashboard/CustomerSatisfaction';
-import LatestActivity from 'sections/admin-panel/helpdesk/dashboard/LatestActivity';
-import TicketsAnsweredCard from 'sections/admin-panel/helpdesk/dashboard/TicketsAnsweredCard';
+import CustomerSatisfaction from '@/sections/admin-panel/helpdesk/dashboard/CustomerSatisfaction';
+import LatestActivity from '@/sections/admin-panel/helpdesk/dashboard/LatestActivity';
+import TicketsAnsweredCard from '@/sections/admin-panel/helpdesk/dashboard/TicketsAnsweredCard';
 
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import { sourceData, supportData } from 'data/helpdesk';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import { sourceData, supportData } from '@/data/helpdesk';
 
 // ==============================|| HELPDESK - DASHBOARD ||============================== //
 

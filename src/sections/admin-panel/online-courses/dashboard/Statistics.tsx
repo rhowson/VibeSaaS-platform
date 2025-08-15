@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import StatisticsChart from './charts/StatisticsChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const statisticsData: { [key: string]: { name: string; data: number[] }[] } = {
   today: [

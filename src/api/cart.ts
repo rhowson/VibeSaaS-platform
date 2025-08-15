@@ -6,7 +6,7 @@ import { filter } from 'lodash-es';
 import useSWR, { mutate } from 'swr';
 
 // types
-import { Address, CartCheckoutStateProps, ProductCardProps } from 'types/cart';
+import { Address, CartCheckoutStateProps, ProductCardProps } from '@/types/cart';
 
 const chance = new Chance();
 const LOCAL_STORAGE = 'able-pro-material-next-ts';

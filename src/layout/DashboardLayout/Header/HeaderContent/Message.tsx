@@ -9,11 +9,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MessageCard from 'components/cards/statistics/MessageCard';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { ThemeMode } from 'config';
+import MessageCard from '@/components/cards/statistics/MessageCard';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { ThemeMode } from '@/config';
 
 // assets
 import { Add, NotificationStatus } from '@wandersonalwes/iconsax-react';

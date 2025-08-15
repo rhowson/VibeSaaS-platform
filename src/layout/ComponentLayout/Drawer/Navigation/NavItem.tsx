@@ -14,13 +14,13 @@ import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
 
 // project imports
-import { handlerActiveComponent, handlerComponentDrawer, useGetMenuMaster } from 'api/menu';
+import { handlerActiveComponent, handlerComponentDrawer, useGetMenuMaster } from '@/api/menu';
 
 // third-party
 import { FormattedMessage } from 'react-intl';
 
 // types
-import { LinkTarget, NavItemType } from 'types/menu';
+import { LinkTarget, NavItemType } from '@/types/menu';
 
 // ==============================|| NAVIGATION - LIST ITEM ||============================== //
 

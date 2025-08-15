@@ -5,8 +5,8 @@ import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import data from 'data/movies';
+import MainCard from '@/components/MainCard';
+import data from '@/data/movies';
 
 // ==============================|| AUTOCOMPLETE - GROUPED ||============================== //
 

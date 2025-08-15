@@ -1,5 +1,5 @@
 // project-imports
-import InvoiceDashboard from 'views/apps/InvoiceDashboard';
+import InvoiceDashboard from '@/views/apps/InvoiceDashboard';
 
 // ==============================|| INVOICE - DASHBOARD ||============================== //
 

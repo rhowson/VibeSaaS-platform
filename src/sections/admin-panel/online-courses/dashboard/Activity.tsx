@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import ActivityChart from './charts/ActivityChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const activityData: { [key: string]: { name: string; data: number[] }[] } = {
   today: [

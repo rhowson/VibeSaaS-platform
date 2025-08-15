@@ -5,10 +5,10 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 
 // project-imports
-import AntAvatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import AntAvatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
 // assets
 const avatarImage = '/assets/images/users';

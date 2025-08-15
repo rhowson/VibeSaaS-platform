@@ -1,5 +1,5 @@
 // project-imports
-import MembershipPrice from 'views/admin-panel/membership/MembershipPrice';
+import MembershipPrice from '@/views/admin-panel/membership/MembershipPrice';
 
 // ==============================|| MEMBERSHIP - PRICE ||============================== //
 

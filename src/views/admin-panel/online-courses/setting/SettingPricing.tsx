@@ -1,8 +1,8 @@
 // project-imports
-import Pricing1 from 'sections/pricing/Pricing1';
+import Pricing1 from '@/sections/pricing/Pricing1';
 
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // ==============================|| SETTING - PRICING ||============================== //
 

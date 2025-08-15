@@ -1,5 +1,5 @@
 // project-imports
-import ComponentAlert from 'views/components-overview/ComponentAlert';
+import ComponentAlert from '@/views/components-overview/ComponentAlert';
 
 // ==============================|| COMPONENTS - ALERTS ||============================== //
 

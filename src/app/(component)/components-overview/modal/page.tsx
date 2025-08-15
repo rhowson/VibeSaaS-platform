@@ -1,5 +1,5 @@
 // project-imports
-import ComponentModal from 'views/components-overview/ComponentModal';
+import ComponentModal from '@/views/components-overview/ComponentModal';
 
 // ==============================|| COMPONENTS - MODAL ||============================== //
 

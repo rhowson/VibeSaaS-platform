@@ -5,8 +5,8 @@ import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Camera, DocumentFilter, Gps } from '@wandersonalwes/iconsax-react';

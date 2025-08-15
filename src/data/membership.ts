@@ -1,5 +1,5 @@
 // types
-import { ColorProps } from 'types/extended';
+import { ColorProps } from '@/types/extended';
 
 // assets
 import { Bookmark2, Money, ProfileDelete, RefreshCircle } from '@wandersonalwes/iconsax-react';

@@ -22,13 +22,13 @@ import Box from '@mui/material/Box';
 import OtpInput from 'react-otp-input';
 
 // project-imports
-import Logo from 'components/logo';
-import AuthCard from 'sections/auth/AuthCard';
-import AuthSocButton from 'sections/auth/AuthSocButton';
-import AuthWrapper3 from 'sections/auth/AuthWrapper3';
+import Logo from '@/components/logo';
+import AuthCard from '@/sections/auth/AuthCard';
+import AuthSocButton from '@/sections/auth/AuthSocButton';
+import AuthWrapper3 from '@/sections/auth/AuthWrapper3';
 
-import { GRID_COMMON_SPACING, ThemeMode } from 'config';
-import useUser from 'hooks/useUser';
+import { GRID_COMMON_SPACING, ThemeMode } from '@/config';
+import useUser from '@/hooks/useUser';
 
 // assets
 import { User, Home3 } from '@wandersonalwes/iconsax-react';

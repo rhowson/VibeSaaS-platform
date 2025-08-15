@@ -2,11 +2,11 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ExpandingTable from 'sections/tables/react-table/ExpandingTable';
-import ExpandingDetails from 'sections/tables/react-table/ExpandingDetails';
-import ExpandingSubTable from 'sections/tables/react-table/ExpandingSubTable';
+import ExpandingTable from '@/sections/tables/react-table/ExpandingTable';
+import ExpandingDetails from '@/sections/tables/react-table/ExpandingDetails';
+import ExpandingSubTable from '@/sections/tables/react-table/ExpandingSubTable';
 
 // ==============================|| REACT TABLE - EXPANDING ||============================== //
 

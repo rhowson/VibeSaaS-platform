@@ -20,15 +20,15 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import NavItem from './NavItem';
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
-import { MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
-import useMenuCollapse from 'hooks/useMenuCollapse';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
+import { MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
+import useMenuCollapse from '@/hooks/useMenuCollapse';
 
 // third-party
 import { FormattedMessage } from 'react-intl';
@@ -37,7 +37,7 @@ import { FormattedMessage } from 'react-intl';
 import { ArrowDown2, ArrowUp2, ArrowRight2, Copy } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 type ListItemClick =
   | React.MouseEvent<HTMLButtonElement>

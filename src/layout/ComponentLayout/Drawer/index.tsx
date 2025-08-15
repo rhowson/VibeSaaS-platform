@@ -8,9 +8,9 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import DrawerContent from './DrawerContent';
-import MainCard from 'components/MainCard';
-import { handlerComponentDrawer, useGetMenuMaster } from 'api/menu';
-import { DRAWER_WIDTH } from 'config';
+import MainCard from '@/components/MainCard';
+import { handlerComponentDrawer, useGetMenuMaster } from '@/api/menu';
+import { DRAWER_WIDTH } from '@/config';
 
 // assets
 import { SearchNormal1 } from '@wandersonalwes/iconsax-react';

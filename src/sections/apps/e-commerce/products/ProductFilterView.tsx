@@ -9,10 +9,10 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import ColorOptions from './ColorOptions';
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // types
-import { ProductsFilter } from 'types/e-commerce';
+import { ProductsFilter } from '@/types/e-commerce';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

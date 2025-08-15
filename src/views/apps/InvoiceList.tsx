@@ -42,12 +42,12 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import IconButton from 'components/@extended/IconButton';
-import InvoiceCard from 'components/cards/invoice/InvoiceCard';
-import InvoiceChart from 'components/cards/invoice/InvoiceChart';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import IconButton from '@/components/@extended/IconButton';
+import InvoiceCard from '@/components/cards/invoice/InvoiceCard';
+import InvoiceChart from '@/components/cards/invoice/InvoiceChart';
+import MainCard from '@/components/MainCard';
 
 import {
   CSVExport,
@@ -57,17 +57,17 @@ import {
   RowSelection,
   SelectColumnSorting,
   TablePagination
-} from 'components/third-party/react-table';
-import EmptyTables from 'views/forms-tables/tables/react-table/EmptyTable';
-import AlertProductDelete from 'sections/apps/invoice/AlertProductDelete';
+} from '@/components/third-party/react-table';
+import EmptyTables from '@/views/forms-tables/tables/react-table/EmptyTable';
+import AlertProductDelete from '@/sections/apps/invoice/AlertProductDelete';
 
-import { handlerDelete, deleteInvoice, useGetInvoice, useGetInvoiceMaster } from 'api/invoice';
-import { openSnackbar } from 'api/snackbar';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
+import { handlerDelete, deleteInvoice, useGetInvoice, useGetInvoiceMaster } from '@/api/invoice';
+import { openSnackbar } from '@/api/snackbar';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
 
 // types
-import { InvoiceList } from 'types/invoice';
-import { SnackbarProps } from 'types/snackbar';
+import { InvoiceList } from '@/types/invoice';
+import { SnackbarProps } from '@/types/snackbar';
 // assets
 import { Edit, Eye, InfoCircle, ProfileTick, Trash } from '@wandersonalwes/iconsax-react';
 

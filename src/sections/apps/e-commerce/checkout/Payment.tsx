@@ -31,12 +31,12 @@ import PaymentCard from './PaymentCard';
 import PaymentOptions from './PaymentOptions';
 import PaymentSelect from './PaymentSelect';
 
-import { setPaymentCard, setPaymentMethod } from 'api/cart';
-import { openSnackbar } from 'api/snackbar';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import { setPaymentCard, setPaymentMethod } from '@/api/cart';
+import { openSnackbar } from '@/api/snackbar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { ArrowLeft2, TickCircle, Trash } from '@wandersonalwes/iconsax-react';
@@ -48,9 +48,9 @@ const paypalcard = '/assets/images/e-commerce/paypal.png';
 const prodImage = '/assets/images/e-commerce';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { CartCheckoutStateProps } from 'types/cart';
-import { Address, PaymentOptionsProps } from 'types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
+import { CartCheckoutStateProps } from '@/types/cart';
+import { Address, PaymentOptionsProps } from '@/types/e-commerce';
 
 interface PaymentProps {
   checkout: CartCheckoutStateProps;

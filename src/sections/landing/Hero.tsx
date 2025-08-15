@@ -15,9 +15,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import { techData } from 'data/tech-data';
-import { useIspValue } from 'hooks/useIspValue';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import { techData } from '@/data/tech-data';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // third-party
 import { motion } from 'framer-motion';

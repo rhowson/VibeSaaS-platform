@@ -9,22 +9,22 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
-import { updateAddress } from 'api/address';
-import { removeCartProduct, setBackStep, setBillingAddress, setCheckoutStep, setNextStep, updateCartProduct } from 'api/cart';
-import { openSnackbar } from 'api/snackbar';
-import { GRID_COMMON_SPACING } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import { updateAddress } from '@/api/address';
+import { removeCartProduct, setBackStep, setBillingAddress, setCheckoutStep, setNextStep, updateCartProduct } from '@/api/cart';
+import { openSnackbar } from '@/api/snackbar';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import BillingAddress from 'sections/apps/e-commerce/checkout/BillingAddress';
-import Cart from 'sections/apps/e-commerce/checkout/Cart';
-import CartEmpty from 'sections/apps/e-commerce/checkout/CartEmpty';
-import Payment from 'sections/apps/e-commerce/checkout/Payment';
+import BillingAddress from '@/sections/apps/e-commerce/checkout/BillingAddress';
+import Cart from '@/sections/apps/e-commerce/checkout/Cart';
+import CartEmpty from '@/sections/apps/e-commerce/checkout/CartEmpty';
+import Payment from '@/sections/apps/e-commerce/checkout/Payment';
 
 // types
-import { CartCheckoutStateProps } from 'types/cart';
-import { Address, TabsProps } from 'types/e-commerce';
-import { SnackbarProps } from 'types/snackbar';
+import { CartCheckoutStateProps } from '@/types/cart';
+import { Address, TabsProps } from '@/types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { TickCircle } from '@wandersonalwes/iconsax-react';

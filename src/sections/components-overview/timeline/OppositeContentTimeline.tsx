@@ -10,7 +10,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| TIMELINE - OPPOSITE CONTENT ||============================== //
 

@@ -12,8 +12,8 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import ProfileRadialChart from './ProfileRadialChart';
-import MainCard from 'components/MainCard';
-import { ThemeDirection } from 'config';
+import MainCard from '@/components/MainCard';
+import { ThemeDirection } from '@/config';
 
 // assets
 import BackLeft from '../../../../../public/assets/images/profile/UserProfileBackLeft';

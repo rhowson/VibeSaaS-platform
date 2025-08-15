@@ -3,8 +3,8 @@
 import { useState } from 'react';
 
 // project imports
-import ReactQuill from 'components/third-party/ReactQuill';
-import MainCard from 'components/MainCard';
+import ReactQuill from '@/components/third-party/ReactQuill';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| PLUGINS - EDITOR ||============================== //
 

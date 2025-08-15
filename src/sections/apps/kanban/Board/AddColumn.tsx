@@ -13,16 +13,16 @@ import Box from '@mui/material/Box';
 import { Chance } from 'chance';
 
 // project-imports
-import { addColumn } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import { addColumn } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 const chance = new Chance();
 

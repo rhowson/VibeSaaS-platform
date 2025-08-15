@@ -1,5 +1,5 @@
 // project-imports
-import DashboardFinance from 'views/dashboard/DashboardFinance';
+import DashboardFinance from '@/views/dashboard/DashboardFinance';
 
 // ==============================|| DASHBOARD - DEFAULT ||============================== //
 

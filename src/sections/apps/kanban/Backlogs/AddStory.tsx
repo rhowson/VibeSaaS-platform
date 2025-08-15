@@ -29,21 +29,21 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import { addStory, useGetBacklogs } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import AnimateButton from 'components/@extended/AnimateButton';
-import UploadMultiFile from 'components/third-party/dropzone/MultiFile';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { DropzopType } from 'config';
+import { addStory, useGetBacklogs } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import UploadMultiFile from '@/components/third-party/dropzone/MultiFile';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { DropzopType } from '@/config';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';
 const avatarImage = '/assets/images/users';
 
 // types
-import { KanbanColumn, KanbanProfile } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanColumn, KanbanProfile } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface Props {
   open: boolean;

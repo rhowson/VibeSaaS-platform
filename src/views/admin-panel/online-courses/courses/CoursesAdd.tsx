@@ -23,9 +23,9 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { useDropzone } from 'react-dropzone';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // assets
 import { DocumentUpload, Trash } from '@wandersonalwes/iconsax-react';

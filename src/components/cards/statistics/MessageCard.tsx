@@ -7,8 +7,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import MainCard from 'components/MainCard';
+import Dot from '@/components/@extended/Dot';
+import MainCard from '@/components/MainCard';
 
 interface MessageActions {
   label: string;

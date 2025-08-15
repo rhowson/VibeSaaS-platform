@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { APP_DEFAULT_PATH } from 'config';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // assets
 const construction = '/assets/images/maintenance/img-cunstruct-1.svg';

@@ -1,5 +1,5 @@
 // types
-import { SortOptionsProps } from 'types/e-commerce';
+import { SortOptionsProps } from '@/types/e-commerce';
 
 // ==============================|| PRODUCT - SORT FILTER ||============================== //
 

@@ -9,7 +9,7 @@ import TextToggleButtons from './TextToggleButtons';
 import VariantToggleButtons from './VariantToggleButtons';
 import VerticalToggleButtons from './VerticalToggleButtons';
 
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| TOGGLE BUTTON ||============================== //
 

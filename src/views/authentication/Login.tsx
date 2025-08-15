@@ -7,8 +7,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AuthWrapper from 'sections/auth/AuthWrapper';
-import AuthLogin from 'sections/auth/auth-forms/AuthLogin';
+import AuthWrapper from '@/sections/auth/AuthWrapper';
+import AuthLogin from '@/sections/auth/auth-forms/AuthLogin';
 
 // ================================|| LOGIN ||================================ //
 

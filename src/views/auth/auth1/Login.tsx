@@ -10,12 +10,12 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import useUser from 'hooks/useUser';
-import Logo from 'components/logo';
-import AuthSocButton from 'sections/auth/AuthSocButton';
-import AuthDivider from 'sections/auth/AuthDivider';
-import AuthWrapper from 'sections/auth/AuthWrapper';
-import AuthLogin from 'sections/auth/auth-forms/AuthLogin';
+import useUser from '@/hooks/useUser';
+import Logo from '@/components/logo';
+import AuthSocButton from '@/sections/auth/AuthSocButton';
+import AuthDivider from '@/sections/auth/AuthDivider';
+import AuthWrapper from '@/sections/auth/AuthWrapper';
+import AuthLogin from '@/sections/auth/auth-forms/AuthLogin';
 
 // assets
 const imgFacebook = '/assets/images/auth/facebook.svg';

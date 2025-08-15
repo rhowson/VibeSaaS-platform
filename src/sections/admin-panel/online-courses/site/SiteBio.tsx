@@ -25,15 +25,15 @@ import {
 } from '@tanstack/react-table';
 
 // project-import
-import { useGetCustomer } from 'api/customer';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { HeaderSort, TablePagination } from 'components/third-party/react-table';
-import EmptyReactTable from 'views/forms-tables/tables/react-table/EmptyTable';
+import { useGetCustomer } from '@/api/customer';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { HeaderSort, TablePagination } from '@/components/third-party/react-table';
+import EmptyReactTable from '@/views/forms-tables/tables/react-table/EmptyTable';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { Edit, Eye, Trash } from '@wandersonalwes/iconsax-react';

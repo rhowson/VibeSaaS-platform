@@ -4,10 +4,10 @@ import { useMemo } from 'react';
 import useSWR, { mutate } from 'swr';
 
 // project-imports
-import axios, { fetcher, fetcherPost } from 'utils/axios';
+import axios, { fetcher, fetcherPost } from '@/utils/axios';
 
 // types
-import { Products, ProductsFilter, Reviews } from 'types/e-commerce';
+import { Products, ProductsFilter, Reviews } from '@/types/e-commerce';
 
 const endpoints = {
   key: 'api/products',

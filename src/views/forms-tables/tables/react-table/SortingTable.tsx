@@ -18,14 +18,14 @@ import Box from '@mui/material/Box';
 import { getCoreRowModel, getSortedRowModel, flexRender, useReactTable, ColumnDef, HeaderGroup, SortingState } from '@tanstack/react-table';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport, HeaderSort, SelectColumnSorting } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport, HeaderSort, SelectColumnSorting } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
 import { LabelKeyObject } from 'react-csv/lib/core';
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 interface ReactTableProps {
   columns: ColumnDef<TableDataProps>[];

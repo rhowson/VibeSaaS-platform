@@ -1,5 +1,5 @@
 // project-imports
-import FilteringTable from 'views/forms-tables/tables/react-table/FilteringTable';
+import FilteringTable from '@/views/forms-tables/tables/react-table/FilteringTable';
 
 // ==============================|| REACT TABLE - FILTERING ||============================== //
 

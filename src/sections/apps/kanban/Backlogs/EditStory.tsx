@@ -34,21 +34,21 @@ import AddStoryComment from './AddStoryComment';
 import StoryComment from './StoryComment';
 import AlertStoryDelete from './AlertStoryDelete';
 
-import { deleteStory, editStory, useGetBacklogs } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import AnimateButton from 'components/@extended/AnimateButton';
-import IconButton from 'components/@extended/IconButton';
-import UploadMultiFile from 'components/third-party/dropzone/MultiFile';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { DropzopType } from 'config';
+import { deleteStory, editStory, useGetBacklogs } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import IconButton from '@/components/@extended/IconButton';
+import UploadMultiFile from '@/components/third-party/dropzone/MultiFile';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { DropzopType } from '@/config';
 
 // assets
 import { Add, Trash } from '@wandersonalwes/iconsax-react';
 const avatarImage = '/assets/images/users';
 
 // types
-import { KanbanColumn, KanbanComment, KanbanProfile, KanbanUserStory } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanColumn, KanbanComment, KanbanProfile, KanbanUserStory } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface Props {
   story: KanbanUserStory;

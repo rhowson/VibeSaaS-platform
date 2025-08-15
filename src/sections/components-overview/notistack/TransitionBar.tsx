@@ -15,7 +15,7 @@ import Zoom from '@mui/material/Zoom';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - TRANSITIONS ||============================== //
 

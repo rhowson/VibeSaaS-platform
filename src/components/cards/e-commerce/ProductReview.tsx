@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 
 const avatarImage = '/assets/images/users';
 

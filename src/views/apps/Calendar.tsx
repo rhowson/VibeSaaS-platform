@@ -20,11 +20,11 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import timelinePlugin from '@fullcalendar/timeline';
 
 // project-imports
-import { useGetEvents, updateEvent } from 'api/calender';
-import { PopupTransition } from 'components/@extended/Transitions';
-import AddEventForm from 'sections/apps/calendar/AddEventForm';
-import CalendarStyled from 'sections/apps/calendar/CalendarStyled';
-import Toolbar from 'sections/apps/calendar/Toolbar';
+import { useGetEvents, updateEvent } from '@/api/calender';
+import { PopupTransition } from '@/components/@extended/Transitions';
+import AddEventForm from '@/sections/apps/calendar/AddEventForm';
+import CalendarStyled from '@/sections/apps/calendar/CalendarStyled';
+import Toolbar from '@/sections/apps/calendar/Toolbar';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

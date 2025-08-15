@@ -4,11 +4,11 @@ import { useMemo } from 'react';
 import useSWR, { mutate } from 'swr';
 
 // project-imports
-import { fetcher, fetcherPost } from 'utils/axios';
+import { fetcher, fetcherPost } from '@/utils/axios';
 
 // types
-import { ChatHistory } from 'types/chat';
-import { UserProfile } from 'types/user-profile';
+import { ChatHistory } from '@/types/chat';
+import { UserProfile } from '@/types/user-profile';
 
 // ==============================|| API - CHAT ||============================== //
 

@@ -27,17 +27,17 @@ import AlertCustomerDelete from './AlertCustomerDelete';
 import CustomerModal from './CustomerModal';
 import CustomerPreview from './CustomerPreview';
 import ListSmallCard from './export-pdf/ListSmallCard';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { CallCalling, Link2, Location, Sms } from '@wandersonalwes/iconsax-react';
 const avatarImage = '/assets/images/users';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // ==============================|| CUSTOMER - CARD ||============================== //
 

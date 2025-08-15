@@ -10,11 +10,11 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 
 // types
-import { ProductsFilter } from 'types/e-commerce';
+import { ProductsFilter } from '@/types/e-commerce';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import SortOptions from 'sections/apps/e-commerce/products/SortOptions';
+import MainCard from '@/components/MainCard';
+import SortOptions from '@/sections/apps/e-commerce/products/SortOptions';
 
 // assets
 import { ArrowDown2, FilterSearch, SearchNormal1 } from '@wandersonalwes/iconsax-react';

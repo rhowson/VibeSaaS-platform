@@ -37,20 +37,20 @@ import { useFormik, Form, FormikProvider } from 'formik';
 
 // project-imports
 import AlertCustomerDelete from './AlertCustomerDelete';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import CircularWithPath from 'components/@extended/progress/CircularWithPath';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import CircularWithPath from '@/components/@extended/progress/CircularWithPath';
 
-import { insertCustomer, updateCustomer } from 'api/customer';
-import { openSnackbar } from 'api/snackbar';
-import { Gender } from 'config';
+import { insertCustomer, updateCustomer } from '@/api/customer';
+import { openSnackbar } from '@/api/snackbar';
+import { Gender } from '@/config';
 
 // assets
 import { Camera, CloseCircle, Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { CustomerList } from 'types/customer';
+import { SnackbarProps } from '@/types/snackbar';
+import { CustomerList } from '@/types/customer';
 
 interface StatusProps {
   value: number;

@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // material-ui
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const steps = ['Select campaign settings', 'Create an ad group', 'Create an ad'];
 

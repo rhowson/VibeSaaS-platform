@@ -14,9 +14,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import { PatternFormat } from 'react-number-format';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import Transitions from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import Transitions from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Link2, Location, Mobile, Sms } from '@wandersonalwes/iconsax-react';

@@ -10,10 +10,10 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import ColorOptions from './ColorOptions';
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 
 // types
-import { ColorsOptionsProps } from 'types/e-commerce';
+import { ColorsOptionsProps } from '@/types/e-commerce';
 
 interface ColorProps {
   bg: string;

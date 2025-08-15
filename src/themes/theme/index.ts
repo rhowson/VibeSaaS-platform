@@ -8,11 +8,11 @@ import Theme5 from './theme5';
 import Theme6 from './theme6';
 import Theme7 from './theme7';
 import Theme8 from './theme8';
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // types
-import { PresetColor } from 'types/config';
-import { PaletteThemeProps } from 'types/theme';
+import { PresetColor } from '@/types/config';
+import { PaletteThemeProps } from '@/types/theme';
 
 // ==============================|| PRESET THEME - THEME SELECTOR ||============================== //
 

@@ -29,13 +29,13 @@ import { Formik } from 'formik';
 
 // project-imports
 import FirebaseSocial from './FirebaseSocial';
-import IconButton from 'components/@extended/IconButton';
-import AnimateButton from 'components/@extended/AnimateButton';
-import { APP_DEFAULT_PATH } from 'config';
-import { strengthColor, strengthIndicator } from 'utils/password-strength';
+import IconButton from '@/components/@extended/IconButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import { APP_DEFAULT_PATH } from '@/config';
+import { strengthColor, strengthIndicator } from '@/utils/password-strength';
 
 // types
-import { StringColorProps } from 'types/password';
+import { StringColorProps } from '@/types/password';
 
 // assets
 import { Eye, EyeSlash } from '@wandersonalwes/iconsax-react';

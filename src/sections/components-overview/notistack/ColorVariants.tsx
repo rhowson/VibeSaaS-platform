@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - COLOR VARIANTS ||============================== //
 

@@ -4,8 +4,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArchiveBook, CloseCircle, DocumentText, DollarCircle, FilterSquare, ShoppingBag } from '@wandersonalwes/iconsax-react';

@@ -9,7 +9,7 @@ import NavItem from './NavItem';
 import { FormattedMessage } from 'react-intl';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // ==============================|| NAVIGATION - GROUP ||============================== //
 

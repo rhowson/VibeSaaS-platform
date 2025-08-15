@@ -1,5 +1,5 @@
 // project-imports
-import TableBasic from 'views/forms-tables/tables/mui-table/TableBasic';
+import TableBasic from '@/views/forms-tables/tables/mui-table/TableBasic';
 
 // ==============================|| MUI TABLE - BASIC ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import ComponentRating from 'views/components-overview/ComponentRating';
+import ComponentRating from '@/views/components-overview/ComponentRating';
 
 // ==============================|| COMPONENTS - RATING ||============================== //
 

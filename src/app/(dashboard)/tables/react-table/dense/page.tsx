@@ -1,5 +1,5 @@
 // project-imports
-import DenseTable from 'views/forms-tables/tables/react-table/DenseTable';
+import DenseTable from '@/views/forms-tables/tables/react-table/DenseTable';
 
 // ==============================|| REACT TABLE - DENSE ||============================== //
 

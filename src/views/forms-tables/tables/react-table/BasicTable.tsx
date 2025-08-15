@@ -2,10 +2,10 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import BasicTable from 'sections/tables/react-table/BasicTable';
-import FooterTable from 'sections/tables/react-table/FooterTable';
+import BasicTable from '@/sections/tables/react-table/BasicTable';
+import FooterTable from '@/sections/tables/react-table/FooterTable';
 
 // ==============================|| REACT TABLE - BASIC ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import GroupingTables from 'views/forms-tables/tables/react-table/GroupingTables';
+import GroupingTables from '@/views/forms-tables/tables/react-table/GroupingTables';
 
 // ==============================|| REACT TABLE - GROUPING ||============================== //
 

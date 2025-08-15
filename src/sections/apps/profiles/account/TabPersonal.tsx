@@ -16,9 +16,9 @@ import Box from '@mui/material/Box';
 import { PatternFormat } from 'react-number-format';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING, facebookColor, linkedInColor } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING, facebookColor, linkedInColor } from '@/config';
 
 // assets
 import { Apple, Camera, Facebook, Google } from '@wandersonalwes/iconsax-react';

@@ -1,5 +1,5 @@
 // project-imports
-import TableCollapsible from 'views/forms-tables/tables/mui-table/TableCollapsible';
+import TableCollapsible from '@/views/forms-tables/tables/mui-table/TableCollapsible';
 
 // ==============================|| MUI TABLE - COLLAPSIBLE ||============================== //
 

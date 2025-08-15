@@ -5,8 +5,8 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import NavUser from './NavUser';
 import NavCard from './NavCard';
 import Navigation from './Navigation';
-import { useGetMenuMaster } from 'api/menu';
-import SimpleBar from 'components/third-party/SimpleBar';
+import { useGetMenuMaster } from '@/api/menu';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // ==============================|| DRAWER CONTENT ||============================== //
 

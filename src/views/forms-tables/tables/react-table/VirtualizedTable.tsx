@@ -2,9 +2,9 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
-import VirtualizedInfiniteScrollTable from 'sections/tables/react-table/VirtualizedInfiniteScrollTable';
-import VirtualizedRowsTable from 'sections/tables/react-table/VirtualizedRowsTable';
+import { GRID_COMMON_SPACING } from '@/config';
+import VirtualizedInfiniteScrollTable from '@/sections/tables/react-table/VirtualizedInfiniteScrollTable';
+import VirtualizedRowsTable from '@/sections/tables/react-table/VirtualizedRowsTable';
 
 // ==============================|| REACT TABLE - VIRTUALIZED ||============================== //
 

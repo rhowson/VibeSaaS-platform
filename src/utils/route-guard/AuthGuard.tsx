@@ -7,10 +7,10 @@ import { useRouter } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 
 // project-imports
-import Loader from 'components/Loader';
+import Loader from '@/components/Loader';
 
 // types
-import { GuardProps } from 'types/auth';
+import { GuardProps } from '@/types/auth';
 
 // ==============================|| AUTH GUARD ||============================== //
 

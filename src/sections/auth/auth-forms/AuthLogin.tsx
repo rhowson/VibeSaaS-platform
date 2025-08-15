@@ -29,11 +29,11 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import AnimateButton from 'components/@extended/AnimateButton';
+import IconButton from '@/components/@extended/IconButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
 import FirebaseSocial from './FirebaseSocial';
-import { fetcher } from 'utils/axios';
-import { APP_DEFAULT_PATH } from 'config';
+import { fetcher } from '@/utils/axios';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // assets
 import { Eye, EyeSlash } from '@wandersonalwes/iconsax-react';

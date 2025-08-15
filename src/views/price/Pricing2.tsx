@@ -25,9 +25,9 @@ import Box from '@mui/material/Box';
 import { InfoCircle, TickSquare } from '@wandersonalwes/iconsax-react';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { useIspValue } from 'hooks/useIspValue';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { useIspValue } from '@/hooks/useIspValue';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // plan list
 const plans = [

@@ -2,7 +2,7 @@
 import { Inter } from 'next/font/google';
 
 // types
-import { DefaultConfigProps } from 'types/config';
+import { DefaultConfigProps } from '@/types/config';
 
 // ==============================|| THEME CONSTANT ||============================== //
 

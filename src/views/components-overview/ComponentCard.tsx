@@ -15,14 +15,14 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import CardTabs from 'sections/components-overview/cards/CardTabs';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import CardTabs from '@/sections/components-overview/cards/CardTabs';
 
 // assets
 import { Edit, Setting } from '@wandersonalwes/iconsax-react';

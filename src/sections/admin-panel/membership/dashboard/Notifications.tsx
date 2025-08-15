@@ -13,10 +13,10 @@ import Menu from '@mui/material/Menu';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import { notificationsData } from 'data/membership';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import { notificationsData } from '@/data/membership';
 
 // ==========================|| MEMBERSHIP - DASHBOARD - NOTIFICATIONS ||========================== //
 

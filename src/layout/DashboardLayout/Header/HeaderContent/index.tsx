@@ -15,9 +15,9 @@ import Notification from './Notification';
 import Profile from './Profile';
 import Search from './Search';
 
-import { MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
-import DrawerHeader from 'layout/DashboardLayout/Drawer/DrawerHeader';
+import { MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
+import DrawerHeader from '@/layout/DashboardLayout/Drawer/DrawerHeader';
 
 // ==============================|| HEADER - CONTENT ||============================== //
 

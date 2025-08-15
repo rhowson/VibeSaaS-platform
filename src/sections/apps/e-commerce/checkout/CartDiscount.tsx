@@ -13,11 +13,11 @@ import * as yup from 'yup';
 
 // project-imports
 import CouponCode from './CouponCode';
-import { setCartDiscount, useGetCart } from 'api/cart';
-import { openSnackbar } from 'api/snackbar';
+import { setCartDiscount, useGetCart } from '@/api/cart';
+import { openSnackbar } from '@/api/snackbar';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 const validationSchema = yup.object({
   code: yup.string().oneOf(['ABLEPRO50', 'FLAT05', 'SUB150', 'UPTO200'], 'Coupon expired').required('Coupon code is required')

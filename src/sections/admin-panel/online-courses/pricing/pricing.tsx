@@ -16,8 +16,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import Dot from 'components/@extended/Dot';
+import MainCard from '@/components/MainCard';
+import Dot from '@/components/@extended/Dot';
 
 // assets
 import { Star1 } from '@wandersonalwes/iconsax-react';

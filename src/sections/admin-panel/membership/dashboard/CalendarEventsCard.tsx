@@ -13,9 +13,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { calendarData } from 'data/membership';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { calendarData } from '@/data/membership';
 
 // assets
 import { ArrowLeft2, ArrowRight2 } from '@wandersonalwes/iconsax-react';

@@ -12,10 +12,10 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // types
-import { ColorProps } from 'types/extended';
+import { ColorProps } from '@/types/extended';
 
 // table data
 const createData = (badgeText: string, badgeType: string, subject: string, dept: string, date: string) => ({

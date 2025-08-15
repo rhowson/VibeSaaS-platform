@@ -6,7 +6,7 @@ import { PaginationProps } from '@mui/material/Pagination';
 import getColors from '@/utils/getColors';
 
 // types
-import { ExtendedStyleProps } from 'types/extended';
+import { ExtendedStyleProps } from '@/types/extended';
 
 interface PaginationStyleProps extends ExtendedStyleProps {
   variant: PaginationProps['variant'];

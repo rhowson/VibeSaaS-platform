@@ -1,5 +1,5 @@
 // project-imports
-import Error404Page from 'views/maintenance/Error404';
+import Error404Page from '@/views/maintenance/Error404';
 
 // ==============================|| ERROR 404 ||============================== //
 

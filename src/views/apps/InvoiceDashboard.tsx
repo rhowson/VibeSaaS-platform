@@ -7,15 +7,15 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import InvoiceWidgetCard from 'sections/apps/invoice/InvoiceWidgetCard';
-import InvoiceIncomeAreaChart from 'sections/apps/invoice/InvoiceIncomeAreaChart';
-import InvoiceUserList from 'sections/apps/invoice/InvoiceUserList';
-import InvoiceNotificationList from 'sections/apps/invoice/InvoiceNotificationList';
-import InvoicePieChart from 'sections/apps/invoice/InvoicePieChart';
-import InvoiceCard from 'sections/apps/invoice/InvoiceCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import InvoiceWidgetCard from '@/sections/apps/invoice/InvoiceWidgetCard';
+import InvoiceIncomeAreaChart from '@/sections/apps/invoice/InvoiceIncomeAreaChart';
+import InvoiceUserList from '@/sections/apps/invoice/InvoiceUserList';
+import InvoiceNotificationList from '@/sections/apps/invoice/InvoiceNotificationList';
+import InvoicePieChart from '@/sections/apps/invoice/InvoicePieChart';
+import InvoiceCard from '@/sections/apps/invoice/InvoiceCard';
 
 // ==============================|| INVOICE - DASHBOARD ||============================== //
 

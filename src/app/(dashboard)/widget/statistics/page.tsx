@@ -1,5 +1,5 @@
 // project-imports
-import WidgetStatistics from 'views/widget/WidgetStatistics';
+import WidgetStatistics from '@/views/widget/WidgetStatistics';
 
 // ===========================|| WIDGET - STATISTICS ||=========================== //
 

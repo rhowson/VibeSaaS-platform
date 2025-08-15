@@ -6,9 +6,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import Dot from '@/components/@extended/Dot';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // assets
 import { Clock } from '@wandersonalwes/iconsax-react';

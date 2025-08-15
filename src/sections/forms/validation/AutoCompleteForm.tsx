@@ -16,12 +16,12 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import AnimateButton from 'components/@extended/AnimateButton';
-import MainCard from 'components/MainCard';
+import { openSnackbar } from '@/api/snackbar';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import MainCard from '@/components/MainCard';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Add, ArrowDown2 } from '@wandersonalwes/iconsax-react';

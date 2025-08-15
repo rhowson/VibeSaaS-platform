@@ -2,9 +2,9 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
-import RowSelectionTable from 'sections/tables/react-table/RowSelectionTable';
-import RSPControl from 'sections/tables/react-table/RSPControl';
+import { GRID_COMMON_SPACING } from '@/config';
+import RowSelectionTable from '@/sections/tables/react-table/RowSelectionTable';
+import RSPControl from '@/sections/tables/react-table/RSPControl';
 
 // ==============================|| REACT TABLE - ROW SELECTION ||============================== //
 

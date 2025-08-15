@@ -3,7 +3,7 @@ import { getServerSession } from 'next-auth';
 import { NextResponse } from 'next/server';
 
 // project-imports
-import { authOptions } from 'utils/authOptions';
+import { authOptions } from '@/utils/authOptions';
 
 // ==============================|| NEXT AUTH - ROUTES  ||============================== //
 

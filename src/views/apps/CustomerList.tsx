@@ -37,9 +37,9 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 import {
   CSVExport,
@@ -49,17 +49,17 @@ import {
   RowSelection,
   SelectColumnSorting,
   TablePagination
-} from 'components/third-party/react-table';
+} from '@/components/third-party/react-table';
 
-import AlertCustomerDelete from 'sections/apps/customer/AlertCustomerDelete';
-import CustomerModal from 'sections/apps/customer/CustomerModal';
-import CustomerView from 'sections/apps/customer/CustomerView';
-import EmptyTables from 'views/forms-tables/tables/react-table/EmptyTable';
+import AlertCustomerDelete from '@/sections/apps/customer/AlertCustomerDelete';
+import CustomerModal from '@/sections/apps/customer/CustomerModal';
+import CustomerView from '@/sections/apps/customer/CustomerView';
+import EmptyTables from '@/views/forms-tables/tables/react-table/EmptyTable';
 
-import { useGetCustomer } from 'api/customer';
+import { useGetCustomer } from '@/api/customer';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { Add, Edit, Eye, Trash } from '@wandersonalwes/iconsax-react';

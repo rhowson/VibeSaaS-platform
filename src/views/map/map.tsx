@@ -5,10 +5,10 @@ import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import MapContainerStyled from 'components/third-party/map/MapContainerStyled';
-import { GRID_COMMON_SPACING, ThemeMode } from 'config';
-import { cities, countries } from 'data/location';
+import MainCard from '@/components/MainCard';
+import MapContainerStyled from '@/components/third-party/map/MapContainerStyled';
+import { GRID_COMMON_SPACING, ThemeMode } from '@/config';
+import { cities, countries } from '@/data/location';
 
 import ClustersMap from './maps/clusters-map';
 import ChangeTheme from './maps/change-theme';

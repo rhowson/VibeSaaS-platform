@@ -16,13 +16,13 @@ import Tooltip from '@mui/material/Tooltip';
 import copy from 'copy-to-clipboard';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Copy, Scissor } from '@wandersonalwes/iconsax-react';

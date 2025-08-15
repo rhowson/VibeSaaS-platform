@@ -2,13 +2,13 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import SimpleSpeedDials from 'sections/components-overview/speeddial/SimpleSpeedDials';
-import OpenIconSpeedDial from 'sections/components-overview/speeddial/OpenIconSpeedDial';
-import SpeedDialTooltipOpen from 'sections/components-overview/speeddial/SpeedDialTooltipOpen';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import SimpleSpeedDials from '@/sections/components-overview/speeddial/SimpleSpeedDials';
+import OpenIconSpeedDial from '@/sections/components-overview/speeddial/OpenIconSpeedDial';
+import SpeedDialTooltipOpen from '@/sections/components-overview/speeddial/SpeedDialTooltipOpen';
 
 // ==============================|| COMPONENTS - SPEED DIAL ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import ComponentSelect from 'views/components-overview/ComponentSelect';
+import ComponentSelect from '@/views/components-overview/ComponentSelect';
 
 // ==============================|| COMPONENTS - SELECT ||============================== //
 

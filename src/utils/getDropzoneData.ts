@@ -1,5 +1,5 @@
 // types
-import { CustomFile } from 'types/dropzone';
+import { CustomFile } from '@/types/dropzone';
 
 // ==============================|| UPLOAD - DETAILS  ||============================== //
 

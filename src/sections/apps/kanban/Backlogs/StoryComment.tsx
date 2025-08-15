@@ -5,12 +5,12 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Dot from '@/components/@extended/Dot';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // types
-import { KanbanComment, KanbanProfile } from 'types/kanban';
+import { KanbanComment, KanbanProfile } from '@/types/kanban';
 
 const avatarImage = '/assets/images/users';
 

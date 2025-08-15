@@ -14,8 +14,8 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { HEADER_HEIGHT } from 'config';
+import MainCard from '@/components/MainCard';
+import { HEADER_HEIGHT } from '@/config';
 
 // assets
 import { Personalcard } from '@wandersonalwes/iconsax-react';

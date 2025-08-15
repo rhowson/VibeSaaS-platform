@@ -1,5 +1,5 @@
 // project-imports
-import ComponentBadge from 'views/components-overview/ComponentBadge';
+import ComponentBadge from '@/views/components-overview/ComponentBadge';
 
 // ==============================|| COMPONENTS - BADGES ||============================== //
 

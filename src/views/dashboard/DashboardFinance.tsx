@@ -5,17 +5,17 @@ import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import AccountsCard from 'sections/dashboard/finance/Accounts';
-import BalanceCard from 'sections/dashboard/finance/BalanceCard';
-import CategoryCard from 'sections/dashboard/finance/Category';
-import CashflowChartCard from 'sections/dashboard/finance/CashflowChartCard';
-import MoneySpentCard from 'sections/dashboard/finance/MoneySpent';
-import Transactions from 'sections/dashboard/finance/Transactions';
-import TransactionCard from 'sections/dashboard/finance/TransactionsCard';
-import TransactionHistoryCard from 'sections/dashboard/finance/TransactionHistory';
-import QuickTransferCard from 'sections/dashboard/finance/QuickTransfer';
+import AccountsCard from '@/sections/dashboard/finance/Accounts';
+import BalanceCard from '@/sections/dashboard/finance/BalanceCard';
+import CategoryCard from '@/sections/dashboard/finance/Category';
+import CashflowChartCard from '@/sections/dashboard/finance/CashflowChartCard';
+import MoneySpentCard from '@/sections/dashboard/finance/MoneySpent';
+import Transactions from '@/sections/dashboard/finance/Transactions';
+import TransactionCard from '@/sections/dashboard/finance/TransactionsCard';
+import TransactionHistoryCard from '@/sections/dashboard/finance/TransactionHistory';
+import QuickTransferCard from '@/sections/dashboard/finance/QuickTransfer';
 
 // ==============================|| DASHBOARD - FINANCE ||============================== //
 

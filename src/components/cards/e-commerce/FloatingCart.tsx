@@ -9,11 +9,11 @@ import Fab from '@mui/material/Fab';
 import { sum } from 'lodash-es';
 
 // project-imports
-import { useGetCart } from 'api/cart';
-import IconButton from 'components/@extended/IconButton';
+import { useGetCart } from '@/api/cart';
+import IconButton from '@/components/@extended/IconButton';
 
 // types
-import { CartProductStateProps } from 'types/cart';
+import { CartProductStateProps } from '@/types/cart';
 
 // assets
 import { ShoppingCart } from '@wandersonalwes/iconsax-react';

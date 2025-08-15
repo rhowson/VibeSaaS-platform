@@ -15,13 +15,13 @@ import Typography from '@mui/material/Typography';
 import Zoom from '@mui/material/Zoom';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import CustomTooltip from 'components/@extended/Tooltip';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import CustomTooltip from '@/components/@extended/Tooltip';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // assets
 import { Add, Trash } from '@wandersonalwes/iconsax-react';

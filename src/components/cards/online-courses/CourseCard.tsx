@@ -3,11 +3,11 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
 
 // types
-import { GenericCardProps } from 'types/root';
+import { GenericCardProps } from '@/types/root';
 
 interface Props {
   title: string;

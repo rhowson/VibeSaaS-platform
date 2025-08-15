@@ -8,7 +8,7 @@ import { Map, Layer, Source, MapRef, LngLatLike, MapMouseEvent } from 'react-map
 import { clusterCountLayer, clusterLayer, unclusteredPointLayer } from './layers';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| MAP - CLUSTERS ||============================== //
 

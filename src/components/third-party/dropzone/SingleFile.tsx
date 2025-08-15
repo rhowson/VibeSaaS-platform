@@ -13,7 +13,7 @@ import PlaceholderContent from './PlaceholderContent';
 import RejectionFiles from './RejectionFiles';
 
 // types
-import { CustomFile, UploadProps } from 'types/dropzone';
+import { CustomFile, UploadProps } from '@/types/dropzone';
 
 const DropzoneWrapper = styled('div')(({ theme }) => ({
   outline: 'none',

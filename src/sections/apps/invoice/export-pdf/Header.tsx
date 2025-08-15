@@ -9,7 +9,7 @@ import { Text, View, StyleSheet, Image as ImageIcon } from '@react-pdf/renderer'
 const Logo = '/assets/images/logo.png';
 
 // types
-import { InvoiceList } from 'types/invoice';
+import { InvoiceList } from '@/types/invoice';
 
 const textPrimary = '#262626';
 const textSecondary = '#8c8c8c';

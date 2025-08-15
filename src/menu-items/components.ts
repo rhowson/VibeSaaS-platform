@@ -1,5 +1,5 @@
 // project-imports
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // ==============================|| MENU ITEMS - COMPONENTS ||============================== //
 

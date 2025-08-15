@@ -1,5 +1,5 @@
 // project-imports
-import OrgChartPage from 'views/charts/OrgChart';
+import OrgChartPage from '@/views/charts/OrgChart';
 
 // ==============================|| ORGANIZATION CHARTS ||============================== //
 

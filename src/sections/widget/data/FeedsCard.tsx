@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { DocumentText, ShoppingCart, Sms } from '@wandersonalwes/iconsax-react';

@@ -8,8 +8,8 @@ import Links from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Facebook, Profile, ShoppingCart, TickCircle } from '@wandersonalwes/iconsax-react';

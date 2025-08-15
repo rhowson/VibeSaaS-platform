@@ -5,7 +5,7 @@ import { RichTreeView, TreeViewBaseItem } from '@mui/x-tree-view';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const data: TreeViewBaseItem[] = [
   {

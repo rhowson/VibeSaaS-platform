@@ -14,12 +14,12 @@ import TableRow from '@mui/material/TableRow';
 import { ColumnDef, useReactTable, getCoreRowModel, flexRender, HeaderGroup } from '@tanstack/react-table';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { CSVExport, CellEditable } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import MainCard from '@/components/MainCard';
+import { CSVExport, CellEditable } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 interface ReactTableProps {

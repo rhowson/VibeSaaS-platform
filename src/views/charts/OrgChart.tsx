@@ -11,14 +11,14 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
-import { data } from 'data/org-chart';
-import Card from 'sections/charts/org-chart/Card';
-import DataCard from 'sections/charts/org-chart/DataCard';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
+import { data } from '@/data/org-chart';
+import Card from '@/sections/charts/org-chart/Card';
+import DataCard from '@/sections/charts/org-chart/DataCard';
 
 // types
-import { TreeMiddleWare, TreeCardmiddleWare } from 'types/org-chart';
+import { TreeMiddleWare, TreeCardmiddleWare } from '@/types/org-chart';
 
 // third-party
 import { TreeNodeProps, TreeProps } from 'react-organizational-chart';

@@ -8,7 +8,7 @@ import ControlPanel from './control-panel';
 import heatmapLayer from './map-style';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| MAPBOX - HEATMAP ||============================== //
 

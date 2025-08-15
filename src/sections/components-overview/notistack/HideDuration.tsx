@@ -8,7 +8,7 @@ import Slider from '@mui/material/Slider';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| NOTISTACK - TIMEOUT ||============================== //
 

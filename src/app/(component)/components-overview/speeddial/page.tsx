@@ -1,5 +1,5 @@
 // project-imports
-import ComponentSpeeddial from 'views/components-overview/ComponentSpeeddial';
+import ComponentSpeeddial from '@/views/components-overview/ComponentSpeeddial';
 
 // ==============================|| COMPONENTS - SPEED DIAL ||============================== //
 

@@ -3,7 +3,7 @@ import type { NextAuthOptions } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
 // project imports
-import axios from 'utils/axios';
+import axios from '@/utils/axios';
 
 const users = [
   {

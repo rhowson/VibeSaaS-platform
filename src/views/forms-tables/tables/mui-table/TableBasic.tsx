@@ -7,9 +7,9 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { CSVExport } from 'components/third-party/react-table';
-import { header } from 'sections/apps/tables/mui-table/header';
+import MainCard from '@/components/MainCard';
+import { CSVExport } from '@/components/third-party/react-table';
+import { header } from '@/sections/apps/tables/mui-table/header';
 
 // table data
 function createData(name: string, calories: number, fat: number, carbs: number, protein: number) {

@@ -28,17 +28,17 @@ import * as Yup from 'yup';
 
 // project-imports
 import ColorPalette from './ColorPalette';
-import { createEvent, updateEvent, deleteEvent } from 'api/calender';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import { ThemeMode } from 'config';
+import { createEvent, updateEvent, deleteEvent } from '@/api/calender';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import { ThemeMode } from '@/config';
 
 // assets
 import { Calendar, Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { DateRange } from 'types/calendar';
-import { SnackbarProps } from 'types/snackbar';
+import { DateRange } from '@/types/calendar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // constant
 function getInitialValues(event: FormikValues | null, range: DateRange | null) {

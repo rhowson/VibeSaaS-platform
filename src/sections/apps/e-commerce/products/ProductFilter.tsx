@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // types
-import { ProductsFilter } from 'types/e-commerce';
+import { ProductsFilter } from '@/types/e-commerce';
 
 // project-imports
 import Colors from './Colors';

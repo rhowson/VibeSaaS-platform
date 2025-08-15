@@ -1,5 +1,5 @@
 // project-imports
-import SettingPayment from 'views/admin-panel/online-courses/setting/SettingPayment';
+import SettingPayment from '@/views/admin-panel/online-courses/setting/SettingPayment';
 
 // ==============================|| SETTING - PAYMENT ||============================== //
 

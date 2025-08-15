@@ -1,7 +1,7 @@
-// import { Products } from 'types/e-commerce';
-// import axios from 'utils/axios';
+// import { Products } from '@/types/e-commerce';
+// import axios from '@/utils/axios';
 
-import ProductDetails from 'views/apps/ProductDetails';
+import ProductDetails from '@/views/apps/ProductDetails';
 
 // ==============================|| PAGE ||============================== //
 

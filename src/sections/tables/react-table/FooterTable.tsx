@@ -17,13 +17,13 @@ import TableRow from '@mui/material/TableRow';
 import { flexRender, useReactTable, ColumnDef, HeaderGroup, getCoreRowModel } from '@tanstack/react-table';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 interface ReactTableProps {

@@ -35,19 +35,19 @@ import {
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 // project-import
-import { useGetCustomer } from 'api/customer';
+import { useGetCustomer } from '@/api/customer';
 
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
-import EmptyReactTable from 'views/forms-tables/tables/react-table/EmptyTable';
+import EmptyReactTable from '@/views/forms-tables/tables/react-table/EmptyTable';
 
-import { CSVExport, DebouncedInput, HeaderSort, RowSelection, TablePagination } from 'components/third-party/react-table';
+import { CSVExport, DebouncedInput, HeaderSort, RowSelection, TablePagination } from '@/components/third-party/react-table';
 
 // types
-import { CustomerList } from 'types/customer';
+import { CustomerList } from '@/types/customer';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

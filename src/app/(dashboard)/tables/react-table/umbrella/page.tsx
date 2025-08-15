@@ -1,5 +1,5 @@
 // project-imports
-import UmbrellaTable from 'views/forms-tables/tables/react-table/UmbrellaTable';
+import UmbrellaTable from '@/views/forms-tables/tables/react-table/UmbrellaTable';
 
 // ==============================|| REACT TABLE - UMBRELLA ||============================== //
 

@@ -13,7 +13,7 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
 
 const validationSchema = yup.object({
   firstName: yup.string().required('First Name is required'),

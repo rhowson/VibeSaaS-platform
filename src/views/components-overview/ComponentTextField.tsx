@@ -12,12 +12,12 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // assets
 import { Eye, EyeSlash, Sms } from '@wandersonalwes/iconsax-react';

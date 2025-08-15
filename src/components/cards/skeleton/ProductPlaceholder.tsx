@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 import Skeleton from '@mui/material/Skeleton';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ===========================|| SKELETON - PRODUCT CARD ||=========================== //
 

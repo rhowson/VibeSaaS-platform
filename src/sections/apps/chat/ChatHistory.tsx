@@ -10,15 +10,15 @@ import Typography from '@mui/material/Typography';
 // project-imports
 import UserAvatar from './UserAvatar';
 import ChatMessageAction from './ChatMessageAction';
-import { useGetUserChat } from 'api/chat';
-import IconButton from 'components/@extended/IconButton';
-import CircularLoader from 'components/CircularLoader';
+import { useGetUserChat } from '@/api/chat';
+import IconButton from '@/components/@extended/IconButton';
+import CircularLoader from '@/components/CircularLoader';
 
 // assets
 import { Edit } from '@wandersonalwes/iconsax-react';
 
 // types
-import { UserProfile } from 'types/user-profile';
+import { UserProfile } from '@/types/user-profile';
 
 interface ChatHistoryProps {
   user: UserProfile;

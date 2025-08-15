@@ -17,14 +17,14 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import SimpleBarScroll from 'components/third-party/SimpleBar';
-import { activityData } from 'data/helpdesk';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import SimpleBarScroll from '@/components/third-party/SimpleBar';
+import { activityData } from '@/data/helpdesk';
 
 // types
-import { ColorProps } from 'types/extended';
+import { ColorProps } from '@/types/extended';
 
 // ==========================|| DASHBOARD - LATEST ACTIVITY ||========================== //
 

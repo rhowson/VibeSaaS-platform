@@ -1,5 +1,5 @@
 // project-imports
-import InvoiceLists from 'views/apps/InvoiceList';
+import InvoiceLists from '@/views/apps/InvoiceList';
 
 // ==============================|| INVOICE - LIST ||============================== //
 

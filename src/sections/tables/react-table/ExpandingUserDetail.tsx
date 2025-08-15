@@ -15,8 +15,8 @@ import Typography from '@mui/material/Typography';
 import { PatternFormat } from 'react-number-format';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Call, Location, Sms, Link2 } from '@wandersonalwes/iconsax-react';

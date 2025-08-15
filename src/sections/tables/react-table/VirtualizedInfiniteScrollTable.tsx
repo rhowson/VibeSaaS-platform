@@ -30,13 +30,13 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { keepPreviousData, useInfiniteQuery, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport, HeaderSort } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport, HeaderSort } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataApiResponse, TableDataProps } from 'types/table';
+import { TableDataApiResponse, TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 const fetchSize = 25;

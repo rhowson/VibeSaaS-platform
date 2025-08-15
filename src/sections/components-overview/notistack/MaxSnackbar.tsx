@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 import { enqueueSnackbar } from 'notistack';
 
 // project-imports
-import { handlerIncrease, useGetSnackbar } from 'api/snackbar';
-import MainCard from 'components/MainCard';
+import { handlerIncrease, useGetSnackbar } from '@/api/snackbar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add, Minus } from '@wandersonalwes/iconsax-react';

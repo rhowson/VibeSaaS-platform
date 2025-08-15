@@ -17,15 +17,15 @@ import { Chance } from 'chance';
 
 // project-imports
 import UserAvatar from './UserAvatar';
-import Dot from 'components/@extended/Dot';
-import { useGetUsers } from 'api/chat';
+import Dot from '@/components/@extended/Dot';
+import { useGetUsers } from '@/api/chat';
 
 // assets
 import { TickCircle } from '@wandersonalwes/iconsax-react';
 
 // types
-import { UserProfile } from 'types/user-profile';
-import { KeyedObject } from 'types/root';
+import { UserProfile } from '@/types/user-profile';
+import { KeyedObject } from '@/types/root';
 
 const chance = new Chance();
 

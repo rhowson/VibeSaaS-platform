@@ -16,11 +16,11 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import ProfileTab from './ProfileTab';
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { facebookColor, linkedInColor } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { facebookColor, linkedInColor } from '@/config';
 
 // assets
 import { Apple, Camera, Facebook, Google } from '@wandersonalwes/iconsax-react';

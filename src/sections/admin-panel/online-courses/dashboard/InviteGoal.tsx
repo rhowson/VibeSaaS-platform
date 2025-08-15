@@ -10,9 +10,9 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import RadialBarChart from './charts/RadialChart';
-import MainCard from 'components/MainCard';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
 
 // assets
 import { ArrowDown, ArrowUp } from '@wandersonalwes/iconsax-react';

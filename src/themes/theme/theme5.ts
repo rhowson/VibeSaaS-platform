@@ -2,7 +2,7 @@
 import { ThemeMode } from '@/config';
 
 // types
-import { PaletteThemeProps } from 'types/theme';
+import { PaletteThemeProps } from '@/types/theme';
 
 // ==============================|| PRESET THEME - THEME5 ||============================== //
 

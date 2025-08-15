@@ -2,7 +2,7 @@
 import { Book1, I24Support, Profile2User, KyberNetwork } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // icons
 const icons = {

@@ -11,10 +11,10 @@ import { useDropzone } from 'react-dropzone';
 import RejectionFiles from './RejectionFiles';
 import PlaceholderContent from './PlaceholderContent';
 import FilesPreview from './FilesPreview';
-import { DropzopType } from 'config';
+import { DropzopType } from '@/config';
 
 // types
-import { CustomFile, UploadMultiFileProps } from 'types/dropzone';
+import { CustomFile, UploadMultiFileProps } from '@/types/dropzone';
 
 const DropzoneWrapper = styled('div')(({ theme }) => ({
   outline: 'none',

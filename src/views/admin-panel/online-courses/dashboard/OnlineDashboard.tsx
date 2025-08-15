@@ -6,24 +6,24 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import CourseCard from 'components/cards/online-courses/CourseCard';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import CourseCard from '@/components/cards/online-courses/CourseCard';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
 
-import ActivityCard from 'sections/admin-panel/online-courses/dashboard/Activity';
-import ActivityTableCard from 'sections/admin-panel/online-courses/dashboard/ActivityTable';
-import CoursesCard from 'sections/admin-panel/online-courses/dashboard/CoursesCard';
-import CourseListCard from 'sections/admin-panel/online-courses/dashboard/CourseListCard';
-import CourseStatesCard from 'sections/admin-panel/online-courses/dashboard/CourseStates';
-import DashboardCalendar from 'sections/admin-panel/online-courses/dashboard/DashboardCalendar';
-import EarningCourseCard from 'sections/admin-panel/online-courses/dashboard/EarningCourses';
-import InviteGoalCard from 'sections/admin-panel/online-courses/dashboard/InviteGoal';
-import NotificationCard from 'sections/admin-panel/online-courses/dashboard/Notifications';
-import StatisticsCard from 'sections/admin-panel/online-courses/dashboard/Statistics';
-import StudentStatesCard from 'sections/admin-panel/online-courses/dashboard/StudentStates';
-import StudentQueriesCard from 'sections/admin-panel/online-courses/dashboard/StudentQueries';
-import TotalCard from 'sections/admin-panel/online-courses/dashboard/TotalCard';
-import VisitorsCard from 'sections/admin-panel/online-courses/dashboard/Visitors';
+import ActivityCard from '@/sections/admin-panel/online-courses/dashboard/Activity';
+import ActivityTableCard from '@/sections/admin-panel/online-courses/dashboard/ActivityTable';
+import CoursesCard from '@/sections/admin-panel/online-courses/dashboard/CoursesCard';
+import CourseListCard from '@/sections/admin-panel/online-courses/dashboard/CourseListCard';
+import CourseStatesCard from '@/sections/admin-panel/online-courses/dashboard/CourseStates';
+import DashboardCalendar from '@/sections/admin-panel/online-courses/dashboard/DashboardCalendar';
+import EarningCourseCard from '@/sections/admin-panel/online-courses/dashboard/EarningCourses';
+import InviteGoalCard from '@/sections/admin-panel/online-courses/dashboard/InviteGoal';
+import NotificationCard from '@/sections/admin-panel/online-courses/dashboard/Notifications';
+import StatisticsCard from '@/sections/admin-panel/online-courses/dashboard/Statistics';
+import StudentStatesCard from '@/sections/admin-panel/online-courses/dashboard/StudentStates';
+import StudentQueriesCard from '@/sections/admin-panel/online-courses/dashboard/StudentQueries';
+import TotalCard from '@/sections/admin-panel/online-courses/dashboard/TotalCard';
+import VisitorsCard from '@/sections/admin-panel/online-courses/dashboard/Visitors';
 
 // assets
 import { Profile2User, Eye, DocumentText1, Card } from '@wandersonalwes/iconsax-react';

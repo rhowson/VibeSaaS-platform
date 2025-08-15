@@ -9,7 +9,7 @@ import support from './support';
 import pages from './pages';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // ==============================|| MENU ITEMS ||============================== //
 

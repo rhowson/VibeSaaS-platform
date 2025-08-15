@@ -18,18 +18,18 @@ import Typography from '@mui/material/Typography';
 import { ColumnDef, useReactTable, flexRender, getCoreRowModel } from '@tanstack/react-table';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
-import makeData from 'data/react-table';
+import makeData from '@/data/react-table';
 
 // assets
 import { ArrowDown, ArrowUp, Star1, Wallet3 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 interface ReactTableProps {
   columns: ColumnDef<TableDataProps>[];

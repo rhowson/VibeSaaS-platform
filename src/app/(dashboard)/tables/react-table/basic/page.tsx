@@ -1,5 +1,5 @@
 // project-imports
-import BasicTables from 'views/forms-tables/tables/react-table/BasicTable';
+import BasicTables from '@/views/forms-tables/tables/react-table/BasicTable';
 
 // ==============================|| REACT TABLE - BASIC ||============================== //
 

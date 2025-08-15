@@ -3,8 +3,8 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ContactForm from 'sections/extra-pages/contact/ContactForm';
-import ContactHeader from 'sections/extra-pages/contact/ContactHeader';
+import ContactForm from '@/sections/extra-pages/contact/ContactForm';
+import ContactHeader from '@/sections/extra-pages/contact/ContactHeader';
 
 // ==============================|| CONTACT US - MAIN ||============================== //
 

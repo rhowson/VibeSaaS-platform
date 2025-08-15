@@ -1,5 +1,5 @@
 // project-imports
-import StudentApply from 'views/admin-panel/online-courses/student/StudentApplied';
+import StudentApply from '@/views/admin-panel/online-courses/student/StudentApplied';
 
 // ==============================|| STUDENT - APPLIED ||============================== //
 

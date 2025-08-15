@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { messageData } from 'data/helpdesk';
+import MainCard from '@/components/MainCard';
+import { messageData } from '@/data/helpdesk';
 import TicketDetailsCommonCard from './TicketDetailsCommonCard';
 
 // assets

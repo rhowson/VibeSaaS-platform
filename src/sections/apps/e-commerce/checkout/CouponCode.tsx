@@ -14,12 +14,12 @@ import Typography from '@mui/material/Typography';
 import copy from 'copy-to-clipboard';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import Transitions, { PopupTransition } from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions, { PopupTransition } from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { Award, CloseCircle, Gift } from '@wandersonalwes/iconsax-react';

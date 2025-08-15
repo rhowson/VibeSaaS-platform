@@ -1,5 +1,5 @@
 // project-import
-import { Gender } from 'config';
+import { Gender } from '@/config';
 
 // ==============================|| TYPES - CUSTOMER  ||============================== //
 

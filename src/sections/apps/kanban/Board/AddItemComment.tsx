@@ -10,16 +10,16 @@ import Box from '@mui/material/Box';
 import { Chance } from 'chance';
 
 // project-imports
-import { addItemComment } from 'api/kanban';
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
+import { addItemComment } from '@/api/kanban';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { Android, Camera, DocumentUpload } from '@wandersonalwes/iconsax-react';
 
 // types
-import { KanbanComment } from 'types/kanban';
-import { SnackbarProps } from 'types/snackbar';
+import { KanbanComment } from '@/types/kanban';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface Props {
   itemId: string | false;

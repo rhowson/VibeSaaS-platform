@@ -1,5 +1,5 @@
 // project-imports
-import SimpleLayout from 'layout/SimpleLayout';
+import SimpleLayout from '@/layout/SimpleLayout';
 
 // ================================|| SIMPLE LAYOUT ||================================ //
 

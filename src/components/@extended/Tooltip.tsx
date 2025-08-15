@@ -4,10 +4,10 @@ import MuiTooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip'
 import Box from '@mui/material/Box';
 
 // project-imports
-import getColors from 'utils/getColors';
+import getColors from '@/utils/getColors';
 
 // types
-import { ColorProps } from 'types/extended';
+import { ColorProps } from '@/types/extended';
 
 interface TooltipStyleProps {
   color?: ColorProps | string;

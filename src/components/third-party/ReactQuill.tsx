@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import 'react-quill-new/dist/quill.snow.css';
 
 // project imports
-import { ThemeDirection } from 'config';
+import { ThemeDirection } from '@/config';
 
 const ReactQuill = dynamic(() => import('react-quill-new'), { ssr: false });
 

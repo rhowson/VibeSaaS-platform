@@ -19,14 +19,14 @@ import { flexRender, useReactTable, ColumnDef, HeaderGroup, getCoreRowModel } fr
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
-import { HeaderSort } from 'components/third-party/react-table';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
+import { HeaderSort } from '@/components/third-party/react-table';
 
-import makeData from 'data/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 const avatarImage = '/assets/images/users';
 

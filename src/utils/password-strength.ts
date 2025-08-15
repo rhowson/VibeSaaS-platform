@@ -1,6 +1,6 @@
 // ==============================|| CUSTOM FUNCTION - PASSWORD STRENGTH ||============================== //
 
-import { NumbColorFunc, StringBoolFunc, StringNumFunc } from 'types/password';
+import { NumbColorFunc, StringBoolFunc, StringNumFunc } from '@/types/password';
 
 // has number
 const hasNumber: StringBoolFunc = (number) => new RegExp(/[0-9]/).test(number);

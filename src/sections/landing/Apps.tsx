@@ -13,7 +13,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import { ThemeDirection, ThemeMode } from 'config';
+import { ThemeDirection, ThemeMode } from '@/config';
 
 // third-party
 import Slider, { Settings } from 'react-slick';

@@ -9,11 +9,11 @@ import Toolbar from '@mui/material/Toolbar';
 // project-imports
 import AppBarStyled from './AppBarStyled';
 import HeaderContent from './HeaderContent';
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
-import { handlerDrawerOpen, useGetMenuMaster } from 'api/menu';
-import { DRAWER_WIDTH, MINI_DRAWER_WIDTH, MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
+import { handlerDrawerOpen, useGetMenuMaster } from '@/api/menu';
+import { DRAWER_WIDTH, MINI_DRAWER_WIDTH, MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // assets
 import { HambergerMenu } from '@wandersonalwes/iconsax-react';

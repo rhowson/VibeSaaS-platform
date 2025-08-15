@@ -6,16 +6,16 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import { deleteCustomer } from 'api/customer';
-import { openSnackbar } from 'api/snackbar';
-import Avatar from 'components/@extended/Avatar';
-import { PopupTransition } from 'components/@extended/Transitions';
+import { deleteCustomer } from '@/api/customer';
+import { openSnackbar } from '@/api/snackbar';
+import Avatar from '@/components/@extended/Avatar';
+import { PopupTransition } from '@/components/@extended/Transitions';
 
 // assets
 import { Trash } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface Props {
   id: number;

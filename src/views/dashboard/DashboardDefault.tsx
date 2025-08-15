@@ -12,17 +12,17 @@ import CardContent from '@mui/material/CardContent';
 import { useRouter } from 'next/navigation';
 
 // project-imports
-import EcommerceDataCard from 'components/cards/statistics/EcommerceDataCard';
-import { GRID_COMMON_SPACING } from 'config';
+import EcommerceDataCard from '@/components/cards/statistics/EcommerceDataCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import WelcomeBanner from 'sections/dashboard/default/WelcomeBanner';
-import ProjectRelease from 'sections/dashboard/default/ProjectRelease';
-import EcommerceDataChart from 'sections/widget/chart/EcommerceDataChart';
-import TotalIncome from 'sections/widget/chart/TotalIncome';
-import RepeatCustomerRate from 'sections/widget/chart/RepeatCustomerRate';
-import ProjectOverview from 'sections/widget/chart/ProjectOverview';
-import Transactions from 'sections/widget/data/Transactions';
-import AssignUsers from 'sections/widget/statistics/AssignUsers';
+import WelcomeBanner from '@/sections/dashboard/default/WelcomeBanner';
+import ProjectRelease from '@/sections/dashboard/default/ProjectRelease';
+import EcommerceDataChart from '@/sections/widget/chart/EcommerceDataChart';
+import TotalIncome from '@/sections/widget/chart/TotalIncome';
+import RepeatCustomerRate from '@/sections/widget/chart/RepeatCustomerRate';
+import ProjectOverview from '@/sections/widget/chart/ProjectOverview';
+import Transactions from '@/sections/widget/data/Transactions';
+import AssignUsers from '@/sections/widget/statistics/AssignUsers';
 
 // assets
 import { ArrowDown, ArrowUp, Book, Calendar, CloudChange, Wallet3, Add, Folder, Users, Settings } from '@wandersonalwes/iconsax-react';

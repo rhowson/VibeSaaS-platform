@@ -1,5 +1,5 @@
 // types
-import { ColorsOptionsProps } from 'types/e-commerce';
+import { ColorsOptionsProps } from '@/types/e-commerce';
 
 // ==============================|| PRODUCT - COLOR FILTER ||============================== //
 

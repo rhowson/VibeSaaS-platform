@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // third-party
 import { enqueueSnackbar } from 'notistack';

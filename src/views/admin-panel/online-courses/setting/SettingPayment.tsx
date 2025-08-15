@@ -1,8 +1,8 @@
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import { APP_DEFAULT_PATH } from 'config';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import { APP_DEFAULT_PATH } from '@/config';
 
-import PaymentSection from 'sections/admin-panel/online-courses/setting/PaymentSection';
+import PaymentSection from '@/sections/admin-panel/online-courses/setting/PaymentSection';
 
 const breadcrumbLinks = [{ title: 'home', to: APP_DEFAULT_PATH }, { title: 'online-courses' }, { title: 'setting' }, { title: 'payment' }];
 

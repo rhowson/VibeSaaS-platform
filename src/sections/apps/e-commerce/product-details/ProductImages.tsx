@@ -9,10 +9,10 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import { openSnackbar } from '@/api/snackbar';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // third-party
 import Slider from 'react-slick';
@@ -22,8 +22,8 @@ import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import { ArrowLeft2, ArrowRight2, ArrowRotateRight, Heart, SearchZoomIn, SearchZoomOut } from '@wandersonalwes/iconsax-react';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { Products } from 'types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
+import { Products } from '@/types/e-commerce';
 
 const prodImage: any = '/assets/images/e-commerce';
 

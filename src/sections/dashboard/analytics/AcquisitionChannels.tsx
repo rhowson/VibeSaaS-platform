@@ -10,8 +10,8 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import AcquisitionChart from './AcquisitionChart';
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Chainlink, DocumentText } from '@wandersonalwes/iconsax-react';

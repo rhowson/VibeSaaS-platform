@@ -1,5 +1,5 @@
 // project-imports
-import ComponentBreadcrumb from 'views/components-overview/ComponentBreadcrumb';
+import ComponentBreadcrumb from '@/views/components-overview/ComponentBreadcrumb';
 
 // ==============================|| COMPONENTS - BREADCRUMBS ||============================== //
 

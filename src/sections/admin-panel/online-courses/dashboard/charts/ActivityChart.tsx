@@ -12,7 +12,7 @@ import { useTheme } from '@mui/material/styles';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 type ChartData = {
   name: string;

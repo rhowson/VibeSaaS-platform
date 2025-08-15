@@ -17,15 +17,15 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import AnimateButton from 'components/@extended/AnimateButton';
-import { PopupTransition } from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
+import { PopupTransition } from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
-import { Address } from 'types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
+import { Address } from '@/types/e-commerce';
 
 // assets
 import { CloseCircle } from '@wandersonalwes/iconsax-react';

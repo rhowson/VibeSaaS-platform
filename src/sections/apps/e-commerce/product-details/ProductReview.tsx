@@ -19,16 +19,16 @@ import Box from '@mui/material/Box';
 import { format } from 'date-fns';
 
 // project-imports
-import { useGetProductReviews } from 'api/products';
-import IconButton from 'components/@extended/IconButton';
-import ProductReview from 'components/cards/e-commerce/ProductReview';
-import MainCard from 'components/MainCard';
+import { useGetProductReviews } from '@/api/products';
+import IconButton from '@/components/@extended/IconButton';
+import ProductReview from '@/components/cards/e-commerce/ProductReview';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { EmojiHappy, Image as ImageIcon, Paperclip2 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { Products } from 'types/e-commerce';
+import { Products } from '@/types/e-commerce';
 
 interface ProgressProps {
   star: number;

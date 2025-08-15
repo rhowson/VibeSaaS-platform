@@ -3,23 +3,23 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import BasicAutocomplete from 'sections/components-overview/autocomplete/BasicAutocomplete';
-import CountryAutocomplete from 'sections/components-overview/autocomplete/CountryAutocomplete';
-import CreatableAutocomplete from 'sections/components-overview/autocomplete/CreatableAutocomplete';
-import GroupedAutocomplete from 'sections/components-overview/autocomplete/GroupedAutocomplete';
-import DisabledAutocomplete from 'sections/components-overview/autocomplete/DisabledAutocomplete';
-import AsynchronousAutocomplete from 'sections/components-overview/autocomplete/AsynchronousAutocomplete';
-import CustomizedAutocomplete from 'sections/components-overview/autocomplete/CustomizedAutocomplete';
-import MultipleAutocomplete from 'sections/components-overview/autocomplete/MultipleAutocomplete';
-import FixedTagsAutocomplete from 'sections/components-overview/autocomplete/FixedTagsAutocomplete';
-import CheckboxesAutocomplete from 'sections/components-overview/autocomplete/CheckboxesAutocomplete';
-import LimitAutocomplete from 'sections/components-overview/autocomplete/LimitAutocomplete';
-import SizesAutocomplete from 'sections/components-overview/autocomplete/SizesAutocomplete';
-import GitHubAutocomplete from 'sections/components-overview/autocomplete/GitHubAutocomplete';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import BasicAutocomplete from '@/sections/components-overview/autocomplete/BasicAutocomplete';
+import CountryAutocomplete from '@/sections/components-overview/autocomplete/CountryAutocomplete';
+import CreatableAutocomplete from '@/sections/components-overview/autocomplete/CreatableAutocomplete';
+import GroupedAutocomplete from '@/sections/components-overview/autocomplete/GroupedAutocomplete';
+import DisabledAutocomplete from '@/sections/components-overview/autocomplete/DisabledAutocomplete';
+import AsynchronousAutocomplete from '@/sections/components-overview/autocomplete/AsynchronousAutocomplete';
+import CustomizedAutocomplete from '@/sections/components-overview/autocomplete/CustomizedAutocomplete';
+import MultipleAutocomplete from '@/sections/components-overview/autocomplete/MultipleAutocomplete';
+import FixedTagsAutocomplete from '@/sections/components-overview/autocomplete/FixedTagsAutocomplete';
+import CheckboxesAutocomplete from '@/sections/components-overview/autocomplete/CheckboxesAutocomplete';
+import LimitAutocomplete from '@/sections/components-overview/autocomplete/LimitAutocomplete';
+import SizesAutocomplete from '@/sections/components-overview/autocomplete/SizesAutocomplete';
+import GitHubAutocomplete from '@/sections/components-overview/autocomplete/GitHubAutocomplete';
 
 // ==============================|| COMPONENTS - AUTOCOMPLETE ||============================== //
 

@@ -9,9 +9,9 @@ import Links from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { DocumentDownload, DocumentText, Link1, Setting3 } from '@wandersonalwes/iconsax-react';

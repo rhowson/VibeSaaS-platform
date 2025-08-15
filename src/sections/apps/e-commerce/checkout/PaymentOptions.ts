@@ -1,5 +1,5 @@
 // types
-import { PaymentOptionsProps } from 'types/e-commerce';
+import { PaymentOptionsProps } from '@/types/e-commerce';
 
 // assets
 const paypal = '/assets/images/e-commerce/paypal.png';

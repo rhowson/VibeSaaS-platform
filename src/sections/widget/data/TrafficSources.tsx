@@ -4,7 +4,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ===========================|| DATA WIDGET - TRAFFIC SOURCES ||=========================== //
 

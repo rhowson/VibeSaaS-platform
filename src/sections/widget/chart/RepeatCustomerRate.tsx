@@ -9,9 +9,9 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import RepeatCustomerChart from './RepeatCustomerChart';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| CHART - REPEAT CUSTOMER RATE ||============================== //
 

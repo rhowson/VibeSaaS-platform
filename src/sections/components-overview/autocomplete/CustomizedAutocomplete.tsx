@@ -7,8 +7,8 @@ import useAutocomplete, { AutocompleteGetTagProps } from '@mui/material/useAutoc
 import { styled } from '@mui/material/styles';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import data from 'data/movies';
+import MainCard from '@/components/MainCard';
+import data from '@/data/movies';
 
 // assets
 import { CloseCircle, TickSquare } from '@wandersonalwes/iconsax-react';

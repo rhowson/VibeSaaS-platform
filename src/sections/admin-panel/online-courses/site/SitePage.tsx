@@ -6,7 +6,7 @@ import Tabs from '@mui/material/Tabs';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 import PageTable from './PageTable';
 
 interface TabPanelProps {

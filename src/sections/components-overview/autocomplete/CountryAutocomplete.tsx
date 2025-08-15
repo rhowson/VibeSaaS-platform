@@ -7,8 +7,8 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 
 // project-imports
-import countries from 'data/countries';
-import MainCard from 'components/MainCard';
+import countries from '@/data/countries';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| AUTOCOMPLETE - COUNTRY ||============================== //
 

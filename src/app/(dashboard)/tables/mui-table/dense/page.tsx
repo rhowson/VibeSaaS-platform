@@ -1,5 +1,5 @@
 // project-imports
-import TableDense from 'views/forms-tables/tables/mui-table/TableDense';
+import TableDense from '@/views/forms-tables/tables/mui-table/TableDense';
 
 // ==============================|| MUI TABLE - DENSE ||============================== //
 

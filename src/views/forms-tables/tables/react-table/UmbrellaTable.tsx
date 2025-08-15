@@ -63,9 +63,9 @@ import {
 } from '@tanstack/react-table';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
 import {
   CSVExport,
   DebouncedInput,
@@ -77,13 +77,13 @@ import {
   TablePagination,
   RowEditable,
   SelectColumnVisibility
-} from 'components/third-party/react-table';
-import makeData from 'data/react-table';
-import ExpandingUserDetail from 'sections/tables/react-table/ExpandingUserDetail';
+} from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
+import ExpandingUserDetail from '@/sections/tables/react-table/ExpandingUserDetail';
 
 // types
 import { LabelKeyObject } from 'react-csv/lib/core';
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 // assets
 import { ArrowDown2, ArrowRight2, CloseCircle, Command, Edit2, Send, TableDocument, HambergerMenu } from '@wandersonalwes/iconsax-react';

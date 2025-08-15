@@ -11,7 +11,7 @@ import { To } from 'history';
 // project-imports
 import Logo from './LogoMain';
 import LogoIcon from './LogoIcon';
-import { APP_DEFAULT_PATH } from 'config';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // ==============================|| MAIN LOGO ||============================== //
 

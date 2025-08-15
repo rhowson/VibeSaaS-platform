@@ -2,18 +2,18 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import RoundIconCard from 'components/cards/statistics/RoundIconCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import RoundIconCard from '@/components/cards/statistics/RoundIconCard';
 
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import { dashboardWidgetData } from 'data/membership';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import { dashboardWidgetData } from '@/data/membership';
 
-import Activity from 'sections/admin-panel/membership/dashboard/Activity';
-import CalendarEventsCard from 'sections/admin-panel/membership/dashboard/CalendarEventsCard';
-import LatestSignupList from 'sections/admin-panel/membership/dashboard/LatestSignupList';
-import MembershipState from 'sections/admin-panel/membership/dashboard/MembershipState';
-import Notifications from 'sections/admin-panel/membership/dashboard/Notifications';
-import RevenueAnalytics from 'sections/admin-panel/membership/dashboard/RevenueAnalytics';
+import Activity from '@/sections/admin-panel/membership/dashboard/Activity';
+import CalendarEventsCard from '@/sections/admin-panel/membership/dashboard/CalendarEventsCard';
+import LatestSignupList from '@/sections/admin-panel/membership/dashboard/LatestSignupList';
+import MembershipState from '@/sections/admin-panel/membership/dashboard/MembershipState';
+import Notifications from '@/sections/admin-panel/membership/dashboard/Notifications';
+import RevenueAnalytics from '@/sections/admin-panel/membership/dashboard/RevenueAnalytics';
 
 // ==============================|| MEMBERSHIP - DASHBOARD ||============================== //
 

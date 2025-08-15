@@ -12,10 +12,10 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import MainCard from 'components/MainCard';
-import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from 'config';
-import { pricingData } from 'data/membership';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import MainCard from '@/components/MainCard';
+import { APP_DEFAULT_PATH, GRID_COMMON_SPACING } from '@/config';
+import { pricingData } from '@/data/membership';
 
 // assets
 import { TickCircle } from '@wandersonalwes/iconsax-react';

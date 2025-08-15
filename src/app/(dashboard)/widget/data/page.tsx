@@ -1,5 +1,5 @@
 // project-imports
-import WidgetData from 'views/widget/WidgetData';
+import WidgetData from '@/views/widget/WidgetData';
 
 // ===========================|| WIDGET - DATA ||=========================== //
 

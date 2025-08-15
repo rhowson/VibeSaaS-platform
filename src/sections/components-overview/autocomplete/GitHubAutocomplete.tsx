@@ -12,7 +12,7 @@ import Popper from '@mui/material/Popper';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { CloseCircle, Setting3, TickCircle } from '@wandersonalwes/iconsax-react';

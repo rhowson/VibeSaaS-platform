@@ -1,5 +1,5 @@
 // project-imports
-import UnderConstruction2page from 'views/maintenance/UnderConstruction2';
+import UnderConstruction2page from '@/views/maintenance/UnderConstruction2';
 
 // ==============================|| UNDER CONSTRUCTION ||============================== //
 

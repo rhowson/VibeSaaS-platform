@@ -14,7 +14,7 @@ import RejectionFiles from './RejectionFiles';
 import { Camera } from '@wandersonalwes/iconsax-react';
 
 // types
-import { CustomFile, UploadProps } from 'types/dropzone';
+import { CustomFile, UploadProps } from '@/types/dropzone';
 
 const RootWrapper = styled('div')(({ theme }) => ({
   width: 124,

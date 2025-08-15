@@ -1,5 +1,5 @@
 // project-imports
-import ComponentShadow from 'views/components-overview/ComponentShadow';
+import ComponentShadow from '@/views/components-overview/ComponentShadow';
 
 // ============================|| COMPONENTS - SHADOW ||============================ //
 

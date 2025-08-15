@@ -22,12 +22,12 @@ import Box from '@mui/material/Box';
 // project-imports
 import ProfileTab from './ProfileTab';
 import SettingTab from './SettingTab';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
+import MainCard from '@/components/MainCard';
 
-import useUser from 'hooks/useUser';
+import useUser from '@/hooks/useUser';
 
 // assets
 const avatar1 = '/assets/images/users/avatar-6.png';

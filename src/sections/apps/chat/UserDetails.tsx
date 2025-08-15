@@ -12,14 +12,14 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import AvatarStatus from './AvatarStatus';
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import IconButton from 'components/@extended/IconButton';
-import SimpleBar from 'components/third-party/SimpleBar';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import IconButton from '@/components/@extended/IconButton';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // types
-import { UserProfile } from 'types/user-profile';
+import { UserProfile } from '@/types/user-profile';
 
 // assets
 import {

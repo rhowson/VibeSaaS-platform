@@ -22,17 +22,17 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 
 // project-imports
-import useUser from 'hooks/useUser';
-import useScriptRef from 'hooks/useScriptRef';
-import IconButton from 'components/@extended/IconButton';
-import AnimateButton from 'components/@extended/AnimateButton';
+import useUser from '@/hooks/useUser';
+import useScriptRef from '@/hooks/useScriptRef';
+import IconButton from '@/components/@extended/IconButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
 
-import { openSnackbar } from 'api/snackbar';
-import { strengthColor, strengthIndicator } from 'utils/password-strength';
+import { openSnackbar } from '@/api/snackbar';
+import { strengthColor, strengthIndicator } from '@/utils/password-strength';
 
 // types
-import { StringColorProps } from 'types/password';
-import { SnackbarProps } from 'types/snackbar';
+import { StringColorProps } from '@/types/password';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Eye, EyeSlash } from '@wandersonalwes/iconsax-react';

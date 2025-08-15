@@ -7,10 +7,10 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // types
-import { Address } from 'types/e-commerce';
+import { Address } from '@/types/e-commerce';
 
 // assets
 import { Edit } from '@wandersonalwes/iconsax-react';

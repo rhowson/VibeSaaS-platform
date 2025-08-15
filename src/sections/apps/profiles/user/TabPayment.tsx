@@ -26,9 +26,9 @@ import { PatternFormat } from 'react-number-format';
 import * as Yup from 'yup';
 
 // project-imports
-import { openSnackbar } from 'api/snackbar';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import { openSnackbar } from '@/api/snackbar';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add, Eye, EyeSlash, Trash } from '@wandersonalwes/iconsax-react';
@@ -37,7 +37,7 @@ const paypal = '/assets/images/icons/paypal.png';
 const visaCard = '/assets/images/icons/visa-card.png';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 interface PaymentCardProps {
   id: number;

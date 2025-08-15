@@ -1,5 +1,5 @@
 // project-imports
-import ComponentTreeView from 'views/components-overview/ComponentTreeView';
+import ComponentTreeView from '@/views/components-overview/ComponentTreeView';
 
 // ==============================|| COMPONENTS - TREE VIEW ||============================== //
 

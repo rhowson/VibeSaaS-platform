@@ -17,9 +17,9 @@ import MenuItem from '@mui/material/MenuItem';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { useGetMenuMaster } from 'api/menu';
-import Avatar from 'components/@extended/Avatar';
-import useUser from 'hooks/useUser';
+import { useGetMenuMaster } from '@/api/menu';
+import Avatar from '@/components/@extended/Avatar';
+import useUser from '@/hooks/useUser';
 
 // assets
 import { ArrowRight2 } from '@wandersonalwes/iconsax-react';

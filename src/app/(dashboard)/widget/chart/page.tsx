@@ -1,5 +1,5 @@
 // project-imports
-import WidgetChart from 'views/widget/WidgetChart';
+import WidgetChart from '@/views/widget/WidgetChart';
 
 // ==============================|| WIDGET - CHARTS ||============================== //
 

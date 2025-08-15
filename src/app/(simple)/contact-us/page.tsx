@@ -1,5 +1,5 @@
 // project-imports
-import ContactUSPage from 'views/contact-us/ContactUS';
+import ContactUSPage from '@/views/contact-us/ContactUS';
 
 // ==============================|| CONTACT US - MAIN ||============================== //
 

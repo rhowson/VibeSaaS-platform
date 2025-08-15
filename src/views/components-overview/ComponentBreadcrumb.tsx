@@ -4,12 +4,12 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import Breadcrumb from 'components/@extended/Breadcrumbs';
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import Breadcrumb from '@/components/@extended/Breadcrumbs';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // assets
 import { Minus } from '@wandersonalwes/iconsax-react';

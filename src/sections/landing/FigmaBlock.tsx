@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project import
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 // icons
 import { ShoppingCart, ArrowDown } from '@wandersonalwes/iconsax-react';

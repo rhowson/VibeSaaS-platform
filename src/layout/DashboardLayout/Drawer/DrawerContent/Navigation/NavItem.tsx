@@ -15,18 +15,18 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
 
 // third-party
 import { FormattedMessage } from 'react-intl';
 
-import { handlerHorizontalActiveItem, handlerActiveItem, handlerDrawerOpen, useGetMenuMaster } from 'api/menu';
-import { MenuOrientation, NavActionType } from 'config';
-import useConfig from 'hooks/useConfig';
+import { handlerHorizontalActiveItem, handlerActiveItem, handlerDrawerOpen, useGetMenuMaster } from '@/api/menu';
+import { MenuOrientation, NavActionType } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // types
-import { LinkTarget, NavItemType } from 'types/menu';
+import { LinkTarget, NavItemType } from '@/types/menu';
 
 // ==============================|| NAVIGATION - ITEM ||============================== //
 

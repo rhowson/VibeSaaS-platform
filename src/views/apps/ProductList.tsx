@@ -40,12 +40,12 @@ import {
 import { rankItem } from '@tanstack/match-sorter-utils';
 
 // project-import
-import { useGetProducts } from 'api/products';
-import MainCard from 'components/MainCard';
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import ProductView from 'sections/apps/e-commerce/product-list/ProductView';
-import EmptyTables from 'views/forms-tables/tables/react-table/EmptyTable';
+import { useGetProducts } from '@/api/products';
+import MainCard from '@/components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import ProductView from '@/sections/apps/e-commerce/product-list/ProductView';
+import EmptyTables from '@/views/forms-tables/tables/react-table/EmptyTable';
 
 import {
   DebouncedInput,
@@ -54,10 +54,10 @@ import {
   RowSelection,
   SelectColumnSorting,
   TablePagination
-} from 'components/third-party/react-table';
+} from '@/components/third-party/react-table';
 
 // types
-import { Products } from 'types/e-commerce';
+import { Products } from '@/types/e-commerce';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 // assets

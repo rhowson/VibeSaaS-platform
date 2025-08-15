@@ -6,7 +6,7 @@ import getColors from '@/utils/getColors';
 import getShadow from '@/utils/getShadow';
 
 // types
-import { ButtonVariantProps, ExtendedStyleProps } from 'types/extended';
+import { ButtonVariantProps, ExtendedStyleProps } from '@/types/extended';
 
 interface ButtonStyleProps extends ExtendedStyleProps {
   variant: ButtonVariantProps;

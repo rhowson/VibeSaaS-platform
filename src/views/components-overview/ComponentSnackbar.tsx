@@ -6,11 +6,11 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 import {
   ColorVariants,
   CustomComponent,
@@ -23,12 +23,12 @@ import {
   PreventDuplicate,
   SnackBarAction,
   TransitionBar
-} from 'sections/components-overview/notistack';
+} from '@/sections/components-overview/notistack';
 
-import { openSnackbar } from 'api/snackbar';
+import { openSnackbar } from '@/api/snackbar';
 
 // types
-import { SnackbarProps } from 'types/snackbar';
+import { SnackbarProps } from '@/types/snackbar';
 
 // ==============================|| COMPONENTS - SNACKBAR ||============================== //
 

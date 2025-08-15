@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import CustomerSatisfactionChart from './CustomerSatisfactionChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| DASHBOARD - CUSTOMER SATISFACTION ||============================== //
 

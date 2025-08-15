@@ -8,8 +8,8 @@ import Toolbar from '@mui/material/Toolbar';
 
 // project-imports
 import LayoutContent from './LayoutContent';
-import { useGetMenuMaster } from 'api/menu';
-import Loader from 'components/Loader';
+import { useGetMenuMaster } from '@/api/menu';
+import Loader from '@/components/Loader';
 
 const Header = lazy(() => import('./Header'));
 

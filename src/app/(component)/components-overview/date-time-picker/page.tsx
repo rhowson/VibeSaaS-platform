@@ -1,5 +1,5 @@
 // project-imports
-import ComponentDateTimePicker from 'views/components-overview/ComponentDateTimePicker';
+import ComponentDateTimePicker from '@/views/components-overview/ComponentDateTimePicker';
 
 // ===============================|| COMPONENTS - DATE / TIME PICKER ||=============================== //
 

@@ -2,7 +2,7 @@
 import { Theme, SxProps } from '@mui/material/styles';
 
 // project-imports
-import { DropzopType } from 'config';
+import { DropzopType } from '@/config';
 
 // third-party
 import { DropzoneOptions } from 'react-dropzone';

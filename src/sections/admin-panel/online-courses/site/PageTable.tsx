@@ -16,7 +16,7 @@ import Box from '@mui/material/Box';
 
 // third-party
 import { ColumnDef, HeaderGroup, flexRender, getCoreRowModel, getSortedRowModel, useReactTable, SortingState } from '@tanstack/react-table';
-import { HeaderSort } from 'components/third-party/react-table';
+import { HeaderSort } from '@/components/third-party/react-table';
 
 // assets
 import { Edit, Eye, Trash } from '@wandersonalwes/iconsax-react';

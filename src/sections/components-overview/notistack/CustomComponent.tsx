@@ -15,7 +15,7 @@ import Box from '@mui/material/Box';
 import { enqueueSnackbar, useSnackbar, SnackbarContent, SnackbarKey, SnackbarMessage } from 'notistack';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add, ArrowDown2, TickCircle } from '@wandersonalwes/iconsax-react';

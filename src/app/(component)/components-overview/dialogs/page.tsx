@@ -1,5 +1,5 @@
 // project-imports
-import ComponentDialogs from 'views/components-overview/ComponentDialogs';
+import ComponentDialogs from '@/views/components-overview/ComponentDialogs';
 
 // ==============================|| COMPONENTS - DIALOGS ||============================== //
 

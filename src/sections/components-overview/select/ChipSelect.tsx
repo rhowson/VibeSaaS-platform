@@ -14,7 +14,7 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;

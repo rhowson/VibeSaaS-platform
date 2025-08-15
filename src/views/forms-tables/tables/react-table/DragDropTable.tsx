@@ -2,10 +2,10 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import { GRID_COMMON_SPACING } from 'config';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import RowDragDrop from 'sections/tables/react-table/RowDragDrop';
-import ColumnDragDrop from 'sections/tables/react-table/ColumnDragDrop';
+import RowDragDrop from '@/sections/tables/react-table/RowDragDrop';
+import ColumnDragDrop from '@/sections/tables/react-table/ColumnDragDrop';
 
 // ==============================|| REACT TABLE - DRAG & DROP ||============================== //
 

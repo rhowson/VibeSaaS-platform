@@ -6,7 +6,7 @@ import getColors from '@/utils/getColors';
 import getShadow from '@/utils/getShadow';
 
 // types
-import { ColorProps } from 'types/extended';
+import { ColorProps } from '@/types/extended';
 
 interface Props {
   variant: ColorProps;

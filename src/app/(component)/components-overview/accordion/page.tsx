@@ -1,5 +1,5 @@
 // project-imports
-import ComponentAccordion from 'views/components-overview/ComponentAccordion';
+import ComponentAccordion from '@/views/components-overview/ComponentAccordion';
 
 // ==============================|| COMPONENTS - ACCORDION ||============================== //
 

@@ -8,9 +8,9 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import { ApexDonutChart } from './charts/StudentStatesChart';
-import MainCard from 'components/MainCard';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
 
 // ==============================|| DASHBOARD - STUDENT STATES ||============================== //
 

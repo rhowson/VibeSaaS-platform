@@ -24,16 +24,16 @@ import * as yup from 'yup';
 
 // project-imports
 import ColorOptions from '../products/ColorOptions';
-import { addToCart, useGetCart } from 'api/cart';
-import { openSnackbar } from 'api/snackbar';
-import Avatar from 'components/@extended/Avatar';
+import { addToCart, useGetCart } from '@/api/cart';
+import { openSnackbar } from '@/api/snackbar';
+import Avatar from '@/components/@extended/Avatar';
 
 // assets
 import { Add, Minus, ShopAdd, ShoppingCart } from '@wandersonalwes/iconsax-react';
 
 // types
-import { ColorsOptionsProps, Products } from 'types/e-commerce';
-import { SnackbarProps } from 'types/snackbar';
+import { ColorsOptionsProps, Products } from '@/types/e-commerce';
+import { SnackbarProps } from '@/types/snackbar';
 
 // product color select
 function getColor(color: string) {

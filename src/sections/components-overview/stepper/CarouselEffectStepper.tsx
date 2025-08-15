@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import Slider from 'react-slick';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArrowLeft2, ArrowRight2 } from '@wandersonalwes/iconsax-react';

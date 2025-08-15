@@ -1,5 +1,5 @@
 // project-imports
-import TeacherAdd from 'views/admin-panel/online-courses/teacher/TeacherAdd';
+import TeacherAdd from '@/views/admin-panel/online-courses/teacher/TeacherAdd';
 
 // ==============================|| TEACHER - ADD ||============================== //
 

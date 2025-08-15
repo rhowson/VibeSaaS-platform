@@ -2,22 +2,22 @@
 import Grid from '@mui/material/Grid';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import SimpleDialog from 'sections/components-overview/dialogs/SimpleDialog';
-import AlertDialog from 'sections/components-overview/dialogs/AlertDialog';
-import FormDialog from 'sections/components-overview/dialogs/FormDialog';
-import TransitionsDialog from 'sections/components-overview/dialogs/TransitionsDialog';
-import CustomizedDialog from 'sections/components-overview/dialogs/CustomizedDialog';
-import FullScreenDialog from 'sections/components-overview/dialogs/FullScreenDialog';
-import SizesDialog from 'sections/components-overview/dialogs/SizesDialog';
-import ResponsiveDialog from 'sections/components-overview/dialogs/ResponsiveDialog';
-import DraggableDialog from 'sections/components-overview/dialogs/DraggableDialog';
-import ScrollDialog from 'sections/components-overview/dialogs/ScrollDialog';
-import ConfirmationDialog from 'sections/components-overview/dialogs/ConfirmationDialog';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import SimpleDialog from '@/sections/components-overview/dialogs/SimpleDialog';
+import AlertDialog from '@/sections/components-overview/dialogs/AlertDialog';
+import FormDialog from '@/sections/components-overview/dialogs/FormDialog';
+import TransitionsDialog from '@/sections/components-overview/dialogs/TransitionsDialog';
+import CustomizedDialog from '@/sections/components-overview/dialogs/CustomizedDialog';
+import FullScreenDialog from '@/sections/components-overview/dialogs/FullScreenDialog';
+import SizesDialog from '@/sections/components-overview/dialogs/SizesDialog';
+import ResponsiveDialog from '@/sections/components-overview/dialogs/ResponsiveDialog';
+import DraggableDialog from '@/sections/components-overview/dialogs/DraggableDialog';
+import ScrollDialog from '@/sections/components-overview/dialogs/ScrollDialog';
+import ConfirmationDialog from '@/sections/components-overview/dialogs/ConfirmationDialog';
 
 // ==============================|| COMPONENTS - DIALOGS ||============================== //
 

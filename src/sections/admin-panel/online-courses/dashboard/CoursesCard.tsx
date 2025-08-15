@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 
 // project-imports
 import CoursesChart from './charts/CoursesChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArrowUp } from '@wandersonalwes/iconsax-react';

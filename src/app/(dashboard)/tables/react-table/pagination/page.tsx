@@ -1,5 +1,5 @@
 // project-imports
-import PaginationTable from 'views/forms-tables/tables/react-table/PaginationTable';
+import PaginationTable from '@/views/forms-tables/tables/react-table/PaginationTable';
 
 // ==============================|| REACT TABLE - PAGINATION ||============================== //
 

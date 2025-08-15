@@ -36,12 +36,12 @@ import { FieldArray, Form, Formik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import CircularLoader from 'components/CircularLoader';
-import MainCard from 'components/MainCard';
-import AddressModal from 'sections/apps/invoice/AddressModal';
-import InvoiceItem from 'sections/apps/invoice/InvoiceItem';
-import InvoiceModal from 'sections/apps/invoice/InvoiceModal';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import CircularLoader from '@/components/CircularLoader';
+import MainCard from '@/components/MainCard';
+import AddressModal from '@/sections/apps/invoice/AddressModal';
+import InvoiceItem from '@/sections/apps/invoice/InvoiceItem';
+import InvoiceModal from '@/sections/apps/invoice/InvoiceModal';
 
 import {
   handlerCustomerTo,
@@ -51,18 +51,18 @@ import {
   useGetInvoice,
   useGetInvoiceMaster,
   selectCountry
-} from 'api/invoice';
+} from '@/api/invoice';
 
-import { openSnackbar } from 'api/snackbar';
-import { APP_DEFAULT_PATH } from 'config';
-import incrementer from 'utils/incrementer';
+import { openSnackbar } from '@/api/snackbar';
+import { APP_DEFAULT_PATH } from '@/config';
+import incrementer from '@/utils/incrementer';
 
 // assets
 import { Add, Edit } from '@wandersonalwes/iconsax-react';
 
 // types
-import { CountryType, InvoiceList, InvoiceProps } from 'types/invoice';
-import { SnackbarProps } from 'types/snackbar';
+import { CountryType, InvoiceList, InvoiceProps } from '@/types/invoice';
+import { SnackbarProps } from '@/types/snackbar';
 
 const validationSchema = yup.object({
   date: yup.date().required('Invoice date is required'),

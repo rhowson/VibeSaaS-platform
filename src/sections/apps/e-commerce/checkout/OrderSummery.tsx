@@ -11,11 +11,11 @@ import Typography from '@mui/material/Typography';
 import currency from 'currency.js';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // types
-import { CartCheckoutStateProps } from 'types/cart';
+import { CartCheckoutStateProps } from '@/types/cart';
 
 // ==============================|| CHECKOUT - ORDER SUMMARY ||============================== //
 

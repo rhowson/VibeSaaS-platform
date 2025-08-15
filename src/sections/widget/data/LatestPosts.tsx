@@ -9,7 +9,7 @@ import Links from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 const Dashboard1 = '/assets/images/widget/dashborad-1.jpg';

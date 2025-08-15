@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 
 // project-imports
 import FadeInWhenVisible from './Animation';
-import { ThemeMode } from 'config';
+import { ThemeMode } from '@/config';
 
 const client1Light = 'assets/images/landing/client-eagamesLight.svg';
 const client1Dark = 'assets/images/landing/client-eagamesDark.svg';

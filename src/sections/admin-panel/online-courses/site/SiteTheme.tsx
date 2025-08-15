@@ -21,9 +21,9 @@ import Box from '@mui/material/Box';
 import { useDropzone } from 'react-dropzone';
 
 // project-imports
-import ColorPickerCard from 'components/cards/ColorPickerCard';
-import ColorPreview from 'components/ColorPreview';
-import MainCard from 'components/MainCard';
+import ColorPickerCard from '@/components/cards/ColorPickerCard';
+import ColorPreview from '@/components/ColorPreview';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { DocumentUpload, Trash } from '@wandersonalwes/iconsax-react';

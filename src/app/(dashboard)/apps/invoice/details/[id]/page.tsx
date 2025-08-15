@@ -1,6 +1,6 @@
-// import { Products } from 'types/e-commerce';
-// import axios from 'utils/axios';
-import InvoiceDetails from 'views/apps/InvoiceDetails';
+// import { Products } from '@/types/e-commerce';
+// import axios from '@/utils/axios';
+import InvoiceDetails from '@/views/apps/InvoiceDetails';
 
 // ==============================|| PAGE ||============================== //
 

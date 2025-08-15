@@ -1,5 +1,5 @@
 // project-imports
-import ExpandingTables from 'views/forms-tables/tables/react-table/ExpandingTables';
+import ExpandingTables from '@/views/forms-tables/tables/react-table/ExpandingTables';
 
 // ==============================|| REACT TABLE - EXPANDING ||============================== //
 

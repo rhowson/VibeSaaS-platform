@@ -1,6 +1,6 @@
 // project-imports
-import { NavActionType } from 'config';
-import { handlerCustomerDialog } from 'api/customer';
+import { NavActionType } from '@/config';
+import { handlerCustomerDialog } from '@/api/customer';
 
 // assets
 import {
@@ -17,7 +17,7 @@ import {
 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // icons
 const icons = {

@@ -4,10 +4,10 @@
 import Box from '@mui/material/Box';
 
 // project-imports
-import { useGetCart } from 'api/cart';
-import MainCard from 'components/MainCard';
-import CircularLoader from 'components/CircularLoader';
-import CheckoutTab from 'sections/apps/e-commerce/checkout/CheckoutTab';
+import { useGetCart } from '@/api/cart';
+import MainCard from '@/components/MainCard';
+import CircularLoader from '@/components/CircularLoader';
+import CheckoutTab from '@/sections/apps/e-commerce/checkout/CheckoutTab';
 
 // ==============================|| ECOMMERCE - CHECKOUT ||============================== //
 

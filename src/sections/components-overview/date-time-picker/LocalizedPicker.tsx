@@ -18,7 +18,7 @@ import { enGB } from 'date-fns/locale/en-GB';
 import { zhCN } from 'date-fns/locale/zh-CN';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 const locales = { 'en-us': undefined, 'en-gb': enGB, 'zh-cn': zhCN, de };
 

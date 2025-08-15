@@ -17,15 +17,15 @@ import Stack from '@mui/material/Stack';
 import { flexRender, useReactTable, ColumnDef, HeaderGroup, getCoreRowModel } from '@tanstack/react-table';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport, SelectColumnVisibility } from 'components/third-party/react-table';
+import Avatar from '@/components/@extended/Avatar';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport, SelectColumnVisibility } from '@/components/third-party/react-table';
 
-import makeData from 'data/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 // assets

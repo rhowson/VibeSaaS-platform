@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import ActivityChart from './ActivityChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| MEMBERSHIP - DASHBOARD - ACTIVITY ||============================== //
 

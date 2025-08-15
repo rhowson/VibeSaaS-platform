@@ -14,11 +14,11 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
 
 // ==============================|| COMPONENTS - PAGINATION ||============================== //
 

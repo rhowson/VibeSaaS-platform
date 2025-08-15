@@ -9,8 +9,8 @@ import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 type ProductCreateDataType = { sales: string; product: string; price: string; colorClass: string };
 

@@ -8,12 +8,12 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // types
-import { ColorProps } from 'types/extended';
-import { TicketNotificationsCardProps } from 'types/helpdesk';
+import { ColorProps } from '@/types/extended';
+import { TicketNotificationsCardProps } from '@/types/helpdesk';
 
 // ==========================|| TICKET - NOTIFICATIONS CARD ||========================== //
 

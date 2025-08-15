@@ -11,7 +11,7 @@ import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import { isWeekend } from 'date-fns';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // ==============================|| DATE PICKER - LANDSCAPE ||============================== //
 

@@ -1,5 +1,5 @@
 // project-imports
-import HelpDeskCustomer from 'views/admin-panel/helpdesk/HelpDeskCustomer';
+import HelpDeskCustomer from '@/views/admin-panel/helpdesk/HelpDeskCustomer';
 
 // ==============================|| HELPDESK - CUSTOMER ||============================== //
 

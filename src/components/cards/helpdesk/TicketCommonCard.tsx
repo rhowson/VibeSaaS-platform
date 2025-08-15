@@ -8,11 +8,11 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MainCard from 'components/MainCard';
+import Avatar from '@/components/@extended/Avatar';
+import MainCard from '@/components/MainCard';
 
 // types
-import { TicketCommonCardProps } from 'types/helpdesk';
+import { TicketCommonCardProps } from '@/types/helpdesk';
 
 // assets
 import { Calendar, Eye, Heart, Lock1, MessageText, Trash } from '@wandersonalwes/iconsax-react';

@@ -12,8 +12,8 @@ import Box from '@mui/material/Box';
 import Localization from './Localization';
 import Profile from './Profile';
 import Search from './Search';
-import IconButton from 'components/@extended/IconButton';
-import Transitions from 'components/@extended/Transitions';
+import IconButton from '@/components/@extended/IconButton';
+import Transitions from '@/components/@extended/Transitions';
 
 // assets
 import { MoreSquare } from '@wandersonalwes/iconsax-react';

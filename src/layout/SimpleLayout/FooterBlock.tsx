@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 import { motion } from 'framer-motion';
 
 // project-imports
-import Logo from 'components/logo';
+import Logo from '@/components/logo';
 
 // assets
 import { Dribbble, Youtube } from '@wandersonalwes/iconsax-react';

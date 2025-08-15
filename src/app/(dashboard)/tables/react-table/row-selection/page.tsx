@@ -1,5 +1,5 @@
 // project-imports
-import RowSelectionTable from 'views/forms-tables/tables/react-table/RowSelectionTable';
+import RowSelectionTable from '@/views/forms-tables/tables/react-table/RowSelectionTable';
 
 // ==============================|| REACT TABLE - ROW SELECTION ||============================== //
 

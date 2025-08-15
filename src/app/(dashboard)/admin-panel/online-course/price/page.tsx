@@ -1,5 +1,5 @@
 // project-imports
-import OnlinePrice from 'views/admin-panel/online-courses/pricing/OnlinePrice';
+import OnlinePrice from '@/views/admin-panel/online-courses/pricing/OnlinePrice';
 
 // ==============================|| ONLINE COURSES - PRICE ||============================== //
 

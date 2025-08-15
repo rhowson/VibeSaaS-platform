@@ -1,5 +1,5 @@
 // project-imports
-import ComponentTextField from 'views/components-overview/ComponentTextField';
+import ComponentTextField from '@/views/components-overview/ComponentTextField';
 
 // ==============================|| COMPONENTS - TEXT FEILD ||============================== //
 

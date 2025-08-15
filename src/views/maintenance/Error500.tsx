@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import { APP_DEFAULT_PATH } from 'config';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // assets
 const error500 = '/assets/images/maintenance/img-error-500.svg';

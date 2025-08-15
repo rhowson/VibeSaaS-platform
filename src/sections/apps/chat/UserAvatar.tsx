@@ -3,10 +3,10 @@ import Badge from '@mui/material/Badge';
 
 // project-imports
 import AvatarStatus from './AvatarStatus';
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 
 // types
-import { UserProfile } from 'types/user-profile';
+import { UserProfile } from '@/types/user-profile';
 
 // assets
 const avatarImage = '/assets/images/users';

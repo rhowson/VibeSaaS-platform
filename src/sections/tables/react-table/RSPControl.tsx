@@ -19,13 +19,13 @@ import { ColumnDef, HeaderGroup, PaginationState, flexRender, getCoreRowModel, u
 import { keepPreviousData, useQuery, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport, IndeterminateCheckbox, RowSelection, TablePagination } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport, IndeterminateCheckbox, RowSelection, TablePagination } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 const queryClient = new QueryClient();

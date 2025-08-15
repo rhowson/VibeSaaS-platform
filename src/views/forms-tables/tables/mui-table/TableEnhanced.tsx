@@ -17,12 +17,12 @@ import { visuallyHidden } from '@mui/utils';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { CSVExport, RowSelection } from 'components/third-party/react-table';
+import MainCard from '@/components/MainCard';
+import { CSVExport, RowSelection } from '@/components/third-party/react-table';
 
 // assets
-import { KeyedObject } from 'types/root';
-import { ArrangementOrder, EnhancedTableHeadProps } from 'types/table';
+import { KeyedObject } from '@/types/root';
+import { ArrangementOrder, EnhancedTableHeadProps } from '@/types/table';
 
 type TableEnhancedCreateDataType = { name: string; calories: number; fat: number; carbs: number; protein: number };
 

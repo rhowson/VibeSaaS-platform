@@ -3,17 +3,17 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import BasicTreeView from 'sections/components-overview/tree-view/BasicTreeView';
-import MultiSelectTreeView from 'sections/components-overview/tree-view/MultiSelectTreeView';
-import ControlledTreeView from 'sections/components-overview/tree-view/ControlledTreeView';
-import RichObjectTreeView from 'sections/components-overview/tree-view/RichObjectTreeView';
-import DisabledTreeView from 'sections/components-overview/tree-view/DisabledTreeView';
-import CustomizedTreeView from 'sections/components-overview/tree-view/CustomizedTreeView';
-import GmailTreeView from 'sections/components-overview/tree-view/GmailTreeView';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import BasicTreeView from '@/sections/components-overview/tree-view/BasicTreeView';
+import MultiSelectTreeView from '@/sections/components-overview/tree-view/MultiSelectTreeView';
+import ControlledTreeView from '@/sections/components-overview/tree-view/ControlledTreeView';
+import RichObjectTreeView from '@/sections/components-overview/tree-view/RichObjectTreeView';
+import DisabledTreeView from '@/sections/components-overview/tree-view/DisabledTreeView';
+import CustomizedTreeView from '@/sections/components-overview/tree-view/CustomizedTreeView';
+import GmailTreeView from '@/sections/components-overview/tree-view/GmailTreeView';
 
 // ==============================|| COMPONENTS - TREE VIEW ||============================== //
 

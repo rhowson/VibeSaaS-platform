@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import Navigation from './Navigation';
-import SimpleBar from 'components/third-party/SimpleBar';
+import SimpleBar from '@/components/third-party/SimpleBar';
 
 // ==============================|| DRWAER - CONTENT ||============================== //
 

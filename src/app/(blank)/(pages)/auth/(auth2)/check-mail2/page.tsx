@@ -1,5 +1,5 @@
 // project-imports
-import CheckMailPage from 'views/auth/auth2/CheckMail';
+import CheckMailPage from '@/views/auth/auth2/CheckMail';
 
 // ================================|| CHECK MAIL ||================================ //
 

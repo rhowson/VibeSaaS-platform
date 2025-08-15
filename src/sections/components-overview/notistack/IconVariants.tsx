@@ -11,8 +11,8 @@ import RadioGroup from '@mui/material/RadioGroup';
 import { enqueueSnackbar, SnackbarProvider } from 'notistack';
 
 // project-imports
-import { handlerIconVariants } from 'api/snackbar';
-import MainCard from 'components/MainCard';
+import { handlerIconVariants } from '@/api/snackbar';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { InfoCircle } from '@wandersonalwes/iconsax-react';

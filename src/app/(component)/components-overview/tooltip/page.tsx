@@ -1,5 +1,5 @@
 // project-imports
-import ComponentTooltip from 'views/components-overview/ComponentTooltip';
+import ComponentTooltip from '@/views/components-overview/ComponentTooltip';
 
 // ==============================|| COMPONENTS - TOOLTIP ||============================== //
 

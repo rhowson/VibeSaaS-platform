@@ -13,13 +13,13 @@ import Drawer from './Drawer';
 import Header from './Header';
 import Footer from './Footer';
 import HorizontalBar from './Drawer/HorizontalBar';
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import Loader from 'components/Loader';
-import AddCustomer from 'sections/apps/customer/AddCustomer';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import Loader from '@/components/Loader';
+import AddCustomer from '@/sections/apps/customer/AddCustomer';
 
-import { handlerDrawerOpen, useGetMenuMaster } from 'api/menu';
-import { DRAWER_WIDTH, MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
+import { handlerDrawerOpen, useGetMenuMaster } from '@/api/menu';
+import { DRAWER_WIDTH, MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 // ==============================|| MAIN LAYOUT ||============================== //
 

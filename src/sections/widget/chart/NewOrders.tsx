@@ -15,7 +15,7 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import EcommerceDataChart from './EcommerceDataChart';
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArrowUp } from '@wandersonalwes/iconsax-react';

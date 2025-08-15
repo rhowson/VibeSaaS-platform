@@ -8,8 +8,8 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Pricing1 from 'sections/pricing/Pricing1';
-import { useIspValue } from 'hooks/useIspValue';
+import Pricing1 from '@/sections/pricing/Pricing1';
+import { useIspValue } from '@/hooks/useIspValue';
 
 // assets
 import { InfoCircle } from '@wandersonalwes/iconsax-react';

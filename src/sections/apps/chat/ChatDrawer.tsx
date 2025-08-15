@@ -24,14 +24,14 @@ import Box from '@mui/material/Box';
 // project-imports
 import UserAvatar from './UserAvatar';
 import UserList from './UserList';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import SimpleBar from 'components/third-party/SimpleBar';
-import { ThemeMode } from 'config';
-import useUser from 'hooks/useUser';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import SimpleBar from '@/components/third-party/SimpleBar';
+import { ThemeMode } from '@/config';
+import useUser from '@/hooks/useUser';
 
 // types
-import { UserProfile } from 'types/user-profile';
+import { UserProfile } from '@/types/user-profile';
 
 // assets
 import { ArrowRight2, Clock, Logout, MinusCirlce, SearchNormal1, Setting3, TickCircle } from '@wandersonalwes/iconsax-react';

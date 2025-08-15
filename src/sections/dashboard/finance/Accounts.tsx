@@ -4,9 +4,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import Dot from 'components/@extended/Dot';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
+import Dot from '@/components/@extended/Dot';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

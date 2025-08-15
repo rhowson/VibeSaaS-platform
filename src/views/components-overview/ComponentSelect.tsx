@@ -3,16 +3,16 @@ import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 
 // project-imports
-import ComponentHeader from 'components/cards/ComponentHeader';
-import { GRID_COMMON_SPACING } from 'config';
+import ComponentHeader from '@/components/cards/ComponentHeader';
+import { GRID_COMMON_SPACING } from '@/config';
 
-import ComponentWrapper from 'sections/components-overview/ComponentWrapper';
-import BasicSelect from 'sections/components-overview/select/BasicSelect';
-import HelperTextSelect from 'sections/components-overview/select/HelperTextSelect';
-import AutoWidthSelect from 'sections/components-overview/select/AutoWidthSelect';
-import MultipleSelect from 'sections/components-overview/select/MultipleSelect';
-import CheckmarksSelect from 'sections/components-overview/select/CheckmarksSelect';
-import ChipSelect from 'sections/components-overview/select/ChipSelect';
+import ComponentWrapper from '@/sections/components-overview/ComponentWrapper';
+import BasicSelect from '@/sections/components-overview/select/BasicSelect';
+import HelperTextSelect from '@/sections/components-overview/select/HelperTextSelect';
+import AutoWidthSelect from '@/sections/components-overview/select/AutoWidthSelect';
+import MultipleSelect from '@/sections/components-overview/select/MultipleSelect';
+import CheckmarksSelect from '@/sections/components-overview/select/CheckmarksSelect';
+import ChipSelect from '@/sections/components-overview/select/ChipSelect';
 
 // ==============================|| COMPONENTS - SELECT ||============================== //
 

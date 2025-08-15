@@ -5,10 +5,10 @@ import Map from 'react-map-gl/mapbox';
 
 // project-imports
 import ControlPanel from './control-panel';
-import MapControl from 'components/third-party/map/MapControl';
+import MapControl from '@/components/third-party/map/MapControl';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| MAP BOX - INTERATION MAP ||============================== //
 

@@ -19,11 +19,11 @@ import Typography from '@mui/material/Typography';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import MoreIcon from 'components/@extended/MoreIcon';
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import { ThemeMode } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import { ThemeMode } from '@/config';
 
 // assets
 import { ArrowRight } from '@wandersonalwes/iconsax-react';

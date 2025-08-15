@@ -1,5 +1,5 @@
 // project-imports
-import ComponentButtons from 'views/components-overview/ComponentButtons';
+import ComponentButtons from '@/views/components-overview/ComponentButtons';
 
 // ==============================|| COMPOENETS - BUTTON ||============================== //
 

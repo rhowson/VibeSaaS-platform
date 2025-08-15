@@ -13,8 +13,8 @@ import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { GRID_COMMON_SPACING } from 'config';
+import MainCard from '@/components/MainCard';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // ==============================|| ACCOUNT PROFILE - SETTINGS ||============================== //
 

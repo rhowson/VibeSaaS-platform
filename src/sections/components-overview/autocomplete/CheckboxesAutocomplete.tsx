@@ -6,8 +6,8 @@ import Checkbox from '@mui/material/Checkbox';
 import TextField from '@mui/material/TextField';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import data from 'data/movies';
+import MainCard from '@/components/MainCard';
+import data from '@/data/movies';
 
 // ==============================|| AUTOCOMPLETE - CHECKBOXES ||============================== //
 

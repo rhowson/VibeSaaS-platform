@@ -19,17 +19,17 @@ import { flexRender, useReactTable, ColumnDef, HeaderGroup, getExpandedRowModel,
 // project-imports
 import ExpandingUserDetail from './ExpandingUserDetail';
 
-import IconButton from 'components/@extended/IconButton';
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import IconButton from '@/components/@extended/IconButton';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // assets
 import { ArrowDown2, ArrowRight2, MinusCirlce } from '@wandersonalwes/iconsax-react';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 // ==============================|| REACT TABLE ||============================== //

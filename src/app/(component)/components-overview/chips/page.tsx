@@ -1,5 +1,5 @@
 // project-imports
-import ComponentChip from 'views/components-overview/ComponentChip';
+import ComponentChip from '@/views/components-overview/ComponentChip';
 
 // ==============================|| COMPONENTS - CHIPS ||============================== //
 

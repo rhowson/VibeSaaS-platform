@@ -5,11 +5,11 @@ import Map, { MarkerDragEvent, LngLat } from 'react-map-gl/mapbox';
 
 // project-imports
 import ControlPanel from './control-panel';
-import MapControl from 'components/third-party/map/MapControl';
-import MapMarker from 'components/third-party/map/MapMarker';
+import MapControl from '@/components/third-party/map/MapControl';
+import MapMarker from '@/components/third-party/map/MapMarker';
 
 // types
-import { MapBoxProps } from 'types/map';
+import { MapBoxProps } from '@/types/map';
 
 // ==============================|| MAP - DRAGGABLE MARKER ||============================== //
 

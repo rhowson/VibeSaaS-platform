@@ -10,8 +10,8 @@ const Header = lazy(() => import('./Header'));
 const FooterBlock = lazy(() => import('./FooterBlock'));
 
 // project-imports
-import Loader from 'components/Loader';
-import { useGetMenuMaster } from 'api/menu';
+import Loader from '@/components/Loader';
+import { useGetMenuMaster } from '@/api/menu';
 
 // ==============================|| LAYOUTS - STRUCTURE ||============================== //
 

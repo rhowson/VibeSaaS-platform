@@ -3,7 +3,7 @@ import { styled, Theme, CSSObject } from '@mui/material/styles';
 import Drawer from '@mui/material/Drawer';
 
 // project-imports
-import { DRAWER_WIDTH, MINI_DRAWER_WIDTH } from 'config';
+import { DRAWER_WIDTH, MINI_DRAWER_WIDTH } from '@/config';
 
 const openedMixin = (theme: Theme): CSSObject => ({
   backgroundColor: theme.palette.background.default,

@@ -1,5 +1,5 @@
 // project-imports
-import InvoiceCreate from 'views/apps/InvoiceCreate';
+import InvoiceCreate from '@/views/apps/InvoiceCreate';
 
 // ==============================|| INVOICE - CREATE ||============================== //
 

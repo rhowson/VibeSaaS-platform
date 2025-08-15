@@ -14,9 +14,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { ThemeDirection } from 'config';
-import navigation from 'menu-items';
+import MainCard from '@/components/MainCard';
+import { ThemeDirection } from '@/config';
+import navigation from '@/menu-items';
 
 // third-party
 import { FormattedMessage } from 'react-intl';
@@ -25,8 +25,8 @@ import { FormattedMessage } from 'react-intl';
 import { ArrowRight2, Buildings2, Home3 } from '@wandersonalwes/iconsax-react';
 
 // types
-import { NavItemType } from 'types/menu';
-import { OverrideIcon } from 'types/root';
+import { NavItemType } from '@/types/menu';
+import { OverrideIcon } from '@/types/root';
 
 interface BreadcrumbLinkProps {
   title: string;

@@ -8,8 +8,8 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import MainCard from 'components/MainCard';
-import { ThemeMode } from 'config';
+import MainCard from '@/components/MainCard';
+import { ThemeMode } from '@/config';
 
 // assets
 const DomainImgLight = '/assets/images/online-panel/domain_light.svg';

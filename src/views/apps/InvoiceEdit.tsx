@@ -36,13 +36,13 @@ import { FieldArray, Form, Formik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import Breadcrumbs from 'components/@extended/Breadcrumbs';
-import CircularLoader from 'components/CircularLoader';
-import MainCard from 'components/MainCard';
+import Breadcrumbs from '@/components/@extended/Breadcrumbs';
+import CircularLoader from '@/components/CircularLoader';
+import MainCard from '@/components/MainCard';
 
-import AddressModal from 'sections/apps/invoice/AddressModal';
-import InvoiceItem from 'sections/apps/invoice/InvoiceItem';
-import InvoiceModal from 'sections/apps/invoice/InvoiceModal';
+import AddressModal from '@/sections/apps/invoice/AddressModal';
+import InvoiceItem from '@/sections/apps/invoice/InvoiceItem';
+import InvoiceModal from '@/sections/apps/invoice/InvoiceModal';
 
 import {
   handlerCustomerTo,
@@ -52,14 +52,14 @@ import {
   updateInvoice,
   useGetInvoice,
   useGetInvoiceMaster
-} from 'api/invoice';
-import { handlerActiveItem, useGetMenuMaster } from 'api/menu';
-import { openSnackbar } from 'api/snackbar';
-import { APP_DEFAULT_PATH } from 'config';
+} from '@/api/invoice';
+import { handlerActiveItem, useGetMenuMaster } from '@/api/menu';
+import { openSnackbar } from '@/api/snackbar';
+import { APP_DEFAULT_PATH } from '@/config';
 
 // types
-import { CountryType, InvoiceList, InvoiceProps } from 'types/invoice';
-import { SnackbarProps } from 'types/snackbar';
+import { CountryType, InvoiceList, InvoiceProps } from '@/types/invoice';
+import { SnackbarProps } from '@/types/snackbar';
 
 // assets
 import { Add, Edit } from '@wandersonalwes/iconsax-react';

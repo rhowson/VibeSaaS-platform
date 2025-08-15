@@ -1,5 +1,5 @@
 // project-imports
-import TableData from 'views/forms-tables/tables/mui-table/TableData';
+import TableData from '@/views/forms-tables/tables/mui-table/TableData';
 
 // ==============================|| TABLE - DATA TABLE ||============================== //
 

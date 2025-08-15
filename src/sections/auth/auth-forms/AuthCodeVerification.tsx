@@ -15,7 +15,7 @@ import OtpInput from 'react-otp-input';
 import * as Yup from 'yup';
 
 // project-imports
-import AnimateButton from 'components/@extended/AnimateButton';
+import AnimateButton from '@/components/@extended/AnimateButton';
 
 // ============================|| STATIC - CODE VERIFICATION ||============================ //
 

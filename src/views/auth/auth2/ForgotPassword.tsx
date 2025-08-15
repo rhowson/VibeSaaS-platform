@@ -9,9 +9,9 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AuthWrapper2 from 'sections/auth/AuthWrapper2';
-import AuthForgotPassword from 'sections/auth/auth-forms/AuthForgotPassword';
-import useUser from 'hooks/useUser';
+import AuthWrapper2 from '@/sections/auth/AuthWrapper2';
+import AuthForgotPassword from '@/sections/auth/auth-forms/AuthForgotPassword';
+import useUser from '@/hooks/useUser';
 
 // ================================|| FORGOT PASSWORD ||================================ //
 

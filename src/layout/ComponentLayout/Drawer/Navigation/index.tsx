@@ -6,10 +6,10 @@ import Box from '@mui/material/Box';
 
 // project-imports
 import NavGroup from './NavGroup';
-import menuItem from 'menu-items/components';
+import menuItem from '@/menu-items/components';
 
 // types
-import { NavItemType } from 'types/menu';
+import { NavItemType } from '@/types/menu';
 
 // ==============================|| DRAWER - NAVIGATION ||============================== //
 

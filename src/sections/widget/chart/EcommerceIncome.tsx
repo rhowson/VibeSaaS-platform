@@ -17,11 +17,11 @@ import Typography from '@mui/material/Typography';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import { ThemeMode } from 'config';
+import Avatar from '@/components/@extended/Avatar';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import { ThemeMode } from '@/config';
 
 // assets
 import { DollarCircle } from '@wandersonalwes/iconsax-react';

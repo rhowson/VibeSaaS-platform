@@ -1,4 +1,4 @@
-import KanbanApp from 'views/apps/Kanban';
+import KanbanApp from '@/views/apps/Kanban';
 
 // ==============================|| APPLICATION - KANBAN ||============================== //
 

@@ -4,8 +4,8 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 // project-imports
-import AuthWrapper2 from 'sections/auth/AuthWrapper2';
-import AuthCodeVerification from 'sections/auth/auth-forms/AuthCodeVerification';
+import AuthWrapper2 from '@/sections/auth/AuthWrapper2';
+import AuthCodeVerification from '@/sections/auth/auth-forms/AuthCodeVerification';
 
 // ================================|| CODE VERIFICATION ||================================ //
 

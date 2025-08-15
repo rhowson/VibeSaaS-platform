@@ -6,10 +6,10 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // types
-import { GenericCardProps } from 'types/root';
+import { GenericCardProps } from '@/types/root';
 
 // ==============================|| STATISTICS - REPORT CARD ||============================== //
 

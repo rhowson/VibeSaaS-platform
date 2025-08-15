@@ -1,5 +1,5 @@
 // project-imports
-import ComponentSlider from 'views/components-overview/ComponentSlider';
+import ComponentSlider from '@/views/components-overview/ComponentSlider';
 
 // ==============================|| COMPONENTS - SLIDER ||============================== //
 

@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography';
 import { format } from 'date-fns';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { ArrowLeft2, ArrowRight2, Calendar1, Category, Grid6, TableDocument } from '@wandersonalwes/iconsax-react';

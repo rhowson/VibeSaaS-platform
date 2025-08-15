@@ -14,12 +14,12 @@ import { Formik } from 'formik';
 import * as yup from 'yup';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MainCard from 'components/MainCard';
-import UploadAvatar from 'components/third-party/dropzone/Avatar';
-import UploadMultiFile from 'components/third-party/dropzone/MultiFile';
-import UploadSingleFile from 'components/third-party/dropzone/SingleFile';
-import { GRID_COMMON_SPACING } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MainCard from '@/components/MainCard';
+import UploadAvatar from '@/components/third-party/dropzone/Avatar';
+import UploadMultiFile from '@/components/third-party/dropzone/MultiFile';
+import UploadSingleFile from '@/components/third-party/dropzone/SingleFile';
+import { GRID_COMMON_SPACING } from '@/config';
 
 // assets
 import { Category, TableDocument } from '@wandersonalwes/iconsax-react';

@@ -1,5 +1,5 @@
 // project-imports
-import TableEnhanced from 'views/forms-tables/tables/mui-table/TableEnhanced';
+import TableEnhanced from '@/views/forms-tables/tables/mui-table/TableEnhanced';
 
 // ==============================|| TABLE - ENHANCED ||============================== //
 

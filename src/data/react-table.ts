@@ -1,6 +1,6 @@
 // project-imports
-import mockData, { range } from 'utils/mock-data';
-import { Gender } from 'config';
+import mockData, { range } from '@/utils/mock-data';
+import { Gender } from '@/config';
 
 function newPerson(index: number) {
   const tempData = mockData(index);

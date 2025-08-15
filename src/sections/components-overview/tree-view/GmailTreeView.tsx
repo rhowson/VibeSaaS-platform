@@ -12,7 +12,7 @@ import { TreeItem, SimpleTreeView } from '@mui/x-tree-view';
 import { TreeItemProps, treeItemClasses } from '@mui/x-tree-view/TreeItem';
 
 // project-imports
-import MainCard from 'components/MainCard';
+import MainCard from '@/components/MainCard';
 
 // assets
 import { ArrowDown2, ArrowRight2, Book1, InfoCircle, Profile, Sms, Tag2, Trash } from '@wandersonalwes/iconsax-react';

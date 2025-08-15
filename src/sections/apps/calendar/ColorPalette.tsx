@@ -5,7 +5,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Box from '@mui/material/Box';
 
 // project-imports
-import Avatar from 'components/@extended/Avatar';
+import Avatar from '@/components/@extended/Avatar';
 
 // assets
 import { TickSquare } from '@wandersonalwes/iconsax-react';

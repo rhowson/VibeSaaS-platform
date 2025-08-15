@@ -1,5 +1,5 @@
 // project-imports
-import ComponentProgress from 'views/components-overview/ComponentProgress';
+import ComponentProgress from '@/views/components-overview/ComponentProgress';
 
 // ==============================|| COMPONENTS - PROGRESS ||============================== //
 

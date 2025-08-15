@@ -1,5 +1,5 @@
 // project-imports
-import ComponentSwitch from 'views/components-overview/ComponentSwitch';
+import ComponentSwitch from '@/views/components-overview/ComponentSwitch';
 
 // ==============================|| COMPONENTS - SWITCH ||============================== //
 

@@ -4,9 +4,9 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 // project-imports
 import DrawerHeaderStyled from './DrawerHeaderStyled';
 
-import Logo from 'components/logo';
-import { DRAWER_WIDTH, HEADER_HEIGHT, MenuOrientation } from 'config';
-import useConfig from 'hooks/useConfig';
+import Logo from '@/components/logo';
+import { DRAWER_WIDTH, HEADER_HEIGHT, MenuOrientation } from '@/config';
+import useConfig from '@/hooks/useConfig';
 
 interface Props {
   open: boolean;

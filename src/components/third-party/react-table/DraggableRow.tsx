@@ -11,13 +11,13 @@ import { useDraggable, useDroppable } from '@dnd-kit/core';
 import { Row } from '@tanstack/react-table';
 
 // project-import
-import IconButton from 'components/@extended/IconButton';
+import IconButton from '@/components/@extended/IconButton';
 
 // assets
 import { HambergerMenu } from '@wandersonalwes/iconsax-react';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 
 // ==============================|| DRAGGABLE ROW ||============================== //
 

@@ -19,10 +19,10 @@ import Box from '@mui/material/Box';
 import { Props as ChartProps } from 'react-apexcharts';
 
 // project-imports
-import IconButton from 'components/@extended/IconButton';
-import MoreIcon from 'components/@extended/MoreIcon';
-import MainCard from 'components/MainCard';
-import { ThemeMode, ThemeDirection } from 'config';
+import IconButton from '@/components/@extended/IconButton';
+import MoreIcon from '@/components/@extended/MoreIcon';
+import MainCard from '@/components/MainCard';
+import { ThemeMode, ThemeDirection } from '@/config';
 
 // assets
 import { Add } from '@wandersonalwes/iconsax-react';

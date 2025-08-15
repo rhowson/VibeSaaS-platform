@@ -18,13 +18,13 @@ import { useSensor, useSensors, PointerSensor, TouchSensor } from '@dnd-kit/core
 import { ColumnDef, ColumnOrderState, flexRender, getCoreRowModel, HeaderGroup, useReactTable } from '@tanstack/react-table';
 
 // project-imports
-import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
-import MainCard from 'components/MainCard';
-import { CSVExport, DraggableColumnHeader } from 'components/third-party/react-table';
-import makeData from 'data/react-table';
+import LinearWithLabel from '@/components/@extended/progress/LinearWithLabel';
+import MainCard from '@/components/MainCard';
+import { CSVExport, DraggableColumnHeader } from '@/components/third-party/react-table';
+import makeData from '@/data/react-table';
 
 // types
-import { TableDataProps } from 'types/table';
+import { TableDataProps } from '@/types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
 const reorderColumn = (draggedColumnId: string, targetColumnId: string, columnOrder: string[]): ColumnOrderState => {
