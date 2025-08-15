@@ -5,6 +5,11 @@ import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import { useRouter } from 'next/navigation';
 
 // project-imports
 import EcommerceDataCard from 'components/cards/statistics/EcommerceDataCard';
@@ -20,27 +25,70 @@ import Transactions from 'sections/widget/data/Transactions';
 import AssignUsers from 'sections/widget/statistics/AssignUsers';
 
 // assets
-import { ArrowDown, ArrowUp, Book, Calendar, CloudChange, Wallet3 } from '@wandersonalwes/iconsax-react';
+import { ArrowDown, ArrowUp, Book, Calendar, CloudChange, Wallet3, Add, Folder, Users, Settings } from '@wandersonalwes/iconsax-react';
 
 // ==============================|| DASHBOARD - DEFAULT ||============================== //
 
 export default function DashboardDefault() {
   const theme = useTheme();
+  const router = useRouter();
 
   return (
     <Grid container spacing={GRID_COMMON_SPACING}>
       <Grid size={12}>
         <WelcomeBanner />
       </Grid>
-      {/* row 1 */}
+      
+      {/* Quick Actions */}
+      <Grid size={12}>
+        <Card>
+          <CardContent>
+            <Typography variant="h5" gutterBottom>
+              Quick Actions
+            </Typography>
+            <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+              <Button
+                variant="contained"
+                startIcon={<Add />}
+                onClick={() => router.push('/projects/create')}
+              >
+                Create New Project
+              </Button>
+              <Button
+                variant="outlined"
+                startIcon={<Folder />}
+                onClick={() => router.push('/projects')}
+              >
+                View All Projects
+              </Button>
+              <Button
+                variant="outlined"
+                startIcon={<Users />}
+                onClick={() => router.push('/team')}
+              >
+                Manage Team
+              </Button>
+              <Button
+                variant="outlined"
+                startIcon={<Settings />}
+                onClick={() => router.push('/settings')}
+              >
+                Settings
+              </Button>
+            </Box>
+          </CardContent>
+        </Card>
+      </Grid>
+
+      {/* row 1 - Statistics */}
       <Grid size={{ xs: 12, sm: 6, lg: 3 }}>
         <EcommerceDataCard
-          title="All Earnings"
-          count="$3000"
-          iconPrimary={<Wallet3 />}
+          title="Active Projects"
+          count="12"
+          iconPrimary={<Folder />}
           percentage={
             <Typography color="primary" sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <ArrowUp size={16} style={{ transform: 'rotate(45deg)' }} /> 30.6%
+              <ArrowUp size={16} style={{ transform: 'rotate(45deg)' }} /> 15.3%
             </Typography>
           }
         >
@@ -49,13 +97,13 @@ export default function DashboardDefault() {
       </Grid>
       <Grid size={{ xs: 12, sm: 6, lg: 3 }}>
         <EcommerceDataCard
-          title="Page Views"
-          count="290+"
+          title="Team Members"
+          count="8"
           color="warning"
-          iconPrimary={<Book />}
+          iconPrimary={<Users />}
           percentage={
             <Typography sx={{ color: 'warning.dark', display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <ArrowDown size={16} style={{ transform: 'rotate(-45deg)' }} /> 30.6%
+              <ArrowUp size={16} style={{ transform: 'rotate(45deg)' }} /> 12.5%
             </Typography>
           }
         >
@@ -64,7 +112,7 @@ export default function DashboardDefault() {
       </Grid>
       <Grid size={{ xs: 12, sm: 6, lg: 3 }}>
         <EcommerceDataCard
-          title="Total Task"
+          title="Completed Tasks"
           count="1,568"
           color="success"
           iconPrimary={<Calendar />}
@@ -79,19 +127,20 @@ export default function DashboardDefault() {
       </Grid>
       <Grid size={{ xs: 12, sm: 6, lg: 3 }}>
         <EcommerceDataCard
-          title="Download"
-          count="$200"
+          title="AI Analysis"
+          count="24"
           color="error"
           iconPrimary={<CloudChange />}
           percentage={
             <Typography sx={{ color: 'error.dark', display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <ArrowDown size={16} style={{ transform: 'rotate(45deg)' }} /> 30.6%
+              <ArrowUp size={16} style={{ transform: 'rotate(45deg)' }} /> 45.2%
             </Typography>
           }
         >
           <EcommerceDataChart color={theme.palette.error.dark} />
         </EcommerceDataCard>
       </Grid>
+      
       {/* row 2 */}
       <Grid size={{ xs: 12, md: 8, lg: 9 }}>
         <Grid container spacing={GRID_COMMON_SPACING}>
@@ -109,6 +158,7 @@ export default function DashboardDefault() {
           <AssignUsers />
         </Stack>
       </Grid>
+      
       {/* row 3 */}
       <Grid size={{ xs: 12, md: 6 }}>
         <Transactions />
