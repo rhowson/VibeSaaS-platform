@@ -25,16 +25,9 @@ import {
   FormControl,
   InputLabel,
   Select,
-  MenuItem,
+  MenuItem
 } from '@mui/material';
-import {
-  ExpandMore,
-  Add,
-  Edit,
-  Delete,
-  Schedule,
-  Assignment,
-} from '@mui/icons-material';
+import { ExpandMore, Add, Edit, Delete, Schedule, Assignment } from '@mui/icons-material';
 
 interface Phase {
   id: string;
@@ -59,11 +52,7 @@ interface PhaseTaskBoardProps {
   onPhasesUpdate: (phases: Phase[]) => void;
 }
 
-export default function PhaseTaskBoard({
-  phases,
-  projectId,
-  onPhasesUpdate,
-}: PhaseTaskBoardProps) {
+export default function PhaseTaskBoard({ phases, projectId, onPhasesUpdate }: PhaseTaskBoardProps) {
   const [expandedPhase, setExpandedPhase] = useState<string | false>(false);
   const [editDialog, setEditDialog] = useState<{
     open: boolean;
@@ -73,7 +62,7 @@ export default function PhaseTaskBoard({
   }>({
     open: false,
     type: 'phase',
-    data: {},
+    data: {}
   });
 
   const handlePhaseExpand = (phaseId: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
@@ -84,7 +73,7 @@ export default function PhaseTaskBoard({
     setEditDialog({
       open: true,
       type: 'phase',
-      data: phase,
+      data: phase
     });
   };
 
@@ -93,7 +82,7 @@ export default function PhaseTaskBoard({
       open: true,
       type: 'task',
       data: task,
-      phaseId,
+      phaseId
     });
   };
 
@@ -105,43 +94,39 @@ export default function PhaseTaskBoard({
         title: '',
         description: '',
         duration_days: 1,
-        depends_on: [],
+        depends_on: []
       },
-      phaseId,
+      phaseId
     });
   };
 
   const handleSaveEdit = async () => {
     try {
       const { type, data, phaseId } = editDialog;
-      
+
       if (type === 'phase') {
         const response = await fetch(`/api/phases/${data.id}`, {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(data),
+          body: JSON.stringify(data)
         });
-        
+
         if (response.ok) {
           const updatedPhase = await response.json();
-          const updatedPhases = phases.map(p => 
-            p.id === updatedPhase.id ? { ...p, ...updatedPhase } : p
-          );
+          const updatedPhases = phases.map((p) => (p.id === updatedPhase.id ? { ...p, ...updatedPhase } : p));
           onPhasesUpdate(updatedPhases);
         }
       } else if (type === 'task' && phaseId) {
-        const url = data.id 
-          ? `/api/tasks/${data.id}`
-          : `/api/phases/${phaseId}/tasks`;
-        
+        const url = data.id ? `/api/tasks/${data.id}` : `/api/phases/${phaseId}/tasks`;
+
         const method = data.id ? 'PATCH' : 'POST';
-        
+
         const response = await fetch(url, {
           method,
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(data),
+          body: JSON.stringify(data)
         });
-        
+
         if (response.ok) {
           // Reload phases to get updated data
           const phasesResponse = await fetch(`/api/projects/${projectId}/phases`);
@@ -151,7 +136,7 @@ export default function PhaseTaskBoard({
           }
         }
       }
-      
+
       setEditDialog({ open: false, type: 'phase', data: {} });
     } catch (error) {
       console.error('Failed to save:', error);
@@ -165,11 +150,11 @@ export default function PhaseTaskBoard({
 
     try {
       const response = await fetch(`/api/phases/${phaseId}`, {
-        method: 'DELETE',
+        method: 'DELETE'
       });
-      
+
       if (response.ok) {
-        const updatedPhases = phases.filter(p => p.id !== phaseId);
+        const updatedPhases = phases.filter((p) => p.id !== phaseId);
         onPhasesUpdate(updatedPhases);
       }
     } catch (error) {
@@ -184,9 +169,9 @@ export default function PhaseTaskBoard({
 
     try {
       const response = await fetch(`/api/tasks/${taskId}`, {
-        method: 'DELETE',
+        method: 'DELETE'
       });
-      
+
       if (response.ok) {
         // Reload phases to get updated data
         const phasesResponse = await fetch(`/api/projects/${projectId}/phases`);
@@ -208,22 +193,13 @@ export default function PhaseTaskBoard({
 
       {phases.map((phase) => (
         <Card key={phase.id} sx={{ mb: 2 }}>
-          <Accordion
-            expanded={expandedPhase === phase.id}
-            onChange={handlePhaseExpand(phase.id)}
-          >
+          <Accordion expanded={expandedPhase === phase.id} onChange={handlePhaseExpand(phase.id)}>
             <AccordionSummary expandIcon={<ExpandMore />}>
               <Box sx={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                 <Typography variant="h6" sx={{ flexGrow: 1 }}>
                   Phase {phase.idx}: {phase.title}
                 </Typography>
-                <Chip 
-                  label={`${phase.tasks.length} tasks`} 
-                  size="small" 
-                  color="primary" 
-                  variant="outlined"
-                  sx={{ mr: 2 }}
-                />
+                <Chip label={`${phase.tasks.length} tasks`} size="small" color="primary" variant="outlined" sx={{ mr: 2 }} />
                 <IconButton
                   size="small"
                   onClick={(e) => {
@@ -244,19 +220,15 @@ export default function PhaseTaskBoard({
                 </IconButton>
               </Box>
             </AccordionSummary>
-            
+
             <AccordionDetails>
               <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
                 {phase.description}
               </Typography>
-              
+
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
                 <Typography variant="subtitle1">Tasks</Typography>
-                <Button
-                  startIcon={<Add />}
-                  size="small"
-                  onClick={() => handleAddTask(phase.id)}
-                >
+                <Button startIcon={<Add />} size="small" onClick={() => handleAddTask(phase.id)}>
                   Add Task
                 </Button>
               </Box>
@@ -268,9 +240,7 @@ export default function PhaseTaskBoard({
                       <ListItemText
                         primary={
                           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                            <Typography variant="subtitle2">
-                              {task.title}
-                            </Typography>
+                            <Typography variant="subtitle2">{task.title}</Typography>
                             <Chip
                               icon={<Schedule />}
                               label={`${task.duration_days} day${task.duration_days > 1 ? 's' : ''}`}
@@ -293,16 +263,10 @@ export default function PhaseTaskBoard({
                         }
                       />
                       <ListItemSecondaryAction>
-                        <IconButton
-                          size="small"
-                          onClick={() => handleEditTask(task, phase.id)}
-                        >
+                        <IconButton size="small" onClick={() => handleEditTask(task, phase.id)}>
                           <Edit />
                         </IconButton>
-                        <IconButton
-                          size="small"
-                          onClick={() => handleDeleteTask(task.id)}
-                        >
+                        <IconButton size="small" onClick={() => handleDeleteTask(task.id)}>
                           <Delete />
                         </IconButton>
                       </ListItemSecondaryAction>
@@ -318,18 +282,18 @@ export default function PhaseTaskBoard({
 
       {/* Edit Dialog */}
       <Dialog open={editDialog.open} onClose={() => setEditDialog({ open: false, type: 'phase', data: {} })} maxWidth="sm" fullWidth>
-        <DialogTitle>
-          {editDialog.type === 'phase' ? 'Edit Phase' : 'Edit Task'}
-        </DialogTitle>
+        <DialogTitle>{editDialog.type === 'phase' ? 'Edit Phase' : 'Edit Task'}</DialogTitle>
         <DialogContent>
           <TextField
             fullWidth
             label="Title"
             value={editDialog.data.title || ''}
-            onChange={(e) => setEditDialog({
-              ...editDialog,
-              data: { ...editDialog.data, title: e.target.value }
-            })}
+            onChange={(e) =>
+              setEditDialog({
+                ...editDialog,
+                data: { ...editDialog.data, title: e.target.value }
+              })
+            }
             sx={{ mb: 2, mt: 1 }}
           />
           <TextField
@@ -338,10 +302,12 @@ export default function PhaseTaskBoard({
             rows={3}
             label="Description"
             value={editDialog.data.description || ''}
-            onChange={(e) => setEditDialog({
-              ...editDialog,
-              data: { ...editDialog.data, description: e.target.value }
-            })}
+            onChange={(e) =>
+              setEditDialog({
+                ...editDialog,
+                data: { ...editDialog.data, description: e.target.value }
+              })
+            }
             sx={{ mb: 2 }}
           />
           {editDialog.type === 'task' && (
@@ -350,22 +316,24 @@ export default function PhaseTaskBoard({
               <Select
                 value={editDialog.data.duration_days || 1}
                 label="Duration (days)"
-                onChange={(e) => setEditDialog({
-                  ...editDialog,
-                  data: { ...editDialog.data, duration_days: e.target.value }
-                })}
+                onChange={(e) =>
+                  setEditDialog({
+                    ...editDialog,
+                    data: { ...editDialog.data, duration_days: e.target.value }
+                  })
+                }
               >
-                {[1, 2, 3, 5, 7, 10, 14, 21, 30].map(days => (
-                  <MenuItem key={days} value={days}>{days} day{days > 1 ? 's' : ''}</MenuItem>
+                {[1, 2, 3, 5, 7, 10, 14, 21, 30].map((days) => (
+                  <MenuItem key={days} value={days}>
+                    {days} day{days > 1 ? 's' : ''}
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>
           )}
         </DialogContent>
         <DialogActions>
-          <Button onClick={() => setEditDialog({ open: false, type: 'phase', data: {} })}>
-            Cancel
-          </Button>
+          <Button onClick={() => setEditDialog({ open: false, type: 'phase', data: {} })}>Cancel</Button>
           <Button onClick={handleSaveEdit} variant="contained">
             Save
           </Button>

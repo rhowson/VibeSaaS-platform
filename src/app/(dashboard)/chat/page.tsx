@@ -1,7 +1,22 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Box, Typography, Button, Alert, CircularProgress, Card, CardContent, TextField, FormControl, InputLabel, Select, MenuItem, Avatar, Chip } from '@mui/material';
+import {
+  Box,
+  Typography,
+  Button,
+  Alert,
+  CircularProgress,
+  Card,
+  CardContent,
+  TextField,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  Avatar,
+  Chip
+} from '@mui/material';
 import { useRouter } from 'next/navigation';
 import MainCard from '@/components/MainCard';
 import ComponentHeader from '@/components/cards/ComponentHeader';
@@ -56,10 +71,10 @@ export default function ChatPage() {
       if (!response.ok) {
         throw new Error('Failed to load projects');
       }
-      
+
       const projectsData = await response.json();
       setProjects(projectsData);
-      
+
       if (projectsData.length > 0) {
         setProjectId(projectsData[0].id);
       }
@@ -78,7 +93,7 @@ export default function ChatPage() {
       if (!response.ok) {
         throw new Error('Failed to load messages');
       }
-      
+
       const messagesData = await response.json();
       setMessages(messagesData);
     } catch (err) {
@@ -98,13 +113,13 @@ export default function ChatPage() {
       const response = await fetch('/api/messages', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           projectId,
           content: newMessage.trim(),
-          role: 'user',
-        }),
+          role: 'user'
+        })
       });
 
       if (!response.ok) {
@@ -112,9 +127,8 @@ export default function ChatPage() {
       }
 
       const message = await response.json();
-      setMessages(prev => [...prev, message]);
+      setMessages((prev) => [...prev, message]);
       setNewMessage('');
-      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to send message');
     } finally {
@@ -161,10 +175,7 @@ export default function ChatPage() {
 
   return (
     <Box sx={{ p: 3, height: 'calc(100vh - 120px)', display: 'flex', flexDirection: 'column' }}>
-      <ComponentHeader
-        title="Project Chat"
-        description="Communicate with your team and AI assistant"
-      />
+      <ComponentHeader title="Project Chat" description="Communicate with your team and AI assistant" />
 
       {error && (
         <Alert severity="error" sx={{ mb: 3 }}>
@@ -181,10 +192,7 @@ export default function ChatPage() {
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
               You need to create a project first before you can use the chat feature.
             </Typography>
-            <Button
-              variant="contained"
-              onClick={() => router.push('/projects/create')}
-            >
+            <Button variant="contained" onClick={() => router.push('/projects/create')}>
               Create Project
             </Button>
           </Box>
@@ -196,11 +204,7 @@ export default function ChatPage() {
             <CardContent>
               <FormControl fullWidth>
                 <InputLabel>Select Project</InputLabel>
-                <Select
-                  value={projectId}
-                  label="Select Project"
-                  onChange={(e) => setProjectId(e.target.value)}
-                >
+                <Select value={projectId} label="Select Project" onChange={(e) => setProjectId(e.target.value)}>
                   {projects.map((project) => (
                     <MenuItem key={project.id} value={project.id}>
                       {project.name}
@@ -217,7 +221,7 @@ export default function ChatPage() {
               <Typography variant="h6" gutterBottom>
                 Messages
               </Typography>
-              
+
               <Box sx={{ flex: 1, overflowY: 'auto', mb: 2, minHeight: 400 }}>
                 {messages.length === 0 ? (
                   <Box sx={{ textAlign: 'center', py: 4 }}>
@@ -234,22 +238,20 @@ export default function ChatPage() {
                           display: 'flex',
                           gap: 2,
                           alignItems: 'flex-start',
-                          justifyContent: message.role === 'user' ? 'flex-end' : 'flex-start',
+                          justifyContent: message.role === 'user' ? 'flex-end' : 'flex-start'
                         }}
                       >
                         {message.role !== 'user' && (
-                          <Avatar sx={{ width: 32, height: 32, bgcolor: 'primary.main' }}>
-                            {getMessageIcon(message.role)}
-                          </Avatar>
+                          <Avatar sx={{ width: 32, height: 32, bgcolor: 'primary.main' }}>{getMessageIcon(message.role)}</Avatar>
                         )}
-                        
+
                         <Box
                           sx={{
                             maxWidth: '70%',
                             p: 2,
                             borderRadius: 2,
                             bgcolor: message.role === 'user' ? 'primary.main' : 'grey.100',
-                            color: message.role === 'user' ? 'white' : 'text.primary',
+                            color: message.role === 'user' ? 'white' : 'text.primary'
                           }}
                         >
                           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
@@ -263,16 +265,12 @@ export default function ChatPage() {
                               {new Date(message.created_at).toLocaleTimeString()}
                             </Typography>
                           </Box>
-                          
-                          <Typography variant="body2">
-                            {message.content}
-                          </Typography>
+
+                          <Typography variant="body2">{message.content}</Typography>
                         </Box>
-                        
+
                         {message.role === 'user' && (
-                          <Avatar sx={{ width: 32, height: 32, bgcolor: 'secondary.main' }}>
-                            {getMessageIcon(message.role)}
-                          </Avatar>
+                          <Avatar sx={{ width: 32, height: 32, bgcolor: 'secondary.main' }}>{getMessageIcon(message.role)}</Avatar>
                         )}
                       </Box>
                     ))}
@@ -280,7 +278,7 @@ export default function ChatPage() {
                   </Box>
                 )}
               </Box>
-              
+
               {/* Message Input */}
               <Box sx={{ display: 'flex', gap: 2, alignItems: 'flex-end' }}>
                 <TextField

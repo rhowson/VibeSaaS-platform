@@ -92,21 +92,30 @@ export default function AuthRegister({ providers, csrfToken }: any) {
         })}
         onSubmit={async (values, { setErrors, setStatus, setSubmitting }) => {
           const trimmedEmail = values.email.trim();
-          signIn('register', {
-            redirect: false,
-            firstname: values.firstname,
-            lastname: values.lastname,
-            email: trimmedEmail,
-            password: values.password,
-            company: values.company
-          }).then((res: any) => {
+          try {
+            const res = await signIn('register', {
+              redirect: false,
+              firstname: values.firstname,
+              lastname: values.lastname,
+              email: trimmedEmail,
+              password: values.password,
+              company: values.company
+            });
+
             if (res?.error) {
               setErrors({ submit: res.error });
               setSubmitting(false);
-            } else if (res?.url) {
-              router.push(res?.url);
+            } else if (res?.ok) {
+              // Registration successful, redirect to login
+              router.push('/login?message=Registration successful! Please log in.');
+            } else {
+              setErrors({ submit: 'Registration failed. Please try again.' });
+              setSubmitting(false);
             }
-          });
+          } catch (error) {
+            setErrors({ submit: 'An error occurred during registration.' });
+            setSubmitting(false);
+          }
         }}
       >
         {({ errors, handleBlur, handleChange, handleSubmit, isSubmitting, touched, values }) => (

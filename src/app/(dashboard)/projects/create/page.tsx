@@ -5,7 +5,7 @@ import { Box, Card, CardContent, Typography, TextField, Button, Alert, CircularP
 import { useRouter } from 'next/navigation';
 import MainCard from '@/components/MainCard';
 import ComponentHeader from '@/components/cards/ComponentHeader';
-import UploadDropzone from '@/components/UploadDropzone';
+import { LazyUploadDropzoneWithFallback } from '@/components/LazyComponents';
 
 export default function CreateProject() {
   const router = useRouter();
@@ -27,12 +27,12 @@ export default function CreateProject() {
       const response = await fetch('/api/projects', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           name: ideaText.substring(0, 50) + '...',
-          idea_text: ideaText,
-        }),
+          idea_text: ideaText
+        })
       });
 
       if (!response.ok) {
@@ -40,7 +40,7 @@ export default function CreateProject() {
       }
 
       const project = await response.json();
-      
+
       // Upload files if any
       if (uploadedFiles.length > 0) {
         for (const file of uploadedFiles) {
@@ -62,13 +62,13 @@ export default function CreateProject() {
     const signResponse = await fetch('/api/uploads/sign', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
         filename: file.name,
         contentType: file.type,
-        projectId,
-      }),
+        projectId
+      })
     });
 
     if (!signResponse.ok) {
@@ -86,7 +86,7 @@ export default function CreateProject() {
 
     const uploadResponse = await fetch(url, {
       method: 'POST',
-      body: formData,
+      body: formData
     });
 
     if (!uploadResponse.ok) {
@@ -96,17 +96,14 @@ export default function CreateProject() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="Create New Project"
-        description="Turn your project idea into a structured plan with AI assistance"
-      />
-      
+      <ComponentHeader title="Create New Project" description="Turn your project idea into a structured plan with AI assistance" />
+
       <MainCard>
         <CardContent>
           <Typography variant="h5" gutterBottom>
             Project Idea
           </Typography>
-          
+
           <TextField
             fullWidth
             multiline
@@ -121,13 +118,12 @@ export default function CreateProject() {
           <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
             Upload Documents (Optional)
           </Typography>
-          
+
           <Typography variant="body2" color="textSecondary" sx={{ mb: 2 }}>
-            Upload relevant documents to help AI understand your project better. 
-            Supported formats: PDF, DOCX, TXT, Markdown
+            Upload relevant documents to help AI understand your project better. Supported formats: PDF, DOCX, TXT, Markdown
           </Typography>
 
-          <UploadDropzone
+          <LazyUploadDropzoneWithFallback
             onFilesSelected={setUploadedFiles}
             acceptedTypes={['.pdf', '.docx', '.txt', '.md']}
             maxFiles={10}
@@ -163,13 +159,8 @@ export default function CreateProject() {
             >
               {isLoading ? 'Creating Project...' : 'Create Project & Start AI Analysis'}
             </Button>
-            
-            <Button
-              variant="outlined"
-              size="large"
-              onClick={() => router.back()}
-              disabled={isLoading}
-            >
+
+            <Button variant="outlined" size="large" onClick={() => router.back()} disabled={isLoading}>
               Cancel
             </Button>
           </Box>

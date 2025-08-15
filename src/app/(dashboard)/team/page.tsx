@@ -1,7 +1,25 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Box, Typography, Button, Alert, CircularProgress, Card, CardContent, TextField, Dialog, DialogTitle, DialogContent, DialogActions, FormControl, InputLabel, Select, MenuItem, Chip } from '@mui/material';
+import {
+  Box,
+  Typography,
+  Button,
+  Alert,
+  CircularProgress,
+  Card,
+  CardContent,
+  TextField,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  Chip
+} from '@mui/material';
 import { useParams, useRouter } from 'next/navigation';
 import MainCard from '@/components/MainCard';
 import ComponentHeader from '@/components/cards/ComponentHeader';
@@ -49,10 +67,10 @@ export default function TeamPage() {
       if (!response.ok) {
         throw new Error('Failed to load projects');
       }
-      
+
       const projectsData = await response.json();
       setProjects(projectsData);
-      
+
       if (projectsData.length > 0) {
         setProjectId(projectsData[0].id);
       }
@@ -71,7 +89,7 @@ export default function TeamPage() {
       if (!response.ok) {
         throw new Error('Failed to load team members');
       }
-      
+
       const members = await response.json();
       setTeamMembers(members);
     } catch (err) {
@@ -92,13 +110,13 @@ export default function TeamPage() {
       const response = await fetch('/api/team/invite', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           projectId,
           email: inviteEmail.trim(),
-          role: inviteRole,
-        }),
+          role: inviteRole
+        })
       });
 
       if (!response.ok) {
@@ -107,12 +125,11 @@ export default function TeamPage() {
 
       // Reload team members
       await loadTeamMembers();
-      
+
       // Reset form
       setInviteEmail('');
       setInviteRole('viewer');
       setInviteDialog(false);
-      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to invite team member');
     } finally {
@@ -125,13 +142,13 @@ export default function TeamPage() {
       const response = await fetch('/api/team/role', {
         method: 'PATCH',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           projectId,
           memberId,
-          role: newRole,
-        }),
+          role: newRole
+        })
       });
 
       if (!response.ok) {
@@ -140,7 +157,6 @@ export default function TeamPage() {
 
       // Reload team members
       await loadTeamMembers();
-      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to update role');
     }
@@ -155,12 +171,12 @@ export default function TeamPage() {
       const response = await fetch('/api/team/member', {
         method: 'DELETE',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           projectId,
-          memberId,
-        }),
+          memberId
+        })
       });
 
       if (!response.ok) {
@@ -169,7 +185,6 @@ export default function TeamPage() {
 
       // Reload team members
       await loadTeamMembers();
-      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to remove team member');
     }
@@ -185,10 +200,7 @@ export default function TeamPage() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="Team Management"
-        description="Manage team members and their roles for your projects"
-      />
+      <ComponentHeader title="Team Management" description="Manage team members and their roles for your projects" />
 
       {error && (
         <Alert severity="error" sx={{ mb: 3 }}>
@@ -205,10 +217,7 @@ export default function TeamPage() {
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
               You need to create a project first before you can manage team members.
             </Typography>
-            <Button
-              variant="contained"
-              onClick={() => router.push('/projects/create')}
-            >
+            <Button variant="contained" onClick={() => router.push('/projects/create')}>
               Create Project
             </Button>
           </Box>
@@ -218,25 +227,15 @@ export default function TeamPage() {
           <MainCard sx={{ mb: 3 }}>
             <CardContent>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-                <Typography variant="h6">
-                  Select Project
-                </Typography>
-                <Button
-                  variant="contained"
-                  onClick={() => setInviteDialog(true)}
-                  disabled={!projectId}
-                >
+                <Typography variant="h6">Select Project</Typography>
+                <Button variant="contained" onClick={() => setInviteDialog(true)} disabled={!projectId}>
                   Invite Team Member
                 </Button>
               </Box>
-              
+
               <FormControl fullWidth>
                 <InputLabel>Project</InputLabel>
-                <Select
-                  value={projectId}
-                  label="Project"
-                  onChange={(e) => setProjectId(e.target.value)}
-                >
+                <Select value={projectId} label="Project" onChange={(e) => setProjectId(e.target.value)}>
                   {projects.map((project) => (
                     <MenuItem key={project.id} value={project.id}>
                       {project.name}
@@ -247,13 +246,7 @@ export default function TeamPage() {
             </CardContent>
           </MainCard>
 
-          {projectId && (
-            <TeamTable
-              members={teamMembers}
-              onRoleChange={handleRoleChange}
-              onRemoveMember={handleRemoveMember}
-            />
-          )}
+          {projectId && <TeamTable members={teamMembers} onRoleChange={handleRoleChange} onRemoveMember={handleRemoveMember} />}
         </>
       )}
 
@@ -270,14 +263,10 @@ export default function TeamPage() {
             placeholder="Enter email address"
             sx={{ mb: 3, mt: 1 }}
           />
-          
+
           <FormControl fullWidth>
             <InputLabel>Role</InputLabel>
-            <Select
-              value={inviteRole}
-              label="Role"
-              onChange={(e) => setInviteRole(e.target.value as any)}
-            >
+            <Select value={inviteRole} label="Role" onChange={(e) => setInviteRole(e.target.value as any)}>
               <MenuItem value="admin">
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                   <Typography>Admin</Typography>
@@ -300,14 +289,8 @@ export default function TeamPage() {
           </FormControl>
         </DialogContent>
         <DialogActions>
-          <Button onClick={() => setInviteDialog(false)}>
-            Cancel
-          </Button>
-          <Button
-            onClick={handleInviteMember}
-            variant="contained"
-            disabled={isInviting || !inviteEmail.trim()}
-          >
+          <Button onClick={() => setInviteDialog(false)}>Cancel</Button>
+          <Button onClick={handleInviteMember} variant="contained" disabled={isInviting || !inviteEmail.trim()}>
             {isInviting ? 'Inviting...' : 'Send Invitation'}
           </Button>
         </DialogActions>

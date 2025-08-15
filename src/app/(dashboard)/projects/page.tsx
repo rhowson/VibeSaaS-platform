@@ -32,7 +32,7 @@ export default function ProjectsPage() {
       if (!response.ok) {
         throw new Error('Failed to load projects');
       }
-      
+
       const projectsData = await response.json();
       setProjects(projectsData);
     } catch (err) {
@@ -49,7 +49,7 @@ export default function ProjectsPage() {
 
     try {
       const response = await fetch(`/api/projects/${projectId}`, {
-        method: 'DELETE',
+        method: 'DELETE'
       });
 
       if (!response.ok) {
@@ -57,7 +57,7 @@ export default function ProjectsPage() {
       }
 
       // Remove from local state
-      setProjects(prev => prev.filter(p => p.id !== projectId));
+      setProjects((prev) => prev.filter((p) => p.id !== projectId));
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to delete project');
     }
@@ -65,21 +65,31 @@ export default function ProjectsPage() {
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'draft': return 'default';
-      case 'extracting': return 'warning';
-      case 'planning': return 'info';
-      case 'completed': return 'success';
-      default: return 'default';
+      case 'draft':
+        return 'default';
+      case 'extracting':
+        return 'warning';
+      case 'planning':
+        return 'info';
+      case 'completed':
+        return 'success';
+      default:
+        return 'default';
     }
   };
 
   const getStatusLabel = (status: string) => {
     switch (status) {
-      case 'draft': return 'Draft';
-      case 'extracting': return 'Analyzing';
-      case 'planning': return 'Planning';
-      case 'completed': return 'Completed';
-      default: return status;
+      case 'draft':
+        return 'Draft';
+      case 'extracting':
+        return 'Analyzing';
+      case 'planning':
+        return 'Planning';
+      case 'completed':
+        return 'Completed';
+      default:
+        return status;
     }
   };
 
@@ -93,10 +103,7 @@ export default function ProjectsPage() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="My Projects"
-        description="Manage and view all your AI-assisted project plans"
-      />
+      <ComponentHeader title="My Projects" description="Manage and view all your AI-assisted project plans" />
 
       {error && (
         <Alert severity="error" sx={{ mb: 3 }}>
@@ -108,11 +115,7 @@ export default function ProjectsPage() {
         <Typography variant="h6">
           {projects.length} Project{projects.length !== 1 ? 's' : ''}
         </Typography>
-        <Button
-          variant="contained"
-          startIcon={<Add />}
-          onClick={() => router.push('/projects/create')}
-        >
+        <Button variant="contained" startIcon={<Add />} onClick={() => router.push('/projects/create')}>
           Create New Project
         </Button>
       </Box>
@@ -126,11 +129,7 @@ export default function ProjectsPage() {
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
               Create your first project to start using AI-powered project planning.
             </Typography>
-            <Button
-              variant="contained"
-              startIcon={<Add />}
-              onClick={() => router.push('/projects/create')}
-            >
+            <Button variant="contained" startIcon={<Add />} onClick={() => router.push('/projects/create')}>
               Create Your First Project
             </Button>
           </Box>
@@ -145,45 +144,25 @@ export default function ProjectsPage() {
                     <Typography variant="h6" sx={{ flexGrow: 1, mr: 2 }}>
                       {project.name}
                     </Typography>
-                    <Chip
-                      label={getStatusLabel(project.status)}
-                      color={getStatusColor(project.status) as any}
-                      size="small"
-                    />
+                    <Chip label={getStatusLabel(project.status)} color={getStatusColor(project.status) as any} size="small" />
                   </Box>
-                  
+
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 2, minHeight: 60 }}>
-                    {project.idea_text.length > 150 
-                      ? `${project.idea_text.substring(0, 150)}...`
-                      : project.idea_text
-                    }
+                    {project.idea_text.length > 150 ? `${project.idea_text.substring(0, 150)}...` : project.idea_text}
                   </Typography>
-                  
+
                   <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mb: 2 }}>
                     Created: {new Date(project.created_at).toLocaleDateString()}
                   </Typography>
-                  
+
                   <Box sx={{ display: 'flex', gap: 1, justifyContent: 'flex-end' }}>
-                    <IconButton
-                      size="small"
-                      onClick={() => router.push(`/projects/manage/${project.id}`)}
-                      title="View Project"
-                    >
+                    <IconButton size="small" onClick={() => router.push(`/projects/manage/${project.id}`)} title="View Project">
                       <Visibility />
                     </IconButton>
-                    <IconButton
-                      size="small"
-                      onClick={() => router.push(`/projects/manage/${project.id}/edit`)}
-                      title="Edit Project"
-                    >
+                    <IconButton size="small" onClick={() => router.push(`/projects/manage/${project.id}/edit`)} title="Edit Project">
                       <Edit />
                     </IconButton>
-                    <IconButton
-                      size="small"
-                      color="error"
-                      onClick={() => handleDeleteProject(project.id)}
-                      title="Delete Project"
-                    >
+                    <IconButton size="small" color="error" onClick={() => handleDeleteProject(project.id)} title="Delete Project">
                       <Delete />
                     </IconButton>
                   </Box>

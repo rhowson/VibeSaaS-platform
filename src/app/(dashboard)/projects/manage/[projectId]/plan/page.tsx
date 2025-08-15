@@ -19,7 +19,7 @@ export default function PlanGeneration() {
   const params = useParams();
   const router = useRouter();
   const projectId = params.projectId as string;
-  
+
   const [isGenerating, setIsGenerating] = useState(false);
   const [progress, setProgress] = useState<ProgressEvent[]>([]);
   const [currentPhase, setCurrentPhase] = useState(0);
@@ -40,9 +40,9 @@ export default function PlanGeneration() {
       const response = await fetch('/api/ai/plan/outline', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ projectId }),
+        body: JSON.stringify({ projectId })
       });
 
       if (!response.ok) {
@@ -51,7 +51,6 @@ export default function PlanGeneration() {
 
       // Start listening to progress events
       startProgressStream();
-      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to start plan generation');
       setIsGenerating(false);
@@ -60,14 +59,14 @@ export default function PlanGeneration() {
 
   const startProgressStream = () => {
     const eventSource = new EventSource(`/api/progress/stream?projectId=${projectId}`);
-    
+
     eventSource.onmessage = (event) => {
       try {
         const data = JSON.parse(event.data);
-        
+
         if (data.type === 'progress') {
-          setProgress(prev => [...prev, data.event]);
-          
+          setProgress((prev) => [...prev, data.event]);
+
           if (data.event.type === 'generating_phases') {
             setTotalPhases(data.event.totalPhases || 0);
           } else if (data.event.type === 'expanding_phase') {
@@ -101,10 +100,7 @@ export default function PlanGeneration() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="Generating Project Plan"
-        description="AI is creating a comprehensive project plan with phases and tasks"
-      />
+      <ComponentHeader title="Generating Project Plan" description="AI is creating a comprehensive project plan with phases and tasks" />
 
       {error && (
         <Alert severity="error" sx={{ mb: 3 }}>
@@ -119,27 +115,17 @@ export default function PlanGeneration() {
               Ready to Generate Plan
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-              Based on your project idea, selected information, and answers to our questions, 
-              AI will now generate a comprehensive project plan with phases and tasks.
+              Based on your project idea, selected information, and answers to our questions, AI will now generate a comprehensive project
+              plan with phases and tasks.
             </Typography>
-            <Button
-              variant="contained"
-              size="large"
-              onClick={startPlanGeneration}
-            >
+            <Button variant="contained" size="large" onClick={startPlanGeneration}>
               Start Plan Generation
             </Button>
           </Box>
         </MainCard>
       )}
 
-      {isGenerating && (
-        <DynamicBuildScreen
-          progress={progress}
-          currentPhase={currentPhase}
-          totalPhases={totalPhases}
-        />
-      )}
+      {isGenerating && <DynamicBuildScreen progress={progress} currentPhase={currentPhase} totalPhases={totalPhases} />}
 
       {isComplete && (
         <MainCard>
@@ -148,22 +134,15 @@ export default function PlanGeneration() {
               Plan Generation Complete!
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-              Your project plan has been successfully generated with {totalPhases} phases and multiple tasks.
-              You can now review, edit, and manage your project plan.
+              Your project plan has been successfully generated with {totalPhases} phases and multiple tasks. You can now review, edit, and
+              manage your project plan.
             </Typography>
-            
+
             <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
-              <Button
-                variant="contained"
-                size="large"
-                onClick={handleViewPlan}
-              >
+              <Button variant="contained" size="large" onClick={handleViewPlan}>
                 View Project Plan
               </Button>
-              <Button
-                variant="outlined"
-                onClick={handleRetry}
-              >
+              <Button variant="outlined" onClick={handleRetry}>
                 Regenerate Plan
               </Button>
             </Box>
@@ -177,19 +156,12 @@ export default function PlanGeneration() {
             <Typography variant="h6" gutterBottom>
               Generation Progress
             </Typography>
-            
+
             <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
               {progress.map((event, index) => (
                 <Box key={index} sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                  <Chip
-                    label={event.type.replace(/_/g, ' ').toUpperCase()}
-                    size="small"
-                    color="primary"
-                    variant="outlined"
-                  />
-                  <Typography variant="body2">
-                    {event.message}
-                  </Typography>
+                  <Chip label={event.type.replace(/_/g, ' ').toUpperCase()} size="small" color="primary" variant="outlined" />
+                  <Typography variant="body2">{event.message}</Typography>
                   <Typography variant="caption" color="text.secondary">
                     {new Date(event.timestamp).toLocaleTimeString()}
                   </Typography>

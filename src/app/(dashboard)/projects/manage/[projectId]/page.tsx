@@ -36,7 +36,7 @@ export default function ManageProject() {
   const params = useParams();
   const router = useRouter();
   const projectId = params.projectId as string;
-  
+
   const [project, setProject] = useState<Project | null>(null);
   const [phases, setPhases] = useState<Phase[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -71,11 +71,16 @@ export default function ManageProject() {
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'draft': return 'default';
-      case 'extracting': return 'warning';
-      case 'planning': return 'info';
-      case 'completed': return 'success';
-      default: return 'default';
+      case 'draft':
+        return 'default';
+      case 'extracting':
+        return 'warning';
+      case 'planning':
+        return 'info';
+      case 'completed':
+        return 'success';
+      default:
+        return 'default';
     }
   };
 
@@ -90,26 +95,17 @@ export default function ManageProject() {
   if (error || !project) {
     return (
       <Box sx={{ p: 3 }}>
-        <Alert severity="error">
-          {error || 'Project not found'}
-        </Alert>
+        <Alert severity="error">{error || 'Project not found'}</Alert>
       </Box>
     );
   }
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title={project.name}
-        description="Manage your project phases and tasks"
-      />
+      <ComponentHeader title={project.name} description="Manage your project phases and tasks" />
 
       <Box sx={{ mb: 3, display: 'flex', gap: 2, alignItems: 'center' }}>
-        <Chip 
-          label={project.status} 
-          color={getStatusColor(project.status) as any}
-          size="small"
-        />
+        <Chip label={project.status} color={getStatusColor(project.status) as any} size="small" />
         <Typography variant="body2" color="text.secondary">
           Created {new Date(project.created_at).toLocaleDateString()}
         </Typography>
@@ -124,11 +120,7 @@ export default function ManageProject() {
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
               Your project idea has been saved. Click below to start the AI-powered analysis and planning process.
             </Typography>
-            <Button
-              variant="contained"
-              size="large"
-              onClick={() => router.push(`/projects/manage/${projectId}/extract`)}
-            >
+            <Button variant="contained" size="large" onClick={() => router.push(`/projects/manage/${projectId}/extract`)}>
               Start AI Analysis
             </Button>
           </Box>
@@ -149,13 +141,7 @@ export default function ManageProject() {
         </MainCard>
       )}
 
-      {phases.length > 0 && (
-        <PhaseTaskBoard 
-          phases={phases}
-          projectId={projectId}
-          onPhasesUpdate={setPhases}
-        />
-      )}
+      {phases.length > 0 && <PhaseTaskBoard phases={phases} projectId={projectId} onPhasesUpdate={setPhases} />}
 
       {project.status === 'completed' && phases.length === 0 && (
         <MainCard>
@@ -167,16 +153,10 @@ export default function ManageProject() {
               The AI analysis is complete, but no phases were generated. You can manually create phases or restart the analysis.
             </Typography>
             <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
-              <Button
-                variant="contained"
-                onClick={() => router.push(`/projects/manage/${projectId}/extract`)}
-              >
+              <Button variant="contained" onClick={() => router.push(`/projects/manage/${projectId}/extract`)}>
                 Restart Analysis
               </Button>
-              <Button
-                variant="outlined"
-                onClick={() => router.push(`/projects/manage/${projectId}/phases/create`)}
-              >
+              <Button variant="outlined" onClick={() => router.push(`/projects/manage/${projectId}/phases/create`)}>
                 Create Phase Manually
               </Button>
             </Box>

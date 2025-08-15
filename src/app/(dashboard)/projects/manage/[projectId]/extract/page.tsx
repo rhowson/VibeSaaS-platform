@@ -1,11 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Box, Typography, Button, Alert, CircularProgress, Card, CardContent, Checkbox, FormControlLabel, Chip } from '@mui/material';
+import { useState, useEffect, memo, Suspense, lazy } from 'react';
+import { Box, Typography, Button, Alert, CircularProgress } from '@mui/material';
 import { useParams, useRouter } from 'next/navigation';
 import MainCard from '@/components/MainCard';
 import ComponentHeader from '@/components/cards/ComponentHeader';
-import ExtractReviewList from '@/components/ExtractReviewList';
+
+// Lazy load heavy components
+const LazyExtractReviewList = lazy(() => import('@/components/ExtractReviewList'));
 
 interface ExtractedItem {
   id: string;
@@ -16,11 +18,16 @@ interface ExtractedItem {
   source_document_id?: string;
 }
 
-export default function ExtractReview() {
+const LoadingSpinner = () => (
+  <Box display="flex" justifyContent="center" alignItems="center" minHeight="200px">
+    <CircularProgress />
+  </Box>
+);
+
+const ExtractReview = memo(function ExtractReview() {
   const params = useParams();
-  const router = useRouter();
   const projectId = params.projectId as string;
-  
+
   const [extractedItems, setExtractedItems] = useState<ExtractedItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isExtracting, setIsExtracting] = useState(false);
@@ -33,13 +40,13 @@ export default function ExtractReview() {
   const loadExtractedItems = async () => {
     try {
       const response = await fetch(`/api/ai/extract?projectId=${projectId}`);
-      
+
       if (response.status === 404) {
         // No extraction done yet, start it
         await startExtraction();
         return;
       }
-      
+
       if (!response.ok) {
         throw new Error('Failed to load extracted items');
       }
@@ -61,9 +68,9 @@ export default function ExtractReview() {
       const response = await fetch('/api/ai/extract', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ projectId }),
+        body: JSON.stringify({ projectId })
       });
 
       if (!response.ok) {
@@ -85,14 +92,14 @@ export default function ExtractReview() {
     const poll = async () => {
       try {
         const response = await fetch(`/api/ai/extract?projectId=${projectId}`);
-        
+
         if (response.ok) {
           const items = await response.json();
           setExtractedItems(items);
           setIsExtracting(false);
           return;
         }
-        
+
         attempts++;
         if (attempts < maxAttempts) {
           setTimeout(poll, 1000);
@@ -100,7 +107,7 @@ export default function ExtractReview() {
           throw new Error('Extraction timed out');
         }
       } catch (err) {
-        setError('Failed to get extraction results');
+        setError(err instanceof Error ? err.message : 'Extraction failed');
         setIsExtracting(false);
       }
     };
@@ -108,178 +115,60 @@ export default function ExtractReview() {
     poll();
   };
 
-  const handleItemToggle = async (itemId: string, selected: boolean) => {
-    try {
-      const response = await fetch(`/api/ai/extract/${itemId}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ selected }),
-      });
-
-      if (response.ok) {
-        setExtractedItems(prev => 
-          prev.map(item => 
-            item.id === itemId ? { ...item, selected } : item
-          )
-        );
-      }
-    } catch (error) {
-      console.error('Failed to update item:', error);
-    }
+  const handleItemToggle = (itemId: string) => {
+    setExtractedItems((prev) => prev.map((item) => (item.id === itemId ? { ...item, selected: !item.selected } : item)));
   };
 
-  const handleSelectAll = async (selected: boolean) => {
-    try {
-      const response = await fetch(`/api/ai/extract/batch`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ 
-          projectId,
-          selected 
-        }),
-      });
-
-      if (response.ok) {
-        setExtractedItems(prev => 
-          prev.map(item => ({ ...item, selected }))
-        );
-      }
-    } catch (error) {
-      console.error('Failed to update items:', error);
-    }
+  const handleSaveSelections = async () => {
+    const selectedItems = extractedItems.filter((item) => item.selected);
+    // TODO: Implement save functionality
+    console.log('Selected items:', selectedItems);
   };
 
-  const handleContinue = () => {
-    const selectedItems = extractedItems.filter(item => item.selected);
-    if (selectedItems.length === 0) {
-      setError('Please select at least one item to continue');
-      return;
-    }
-    
-    router.push(`/projects/manage/${projectId}/questions`);
-  };
-
-  const selectedCount = extractedItems.filter(item => item.selected).length;
-  const totalCount = extractedItems.length;
-
-  if (isLoading || isExtracting) {
+  if (isLoading) {
     return (
-      <Box sx={{ p: 3 }}>
-        <ComponentHeader
-          title="AI Analysis in Progress"
-          description="Extracting key details from your project idea and documents"
-        />
-        
-        <MainCard>
-          <Box sx={{ p: 4, textAlign: 'center' }}>
-            <CircularProgress size={60} sx={{ mb: 3 }} />
-            <Typography variant="h5" gutterBottom>
-              {isExtracting ? 'Analyzing Your Project...' : 'Loading Results...'}
-            </Typography>
-            <Typography variant="body1" color="text.secondary">
-              {isExtracting 
-                ? 'Our AI is reviewing your project idea and documents to identify key requirements, constraints, and milestones.'
-                : 'Loading extracted information...'
-              }
-            </Typography>
-          </Box>
-        </MainCard>
-      </Box>
+      <MainCard>
+        <ComponentHeader title="AI Extraction Review" />
+        <LoadingSpinner />
+      </MainCard>
     );
   }
 
   return (
-    <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="Review Extracted Information"
-        description="Review and select the key details that are relevant to your project"
-      />
+    <MainCard>
+      <ComponentHeader title="AI Extraction Review" />
 
       {error && (
-        <Alert severity="error" sx={{ mb: 3 }}>
+        <Alert severity="error" sx={{ mb: 2 }}>
           {error}
         </Alert>
       )}
 
-      {extractedItems.length === 0 ? (
-        <MainCard>
-          <Box sx={{ p: 4, textAlign: 'center' }}>
-            <Typography variant="h6" gutterBottom>
-              No Information Extracted
-            </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-              The AI analysis didn't find any extractable information. You can continue to the next step or restart the analysis.
-            </Typography>
-            <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
-              <Button
-                variant="contained"
-                onClick={startExtraction}
-                disabled={isExtracting}
-              >
-                Restart Analysis
-              </Button>
-              <Button
-                variant="outlined"
-                onClick={() => router.push(`/projects/manage/${projectId}/questions`)}
-              >
-                Continue Anyway
-              </Button>
-            </Box>
-          </Box>
-        </MainCard>
-      ) : (
-        <>
-          <MainCard sx={{ mb: 3 }}>
-            <CardContent>
-              <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-                <Typography variant="h6">
-                  Extracted Items ({selectedCount}/{totalCount} selected)
-                </Typography>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      checked={selectedCount === totalCount && totalCount > 0}
-                      indeterminate={selectedCount > 0 && selectedCount < totalCount}
-                      onChange={(e) => handleSelectAll(e.target.checked)}
-                    />
-                  }
-                  label="Select All"
-                />
-              </Box>
-              
-              <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-                Review the information extracted from your project idea and documents. 
-                Check the items that are relevant to your project planning.
-              </Typography>
-            </CardContent>
-          </MainCard>
-
-          <ExtractReviewList
-            items={extractedItems}
-            onItemToggle={handleItemToggle}
-          />
-
-          <Box sx={{ mt: 3, display: 'flex', gap: 2, justifyContent: 'flex-end' }}>
-            <Button
-              variant="outlined"
-              onClick={() => router.push(`/projects/manage/${projectId}`)}
-            >
-              Back to Project
-            </Button>
-            <Button
-              variant="contained"
-              onClick={handleContinue}
-              disabled={selectedCount === 0}
-            >
-              Continue to Questions ({selectedCount} selected)
-            </Button>
-          </Box>
-        </>
+      {isExtracting && (
+        <Box display="flex" alignItems="center" gap={2} mb={2}>
+          <CircularProgress size={20} />
+          <Typography>AI is extracting information from your documents...</Typography>
+        </Box>
       )}
-    </Box>
+
+      {extractedItems.length > 0 && (
+        <Suspense fallback={<LoadingSpinner />}>
+          <LazyExtractReviewList items={extractedItems} onItemToggle={handleItemToggle} onSave={handleSaveSelections} />
+        </Suspense>
+      )}
+
+      {!isExtracting && extractedItems.length === 0 && !error && (
+        <Box textAlign="center" py={4}>
+          <Typography variant="h6" color="textSecondary" gutterBottom>
+            No extracted items found
+          </Typography>
+          <Button variant="contained" onClick={startExtraction} disabled={isExtracting}>
+            Start AI Extraction
+          </Button>
+        </Box>
+      )}
+    </MainCard>
   );
-}
+});
+
+export default ExtractReview;

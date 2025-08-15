@@ -17,13 +17,9 @@ import {
   FormControl,
   Select,
   MenuItem,
-  Avatar,
+  Avatar
 } from '@mui/material';
-import {
-  Edit,
-  Delete,
-  Person,
-} from '@mui/icons-material';
+import { Edit, Delete, Person } from '@mui/icons-material';
 
 interface TeamMember {
   id: string;
@@ -40,28 +36,34 @@ interface TeamTableProps {
   onRemoveMember: (memberId: string) => void;
 }
 
-export default function TeamTable({
-  members,
-  onRoleChange,
-  onRemoveMember,
-}: TeamTableProps) {
+export default function TeamTable({ members, onRoleChange, onRemoveMember }: TeamTableProps) {
   const getRoleColor = (role: string) => {
     switch (role) {
-      case 'owner': return 'error';
-      case 'admin': return 'primary';
-      case 'editor': return 'warning';
-      case 'viewer': return 'default';
-      default: return 'default';
+      case 'owner':
+        return 'error';
+      case 'admin':
+        return 'primary';
+      case 'editor':
+        return 'warning';
+      case 'viewer':
+        return 'default';
+      default:
+        return 'default';
     }
   };
 
   const getRoleLabel = (role: string) => {
     switch (role) {
-      case 'owner': return 'Owner';
-      case 'admin': return 'Admin';
-      case 'editor': return 'Editor';
-      case 'viewer': return 'Viewer';
-      default: return role;
+      case 'owner':
+        return 'Owner';
+      case 'admin':
+        return 'Admin';
+      case 'editor':
+        return 'Editor';
+      case 'viewer':
+        return 'Viewer';
+      default:
+        return role;
     }
   };
 
@@ -97,7 +99,7 @@ export default function TeamTable({
         <Typography variant="h6" gutterBottom>
           Team Members ({members.length})
         </Typography>
-        
+
         <TableContainer component={Paper} variant="outlined">
           <Table>
             <TableHead>
@@ -114,57 +116,40 @@ export default function TeamTable({
                 <TableRow key={member.id}>
                   <TableCell>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                      <Avatar sx={{ width: 32, height: 32 }}>
-                        {member.full_name.charAt(0).toUpperCase()}
-                      </Avatar>
-                      <Typography variant="body2">
-                        {member.full_name}
-                      </Typography>
+                      <Avatar sx={{ width: 32, height: 32 }}>{member.full_name.charAt(0).toUpperCase()}</Avatar>
+                      <Typography variant="body2">{member.full_name}</Typography>
                     </Box>
                   </TableCell>
-                  
+
                   <TableCell>
                     <Typography variant="body2" color="text.secondary">
                       {member.email}
                     </Typography>
                   </TableCell>
-                  
+
                   <TableCell>
                     {canChangeRole(member) ? (
                       <FormControl size="small" sx={{ minWidth: 120 }}>
-                        <Select
-                          value={member.role}
-                          onChange={(e) => onRoleChange(member.id, e.target.value)}
-                          sx={{ height: 32 }}
-                        >
+                        <Select value={member.role} onChange={(e) => onRoleChange(member.id, e.target.value)} sx={{ height: 32 }}>
                           <MenuItem value="admin">Admin</MenuItem>
                           <MenuItem value="editor">Editor</MenuItem>
                           <MenuItem value="viewer">Viewer</MenuItem>
                         </Select>
                       </FormControl>
                     ) : (
-                      <Chip
-                        label={getRoleLabel(member.role)}
-                        color={getRoleColor(member.role) as any}
-                        size="small"
-                      />
+                      <Chip label={getRoleLabel(member.role)} color={getRoleColor(member.role) as any} size="small" />
                     )}
                   </TableCell>
-                  
+
                   <TableCell>
                     <Typography variant="body2" color="text.secondary">
                       {new Date(member.added_at).toLocaleDateString()}
                     </Typography>
                   </TableCell>
-                  
+
                   <TableCell align="right">
                     {canRemoveMember(member) && (
-                      <IconButton
-                        size="small"
-                        color="error"
-                        onClick={() => onRemoveMember(member.id)}
-                        title="Remove member"
-                      >
+                      <IconButton size="small" color="error" onClick={() => onRemoveMember(member.id)} title="Remove member">
                         <Delete />
                       </IconButton>
                     )}

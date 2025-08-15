@@ -1,7 +1,23 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Box, Typography, Button, Alert, CircularProgress, Card, CardContent, FormControl, InputLabel, Select, MenuItem, Slider, Switch, FormControlLabel, Divider } from '@mui/material';
+import {
+  Box,
+  Typography,
+  Button,
+  Alert,
+  CircularProgress,
+  Card,
+  CardContent,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  Slider,
+  Switch,
+  FormControlLabel,
+  Divider
+} from '@mui/material';
 import MainCard from '@/components/MainCard';
 import ComponentHeader from '@/components/cards/ComponentHeader';
 
@@ -19,7 +35,7 @@ export default function SettingsPage() {
     openai_model: 'gpt-4o-mini',
     anthropic_model: 'claude-3-5-sonnet',
     temperature: 0.2,
-    top_p: 1.0,
+    top_p: 1.0
   });
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
@@ -36,7 +52,7 @@ export default function SettingsPage() {
       if (!response.ok) {
         throw new Error('Failed to load settings');
       }
-      
+
       const settingsData = await response.json();
       setSettings(settingsData);
     } catch (err) {
@@ -55,9 +71,9 @@ export default function SettingsPage() {
       const response = await fetch('/api/settings', {
         method: 'PATCH',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify(settings),
+        body: JSON.stringify(settings)
       });
 
       if (!response.ok) {
@@ -82,10 +98,7 @@ export default function SettingsPage() {
 
   return (
     <Box sx={{ p: 3 }}>
-      <ComponentHeader
-        title="Settings"
-        description="Configure AI providers and application preferences"
-      />
+      <ComponentHeader title="Settings" description="Configure AI providers and application preferences" />
 
       {error && (
         <Alert severity="error" sx={{ mb: 3 }}>
@@ -113,7 +126,7 @@ export default function SettingsPage() {
             <Select
               value={settings.ai_provider}
               label="AI Provider"
-              onChange={(e) => setSettings(prev => ({ ...prev, ai_provider: e.target.value as 'openai' | 'anthropic' }))}
+              onChange={(e) => setSettings((prev) => ({ ...prev, ai_provider: e.target.value as 'openai' | 'anthropic' }))}
             >
               <MenuItem value="openai">
                 <Box>
@@ -140,7 +153,7 @@ export default function SettingsPage() {
               <Select
                 value={settings.openai_model}
                 label="OpenAI Model"
-                onChange={(e) => setSettings(prev => ({ ...prev, openai_model: e.target.value }))}
+                onChange={(e) => setSettings((prev) => ({ ...prev, openai_model: e.target.value }))}
               >
                 <MenuItem value="gpt-4o-mini">GPT-4o Mini (Fast & Cost-effective)</MenuItem>
                 <MenuItem value="gpt-4o">GPT-4o (Most Capable)</MenuItem>
@@ -155,7 +168,7 @@ export default function SettingsPage() {
               <Select
                 value={settings.anthropic_model}
                 label="Anthropic Model"
-                onChange={(e) => setSettings(prev => ({ ...prev, anthropic_model: e.target.value }))}
+                onChange={(e) => setSettings((prev) => ({ ...prev, anthropic_model: e.target.value }))}
               >
                 <MenuItem value="claude-3-5-sonnet">Claude 3.5 Sonnet (Recommended)</MenuItem>
                 <MenuItem value="claude-3-opus">Claude 3 Opus (Most Capable)</MenuItem>
@@ -176,43 +189,39 @@ export default function SettingsPage() {
           </Typography>
 
           <Box sx={{ mb: 3 }}>
-            <Typography gutterBottom>
-              Temperature: {settings.temperature}
-            </Typography>
+            <Typography gutterBottom>Temperature: {settings.temperature}</Typography>
             <Typography variant="caption" color="text.secondary" sx={{ mb: 2, display: 'block' }}>
               Controls randomness. Lower values make responses more focused and deterministic.
             </Typography>
             <Slider
               value={settings.temperature}
-              onChange={(_, value) => setSettings(prev => ({ ...prev, temperature: value as number }))}
+              onChange={(_, value) => setSettings((prev) => ({ ...prev, temperature: value as number }))}
               min={0}
               max={1}
               step={0.1}
               marks={[
                 { value: 0, label: '0' },
                 { value: 0.5, label: '0.5' },
-                { value: 1, label: '1' },
+                { value: 1, label: '1' }
               ]}
             />
           </Box>
 
           <Box sx={{ mb: 3 }}>
-            <Typography gutterBottom>
-              Top P: {settings.top_p}
-            </Typography>
+            <Typography gutterBottom>Top P: {settings.top_p}</Typography>
             <Typography variant="caption" color="text.secondary" sx={{ mb: 2, display: 'block' }}>
               Controls diversity via nucleus sampling. Lower values make responses more focused.
             </Typography>
             <Slider
               value={settings.top_p}
-              onChange={(_, value) => setSettings(prev => ({ ...prev, top_p: value as number }))}
+              onChange={(_, value) => setSettings((prev) => ({ ...prev, top_p: value as number }))}
               min={0}
               max={1}
               step={0.1}
               marks={[
                 { value: 0, label: '0' },
                 { value: 0.5, label: '0.5' },
-                { value: 1, label: '1' },
+                { value: 1, label: '1' }
               ]}
             />
           </Box>
@@ -224,31 +233,13 @@ export default function SettingsPage() {
           <Typography variant="h6" gutterBottom>
             Application Settings
           </Typography>
-          
-          <FormControlLabel
-            control={
-              <Switch
-                checked={true}
-                disabled
-              />
-            }
-            label="Enable Notifications"
-            sx={{ mb: 2 }}
-          />
+
+          <FormControlLabel control={<Switch checked={true} disabled />} label="Enable Notifications" sx={{ mb: 2 }} />
           <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mb: 3 }}>
             Receive notifications for project updates and team activities.
           </Typography>
 
-          <FormControlLabel
-            control={
-              <Switch
-                checked={true}
-                disabled
-              />
-            }
-            label="Auto-save Drafts"
-            sx={{ mb: 2 }}
-          />
+          <FormControlLabel control={<Switch checked={true} disabled />} label="Auto-save Drafts" sx={{ mb: 2 }} />
           <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mb: 3 }}>
             Automatically save project drafts as you work.
           </Typography>
@@ -256,18 +247,10 @@ export default function SettingsPage() {
       </MainCard>
 
       <Box sx={{ display: 'flex', gap: 2, justifyContent: 'flex-end' }}>
-        <Button
-          variant="outlined"
-          onClick={loadSettings}
-          disabled={isSaving}
-        >
+        <Button variant="outlined" onClick={loadSettings} disabled={isSaving}>
           Reset to Defaults
         </Button>
-        <Button
-          variant="contained"
-          onClick={saveSettings}
-          disabled={isSaving}
-        >
+        <Button variant="contained" onClick={saveSettings} disabled={isSaving}>
           {isSaving ? 'Saving...' : 'Save Settings'}
         </Button>
       </Box>
